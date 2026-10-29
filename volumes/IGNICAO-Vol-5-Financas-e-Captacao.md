@@ -596,7 +596,7 @@ Métrica clássica de administração financeira corporativa (central em obras c
 
 ##### A mecânica central (sem jargão)
 
-CCC = PMR + PME - PMP  (equivalente a DSO + DIO - DPO)
+CCC = PMR + PME - PMP (equivalente a DSO + DIO - DPO)
 
 - DIO (Days Inventory Outstanding): dias com inventário antes de vender.
 - DSO (Days Sales Outstanding): dias para receber pagamento após vender.
@@ -2077,7 +2077,7 @@ gantt
  todayMarker off
 
  section Sistema atual
-| **2027** | **Entrada plena da CBS** e **extinção do PIS e da Cofins**. Alíquotas de teste de 2026 deixam de existir como mero destaque. Redução a zero das alíquotas do **IPI** em todo o país, exceto para produtos que tenham industrialização incentivada na Zona Franca de Manaus. Início da implementação operacional do *split payment* nas liquidações financeiras. |
+    PIS, Cofins e IPI (extinção de PIS/Cofins e IPI zero em 2027, exceto ZFM) :active, a1, 2026, 2027
     ICMS e ISS (transição gradual para o IBS até 2032) :active, a2, 2026, 2033
 
  section Transição
@@ -2098,7 +2098,7 @@ O segundo impacto estrutural da Reforma Tributária, e o mais subestimado no flu
 
 #### Tributação da folha de pagamento e o fim gradual da desoneração (CPRB)
 
-O JCP é instrumento previsto na Lei 9.249/1995, art. 9º, que permite à empresa no Lucro Real distribuir resultado aos sócios calculando uma remuneração equivalente aos juros sobre o patrimônio líquido. A vantagem central, JCP é dedutível da base de cálculo de IRPJ e CSLL na empresa pagadora. Dividendo não é.
+Nos regimes de Lucro Presumido e Lucro Real, o encargo previdenciário patronal padrão incide à alíquota de 20% sobre a folha de salários e pró-labore, acrescido do RAT ajustado pelo FAP (0,5% a 6%) e das contribuições a terceiros/Sistema S (~3,3% a 5,8%), totalizando cerca de 25% a 31% apenas em tributos sobre a folha (além do FGTS de 8% e das provisões de 13º e férias). Para os 17 setores historicamente contemplados pela desoneração da folha (entre eles tecnologia da informação, *software* e *call center*), a Lei 14.973/2024 instituiu a transição gradual de retorno à tributação sobre a folha entre 2025 e 2027: em 2026, aplica-se a cobrança híbrida com 10% de CPP sobre a folha salarial somada a 60% da alíquota anterior da CPRB sobre a receita bruta (passando para 15% sobre a folha + 40% da CPRB em 2027, até a extinção completa da CPRB e retorno integral aos 20% sobre a folha em 2028, exigindo manutenção do quadro de empregados em pelo menos 75% da média do ano anterior).
 
 #### Juros sobre Capital Próprio (JCP) e a tributação de dividendos (Lei 15.270/2025 e LC 224/2025)
 
@@ -2114,6 +2114,10 @@ Para startups em estágio inicial ou de crescimento acelerado, a regra operacion
 
 > [!warning] JCP exige deliberação formal
 > JCP não é despesa que se lança contabilmente sem documentação. Exige assembleia ou ata de deliberação específica, antes do encerramento do exercício. Pagamento sem deliberação formal é desconsiderado pela Receita Federal e tributado como lucro distribuído normal.
+
+#### Checklist de transição societária e fiscal para rodadas institucionais (Ltda. para S.A.)
+
+Antes de estruturar planos de incentivo de longo prazo e receber fundos institucionais, valide sete pontos societários e fiscais:
 
 - [ ] **Conversão de Sociedade Limitada (Ltda.) para S.A. de capital fechado** (etapa necessária quando fundos institucionais exigem emissão de ações preferenciais com classes distintas, bônus de subscrição ou debêntures conversíveis).
 
@@ -2133,7 +2137,7 @@ Para startups em estágio inicial ou de crescimento acelerado, a regra operacion
 
 Referência complementar: para term sheet de Série A que tipicamente exige a conversão, ver [[#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 (Captação de Equity: Planejamento de Rodada, Pitch e Relacionamento com Investidores)]].
 
-#### 3. Tributação de stock options, e planos de incentivo de longo prazo (ILP)
+#### 3. Tributação de stock options e planos de incentivo de longo prazo (ILP)
 
 Planos de opção de compra de ações (*stock options*) no Brasil viveram décadas de disputa entre a Receita Federal (que tentava tributá-los como remuneração salarial sujeita a até 27,5% de IRPF mais encargos trabalhistas e previdenciários) e os contribuintes (que sustentavam sua natureza mercantil, sujeita apenas ao IR sobre ganho de capital de 15% a 22,5% na venda das ações). A controvérsia foi pacificada pelo Superior Tribunal de Justiça (STJ) sob o rito vinculante dos recursos repetitivos em duas etapas complementares: em setembro de 2024, no Tema Repetitivo 1.226 (REsp 2.069.644/SP e REsp 2.074.564/SP), a 1ª Seção fixou que, no regime de *stock options* mercantil (com voluntariedade, onerosidade no preço de exercício e risco real de mercado), não incide IRPF na outorga nem no exercício da opção, tributando-se apenas o ganho de capital quando o beneficiário vender as ações com lucro, e em 14 de outubro de 2026, no Tema Repetitivo 1.379, a mesma 1ª Seção do STJ estendeu o entendimento à esfera previdenciária, afastando a cobrança de contribuição previdenciária patronal e do segurado (INSS) sobre planos mercantis de *stock options* (ver arquitetura completa no [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 do Volume 6]]).
 
@@ -2182,7 +2186,7 @@ Para que o plano da sua startup esteja protegido pelas teses vinculantes dos Tem
 
 **Reserva de *pool* de opções (*ESOP*):** costuma partir de 10% no estágio Seed e expandir-se para 10% a 15% na Série A (ver tabelas de alocação por cargo e cronograma de *vesting* no [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 do Volume 6]]).
 
-#### Panorama de incentivos fiscais aplicáveis a startups
+#### 4. Panorama de incentivos fiscais aplicáveis a startups
 
 **Lei do Bem (Lei 11.196/2005, Capítulo III):** empresas no Lucro Real e com lucro fiscal no exercício podem deduzir 100% dos dispêndios operacionais de P&D como despesa e aplicar uma exclusão adicional de 60% a 80% dos dispêndios elegíveis de P&D na apuração do lucro real e da base de cálculo da CSLL (podendo somar mais 20% se o projeto resultar em patente concedida ou cultivar registrado, chegando a 100% de exclusão adicional, conforme detalhado na seção específica mais adiante neste capítulo). Não exige aprovação prévia do projeto pelo MCTI, bastando comprovar regularidade fiscal (CND/CPEND), manter memória técnica contemporânea e enviar o formulário anual FORMP&D até 31 de julho do ano seguinte.
 
@@ -2256,11 +2260,9 @@ Convertible Note (nota promissória conversível). Dívida formal, que pode ser 
 
 Mútuo participativo (instrumento híbrido): combina características de empréstimo e de participação nos resultados, mas apresenta estrutura contratual complexa e tratamento tributário sensível no Brasil, razão pela qual seu uso prático é restrito.
 
-#### Termos típicos de rodada anjo BR (2026)
-
 #### Aspectos societários e fiscais do aporte-anjo e da conversão em sociedade anônima (S.A.)
 
-No ecossistema brasileiro, os primeiros cheques combinam redes de investidores-anjo (como Anjos do Brasil, Poli Angels, Insper Angels, FGV Angels, Gávea Angels e Curitiba Angels), plataformas de *crowdfunding* reguladas pela Resolução CVM 88/2022 (como EqSeed, Captable e Kria) e fundos *pre-seed/seed* institucionais (como Canary, DOMO Invest, Norte Ventures, Bossa Invest e  Astella). Para a mecânica completa de prospecção, *valuation* e *term sheet* dessas rodadas, veja o [[#CAPÍTULO 11: INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|Capítulo 11]].
+No ecossistema brasileiro, os primeiros cheques combinam redes de investidores-anjo (como Anjos do Brasil, Poli Angels, Insper Angels, FGV Angels, Gávea Angels e Curitiba Angels), plataformas de *crowdfunding* reguladas pela Resolução CVM 88/2022 (como EqSeed, Captable e Kria) e fundos *pre-seed/seed* institucionais (como Canary, DOMO Invest, Norte Ventures, Bossa Invest e Astella). Para a mecânica completa de prospecção, *valuation* e *term sheet* dessas rodadas, veja o [[#CAPÍTULO 11: INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|Capítulo 11 (Instrumentos de Captação: SAFE, Nota Conversível e Mútuo Conversível)]].
 
 #### Considerações tributárias em investimento-anjo BR
 
@@ -2270,7 +2272,7 @@ No ecossistema brasileiro, os primeiros cheques combinam redes de investidores-a
 
 **Para a empresa:** o recebimento do principal não constitui receita tributável (por ingressar como passivo de mútuo ou reserva de capital); na conversão em participação societária, a operação não gera fato gerador de IRPJ ou CSLL sobre o principal convertido, e eventuais juros incorridos são dedutíveis na apuração do Lucro Real.
 
-#### 7. Cap table brasileiro em profundidade
+#### Cap table brasileiro em profundidade
 
 Cap table (capitalization table) é o mapa de propriedade da empresa. Em startup brasileira, a complexidade vem de dois lados. Tipo societário (Ltda versus S.A.), e instrumentos de investimento (mútuos, SAFEs e opções).
 
@@ -2309,11 +2311,11 @@ Fundador B: 40%
 
 Mas há pendente. Mútuo conversível R$ 1 milhão a converter em próxima rodada, com desconto vinte por cento, e cap R$ 8 milhões.
 
-**Estágio 2: após Série A (R$ 10 milhões, pré-money R$ 20 milhões).**
+**Estágio 2: após Série A (R$ 10 milhões, pré-money R$ 20 milhões, post-money R$ 30 milhões).**
 
-`Participação do Investidor (%) = Investimento ÷ Valuation Post-Money`. No mesmo exemplo: `R$ 5M ÷ R$ 25M = 20,0%`.
+`Participação do Investidor (%) = Investimento ÷ Valuation Post-Money`. No mesmo exemplo: `R$ 10M ÷ R$ 30M = 33,3%`.
 
-Para os sócios anteriores, a fração retida após a rodada é dada por `Participação Pós-Rodada = Participação Pré-Rodada × (1 − % Diluição da Rodada)`. Se os fundadores detinham 100% antes da Série A e o novo investidor passa a deter 20%, os fundadores passam a deter `100% × (1 − 0,20) = 80,0%`.
+Para os sócios anteriores (antes de eventual expansão adicional do pool de opções), a fração retida após a rodada é dada por `Participação Pós-Rodada = Participação Pré-Rodada × (1 − % Diluição da Rodada)`. Como o fundo de Série A passa a deter 33,3% do capital pós-rodada, os acionistas anteriores retêm em conjunto `100% × (1 − 0,3333) = 66,7%` do capital total.
 
 Post-money cap table.
 
@@ -2335,7 +2337,7 @@ Anjos (já diluídos por ESOP): proporcional
 ESOP reservado: 15%
 ```
 
-Post-rodada completa, com tudo.
+A tabela a seguir resume a evolução do Cap Table ao longo das três etapas (considerando na fundação uma reserva inicial de ESOP de 16,7% que deixa 83,3% divididos na proporção 60/40 entre Fundador A e Fundador B, a entrada dos anjos com 10,8% no Pré-Série A e, na Série A, a entrada do fundo com 33,3% combinada ao ajuste do ESOP para 10,0% pós-rodada, deixando 56,7% para os acionistas anteriores):
 
 | Participante | Fundação | Pré-Série A (c/ ESOP e Mútuo) | Pós-Série A |
 | :--- | :--- | :--- | :--- |
@@ -2382,7 +2384,11 @@ Enquanto a primeira parte deste capítulo tratou da escolha de regime até a Sé
 
 ### Metas de higiene fiscal e cálculo da Alíquota Efetiva Total
 
-Como vimos na comparação dos três regimes no início deste capítulo, o Simples Nacional (limitado a R$ 4,8 milhões/ano e vedado a empresas com sócio PJ no capital social) e o Lucro Presumido (limitado a R$ 78 milhões/ano, com presunção de 32% para serviços elevada para 35,2% na parcela da receita acima de R$ 5 milhões/ano pela LC 224/2025) deixam de ser eficientes quando a empresa opera com margens líquidas baixas, prejuízo operacional planejado ou alto volume de compras e P&D. A tabela a seguir resume os gatilhos de migração para o Lucro Real:
+Para governar a carga tributária sem surpresas, acompanhe trimestralmente a **Alíquota Efetiva Total** da empresa:
+
+`Alíquota Efetiva Total (%) = [Total de Tributos Recolhidos no Período (DAS ou IRPJ/CSLL + PIS/Cofins/IBS/CBS + ISS/ICMS + INSS Patronal) ÷ Receita Bruta Total] × 100`
+
+Como vimos na comparação dos três regimes no início deste capítulo, o Simples Nacional (limitado a R$ 4,8 milhões/ano e vedado a empresas com sócio PJ no capital social) e o Lucro Presumido (limitado a R$ 78 milhões/ano, com presunção de 32% para serviços elevada para 35,2% na parcela da receita acima de R$ 5 milhões/ano pela LC 224/2025) deixam de ser eficientes diante de quatro gatilhos objetivos de migração para o Lucro Real: (1) faturamento anual acima do teto legal de R$ 78 milhões, (2) margem líquida real inferior a 10%–12% ou operação em prejuízo fiscal planejado, (3) volume elevado de custos geradores de créditos não cumulativos (nuvem, insumos, importação), ou (4) investimento relevante em P&D elegível à Lei do Bem. Em qualquer regime, mantenha seis metas inegociáveis de higiene fiscal:
 
 **Pontualidade em obrigações acessórias:** meta de 100% de entregas dentro do prazo legal, sem atrasos.
 
@@ -2407,16 +2413,18 @@ O principal incentivo fiscal para empresas de tecnologia em fase lucrativa no Br
 **Como funciona na prática:**
 
 ```text
-Empresa gastou R$ 2.000.000 em P&D (salários de engenheiros, infraestrutura de desenvolvimento,
-materiais, serviços técnicos).
+Empresa no Lucro Real investiu R$ 2.000.000 em P&D elegível (salários de engenheiros,
+infraestrutura de desenvolvimento, materiais e serviços técnicos):
 
-Dedução adicional (60% dos gastos): R$ 1.200.000
+1. Exclusão adicional padrão de 60% no LALUR e na CSLL (Decreto 5.798/2006, art. 8º):
+   Base excluída adicionalmente (60% de R$ 2.000.000) = R$ 1.200.000
+   Redução direta de IRPJ + CSLL (~34%) = R$ 1.200.000 × 34% = R$ 408.000 no ano (20,4% do gasto em P&D)
 
-Impacto no IRPJ + CSLL (alíquota combinada ~34%):
-  R$ 1.200.000 × 34% = R$ 408.000 de redução de impostos no ano
-
-2. **Exclusão adicional de 60% a 80% no LALUR e na base da CSLL (Decreto 5.798/2006, art. 8º):** além da dedução normal de 100% como despesa operacional, a empresa exclui da base do IRPJ e da CSLL mais 60% de todos os dispêndios de P&D elegíveis. Essa exclusão adicional sobe para 70% se a empresa incrementar o número de pesquisadores contratados com dedicação exclusiva no ano em até 5%, e atinge 80% se o aumento de pesquisadores exclusivos superar 5% em relação à média do ano anterior (podendo somar mais 20% no exercício em que houver concessão de patente ou registro de cultivar resultante do projeto, chegando a 100% de exclusão adicional).
-  R$ 2.000.000 × 80% × 34% = R$ 544.000 de redução
+2. Exclusão adicional de 70% a 80% (com expansão do quadro de pesquisadores exclusivos):
+   - Expansão de até 5% de pesquisadores exclusivos (exclusão de 70% = R$ 1.400.000):
+     R$ 1.400.000 × 34% = R$ 476.000 de redução de IRPJ + CSLL no ano
+   - Expansão acima de 5% de pesquisadores exclusivos (exclusão de 80% = R$ 1.600.000):
+     R$ 1.600.000 × 34% = R$ 544.000 de redução de IRPJ + CSLL no ano (podendo somar +20% com patente concedida)
 ```
 
 **Quem pode usar:**
@@ -2462,7 +2470,7 @@ Impacto no IRPJ + CSLL (alíquota combinada ~34%):
 
 #### Lei de Informática (Lei 8.248/1991, atualizada pela Lei 13.969/2019)
 
-Para startups de *hardware*, IoT, agroindústria conectada e telecomunicações que fabricam bens de informática e automação no Brasil, como a operação de sensores e telemetria industrial de Henrique em Curitiba: , a Lei de Informática (reformulada pela Lei 13.969/2019 após acordo na OMC) substituiu as antigas isenções diretas de IPI por créditos financeiros calculados sobre o investimento em P&D.
+Para startups de *hardware*, IoT, agroindústria conectada e telecomunicações que fabricam bens de informática e automação no Brasil, como a operação de sensores e telemetria industrial de Henrique em Curitiba, a Lei de Informática (reformulada pela Lei 13.969/2019 após acordo na OMC) substituiu as antigas isenções diretas de IPI por créditos financeiros calculados sobre o investimento em P&D.
 
 **Condições principais:**
 
@@ -2474,7 +2482,7 @@ Para startups de *hardware*, IoT, agroindústria conectada e telecomunicações 
 
 #### Zona Franca de Manaus
 
-O **PADIS** concede alíquota zero de PIS/Cofins (e créditos financeiros na transição) e redução de imposto de importação e IPI para empresas que produzam ou instalem no país semicondutores, displays e insumos estratégicos de microeletrônica habilitados pelo MDIC e pelo MCTI.
+A **Zona Franca de Manaus (ZFM)**, administrada pela SUFRAMA (Decreto-Lei 288/1967) e preservada constitucionalmente até 2073 pela Reforma Tributária (EC 132/2023 e LC 214/2025), concede incentivos fiscais federais, estaduais e municipais para empreendimentos industriais e de tecnologia instalados no polo com Projeto Técnico-Econômico aprovado e cumprimento do Processo Produtivo Básico (PPB):
 
 - Isenção de IPI para produtos fabricados na ZFM
 - Redução do Imposto de Importação (II) para insumos utilizados na produção local
@@ -2522,7 +2530,7 @@ Startups de logística eletrificada, gestão de frotas com hardware embarcado, s
 
 #### Separar IP da operação: por que e como
 
-Separar unidades de negócio distintas em pessoas jurídicas próprias pode proteger ativos regulatórios e facilitar um *carve-out* (venda isolada de uma vertical) no futuro, mas exige cautela jurídica no direito brasileiro: na esfera trabalhista (CLT, art. 2º, §§ 2º e 3º, e tese do STF no Tema 1.232 sobre inclusão na execução) e em cobranças fiscais com confusão patrimonial ou direção única, empresas integrantes do mesmo grupo econômico respondem solidariamente pelas dívidas trabalhistas e previdenciárias umas das outras. A segregação societária só isola riscos comerciais quando há autonomia operacional, contabilidade independente e ausência de desvio de finalidade.
+Separar unidades de negócio distintas em pessoas jurídicas próprias pode proteger ativos regulatórios e facilitar um *carve-out* (venda isolada de uma vertical) no futuro, mas exige cautela jurídica no direito brasileiro: na esfera trabalhista (CLT, art. 2º, §§ 2º e 3º, e tese do STF no Tema 1.232 sobre inclusão na execução) e em cobranças fiscais com confusão patrimonial ou direção única, empresas integrantes do mesmo grupo econômico respondem solidariamente pelas dívidas trabalhistas e previdenciárias umas das outras. A segregação societária só isola riscos comerciais quando há autonomia operacional, contabilidade independente e ausência de desvio de finalidade. Na prática, fundadores buscam segregar a propriedade intelectual em uma entidade dedicada para proteger o ativo intangível contra três frentes de exposição:
 
 - Passivos trabalhistas que alcançam patrimônio da empresa
 - Desconsideração de personalidade jurídica em execuções fiscais
@@ -2538,6 +2546,8 @@ Empresa Operacional (Ltda. ou S.A.)
   └─ Detém: contratos com clientes, funcionários, receita
   └─ Licencia o IP da Holding IP mediante royalties
 ```
+
+**Três regras fiscais decisivas nessa estrutura:**
 
 1. **Diferimento na distribuição societária:** dividendos pagos pela empresa operacional para uma holding pessoa jurídica brasileira permanecem isentos de IRRF sob a Lei 15.270/2025 (pois a retenção de 10% acima de R$ 50 mil/mês incide apenas nos pagamentos a pessoas físicas). Assim, enquanto os lucros permanecerem dentro da holding PJ para reinvestimento em novos negócios ou ativos, não há a retenção de 10% na fonte, o imposto só incidirá quando a holding distribuir dividendos acima de R$ 50 mil/mês para o sócio pessoa física (ou no ajuste anual do IRPFM acima de R$ 600 mil).
 
@@ -2715,7 +2725,7 @@ A base contábil das três demonstrações (DRE, Balanço Patrimonial e DFC) foi
 
 Vários pontos do manual mencionam "modelo financeiro": [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] (validação do modelo de negócio), [[#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 (Captação de Equity: Planejamento de Rodada, Pitch e Relacionamento com Investidores)]] (captação) e [[#CAPÍTULO 12: FINANCIAMENTO NÃO DILUITIVO|Capítulo 12 (Financiamento Não Diluitivo)]] (financiamento). Construir esse modelo exige ligar cada premissa operacional da rua diretamente às linhas de receita, custo e caixa. O fundador iniciante que nunca modelou chega à primeira captação com planilha improvisada, que o investidor rejeita em dois minutos.
 
-Este capítulo trata da modelagem financeira como instrumento de decisão operacional cotidiana, estruturando premissas, alavancas, coortes e cenários: , e não apenas como um arquivo preparado às vésperas de uma rodada de captação.
+Este capítulo trata da modelagem financeira como instrumento de decisão operacional cotidiana, estruturando premissas, alavancas, coortes e cenários, e não apenas como um arquivo preparado às vésperas de uma rodada de captação.
 
 ### Por que projetar crescimento linear na planilha sem lastro em alavancas operacionais compromete a credibilidade da gestão
 
@@ -2820,7 +2830,7 @@ Total payroll = Σ (headcount × custo/cabeça)
 ```text
 COGS = receita × (1 - margem bruta target)
  ou
-`COGS mensal = Hospedagem em nuvem (função do número de usuários ativos e volume de dados) + Processamento de pagamentos (função do volume transacionado) + Suporte/Implantação (função do número de clientes ativos)`
+COGS mensal = Hospedagem em nuvem (função do número de usuários ativos e volume de dados) + Processamento de pagamentos (função do volume transacionado) + Suporte/Implantação (função do número de clientes ativos)
 
 Sales & Marketing = salários de sales + marketing paid + eventos + ferramentas
 CAC = Sales & Marketing / novos logos
@@ -2854,7 +2864,7 @@ Os três cenários compartilham exatamente a mesma estrutura de fórmulas e as m
 
 Como complemento aos três cenários, a tabela de sensibilidade isola uma única variável por vez para medir seu impacto direto sobre o ARR final e o fôlego de caixa (*runway*).
 
-Exemplo realista (partindo de R$ 2,40 milhões de ARR inicial, R$ 200 mil de MRR: , adição bruta constante de R$ 30 mil de novo MRR por mês, R$ 360 mil de novo ARR/mês: , margem bruta de 80%, custos fixos mensais de R$ 380 mil no Ano 1 subindo para R$ 480 mil no Ano 2 e R$ 4,50 milhões de caixa inicial): veja quanto cada 1 ponto percentual a mais de *churn* líquido mensal retira do ARR ao final de 24 meses e do fôlego de caixa:
+Exemplo realista (partindo de R$ 2,40 milhões de ARR inicial, equivalente a R$ 200 mil de MRR, adição bruta constante de R$ 30 mil de novo MRR por mês, ou R$ 360 mil de novo ARR anualizado, margem bruta de 80%, custos fixos mensais de R$ 380 mil no Ano 1 subindo para R$ 480 mil no Ano 2 e R$ 4,50 milhões de caixa inicial): veja quanto cada 1 ponto percentual a mais de *churn* líquido mensal retira do ARR ao final de 24 meses e do fôlego de caixa:
 
 | Churn mensal líquido | MRR no mês 24 | ARR ao fim de 24 meses | Runway projetado (c/ R$ 4,5M de caixa) |
 |---|---|---|---|
@@ -2954,7 +2964,7 @@ A abertura por segmento evita erros graves de alocação: não é raro uma safra
 
 Com 12 meses ou mais de histórico, projete o comportamento das safras futuras aplicando os coeficientes médios de retenção e expansão observados:
 
-**Abordagem prática em planilha (padrão até a Série B):** calcule o percentual médio de retenção líquida em cada mês de vida da safra (`Mês 1, Mês 2 . Mês 24`) e aplique essa curva sobre o MRR inicial de cada nova safra projetada.
+**Abordagem prática em planilha (padrão até a Série B):** calcule o percentual médio de retenção líquida em cada mês de vida da safra (`Mês 1, Mês 2, ..., Mês 24`) e aplique essa curva sobre o MRR inicial de cada nova safra projetada.
 
 Exemplo: se as coortes históricas mostram, em média, retenção de 95% no mês 1, 90% no mês 3, 85% no mês 6, 80% no mês 12 e 75% no mês 24, uma nova safra projetada para junho de 2026 com 200 clientes a R$ 500/mês (MRR inicial no Mês 0 = R$ 100.000) entregará R$ 95.000 no mês 1, R$ 90.000 no mês 3, R$ 85.000 no mês 6, R$ 80.000 no mês 12 e R$ 75.000 no mês 24.
 
@@ -3176,14 +3186,14 @@ Para cada área, o headcount plan responde a quatro perguntas:
 4. Qual o salário médio esperado por nível?
 
 ```text
-Exemplo: plano de contratações (*headcount plan*) de Engenharia para o orçamento de 2027 (com transição de PIS/Cofins para a CBS simulada na DRE):
+Exemplo: plano de contratações (headcount plan) de Engenharia para o orçamento de 2027 (com transição de PIS/Cofins para a CBS simulada na DRE):
 
 Função               | Q1 | Q2 | Q3 | Q4 | Salário médio (bruto)
 ---------------------|----|----|----|----|----------------------
-**Eng:** Backend Sr      |  4 |  4 |  5 |  5 | R$ 14.000
-**Eng:** Backend Pl      |  2 |  3 |  3 |  4 | R$ 9.000
-**Eng:** Frontend Sr     |  2 |  2 |  3 |  3 | R$ 13.000
-**Eng:** Frontend Pl     |  1 |  2 |  2 |  2 | R$ 8.500
+Eng. Backend Sr      |  4 |  4 |  5 |  5 | R$ 14.000
+Eng. Backend Pl      |  2 |  3 |  3 |  4 | R$ 9.000
+Eng. Frontend Sr     |  2 |  2 |  3 |  3 | R$ 13.000
+Eng. Frontend Pl     |  1 |  2 |  2 |  2 | R$ 8.500
 Tech Lead            |  1 |  1 |  2 |  2 | R$ 18.000
 QA / SDET            |  1 |  1 |  1 |  2 | R$ 8.000
 DevOps / SRE         |  1 |  1 |  1 |  1 | R$ 15.000
@@ -3356,7 +3366,7 @@ Três princípios para comunicar desvio negativo com credibilidade:
 
 2. **Causa raiz, não desculpa.** "O mercado desacelerou" não é causa raiz. "A taxa de conversão de trial para pago caiu de 18% para 12% em março, investigamos e identificamos problema de onboarding que está sendo corrigido" é causa raiz.
 
-3. **Plano corretivo com prazo e responsável:** quando um trimestre fecha abaixo da meta, apresente a resposta operacional já em execução. Por exemplo, se a receita do 1º trimestre frustrar o orçamento em 4% e a projeção anual cair 10% (de R$ 3,04M para R$ 2,74M de receita líquida): *"Congelamos duas contratações não decisivas e cortamos R$ 390 mil de Opex nos trimestres seguintes, contendo a queima adicional de EBITDA em R$ 100 mil no ano e preservando R$ 5,40 milhões de caixa final."*
+3. **Plano corretivo com prazo e responsável:** quando um trimestre fecha abaixo da meta, apresente a resposta operacional já em execução. Por exemplo, se a receita do 1º trimestre frustrar o orçamento em 4% e a projeção anual cair 10% (de R$ 3,04M para R$ 2,74M de receita líquida, reduzindo o lucro bruto em R$ 240 mil): *"Congelamos duas contratações não decisivas e cortamos R$ 390 mil de despesas operacionais nos trimestres seguintes, reduzindo a queima de EBITDA de R$ 9,85 milhões para R$ 9,70 milhões no ano e preservando R$ 5,85 milhões de caixa final."*
 
 ---
 
@@ -3454,8 +3464,8 @@ DESPESAS OPERACIONAIS (Folha ×1,75 + Opex)
 (-) Customer Success (CS Comercial)    | (R$ 420K) | (R$ 415K) | +R$ 5K    | +1,2%  | (R$ 1,72M)  | (R$ 1,78M) | +3,4%
 (-) Geral e Administrativo (G&A)       | (R$ 320K) | (R$ 318K) | +R$ 2K    | +0,6%  | (R$ 1,28M)  | (R$ 1,31M) | +2,3%
 
-= EBITDA                               | (R$ 2,455M)| (R$ 2,485M)| -R$ 30K | -1,2%  | (R$ 9,70M)  | (R$ 9,85M) | +1,5%
 Total de Despesas Operacionais         | (R$ 2,79M)| (R$ 2,803M)| -R$ 13K  | -0,5%  | (R$ 11,40M) | (R$ 11,79M)| +3,3%
+= EBITDA                               | (R$ 2,455M)| (R$ 2,485M)| -R$ 30K | -1,2%  | (R$ 9,70M)  | (R$ 9,85M) | +1,5%
 
 CONCILIAÇÃO DE CAIXA E RUNWAY
 Caixa Inicial do Período               | R$ 16,00M | R$ 16,00M | R$ 0      |        | R$ 16,00M   | R$ 16,00M  |
@@ -4680,7 +4690,7 @@ Compare o impacto de importar no Lucro Presumido ou no Lucro Real sem benefício
 | **6. ICMS Importação ("por dentro")** | R$ 171.600 *(18% cheio no desembaraço, recuperável na escrita fiscal)* | R$ 21.000 *(diferido no porto, desembolso efetivo ~2,6% a 3,6% c/ TTD e fundos)* |
 | **7. AFRMM + Porto + Despachante + Frete Interno** | R$ 32.000 | R$ 32.000 |
 | **Desembolso Bruto de Caixa no Desembaraço (antes dos créditos recuperáveis)** | **R$ 984.413** | **R$ 746.495** |
-| **Custo Líquido Efetivo (desembolso bruto menos créditos recuperáveis de IPI/ICMS no Presumido, mais PIS/Cofins no Real)** | **R$ 778.955 no Presumido (+41,6% s/ FOB) / R$ 709.160 no Real (+28,9% s/ FOB)** | **R$ 626.000 c/ TTD 409 + Ex-Tarifário (+13,8% s/ FOB)** *(ou R$ 709.160 sem Ex-Tarifário, mas com R$ 150 mil a menos de caixa desembolsado no porto)* |
+| **Custo Líquido Efetivo (desembolso bruto menos créditos recuperáveis de IPI/ICMS no Presumido, mais PIS/Cofins no Real)** | **R$ 778.955 no Presumido (+41,6% s/ FOB) / R$ 709.160 no Real (+28,9% s/ FOB)** | **R$ 647.000 c/ TTD 409 + Ex-Tarifário (+17,6% s/ FOB, sendo R$ 626.000 antes do encargo líquido de R$ 21.000 do TTD)** *(ou R$ 730.160 sem Ex-Tarifário, mas com R$ 150 mil a menos de caixa desembolsado no porto)* |
 
 ---
 
@@ -6589,7 +6599,7 @@ Programa Mover (Mobilidade Verde e Inovação, Lei 14.902/2024, sucessor do anti
 
 Investimento de pequenos investidores pessoa física, em empresas early-stage, via plataformas autorizadas pela CVM.
 
-Como funciona: plataformas eletrônicas registradas na CVM (como CapTable, EqSeed, Kria, antiga Broota: , SMU Investimentos e Bloxs. Veja a análise completa no [[#CAPÍTULO 14: CAPTAÇÃO ALTERNATIVA DIGITAL: EQUITY CROWDFUNDING (CVM 88) E TOKENIZAÇÃO DE ATIVOS|Capítulo 14]]) permitem captar até R$ 15 milhões por ano-calendário junto a dezenas ou centenas de investidores via títulos conversíveis ou participação societária.
+Como funciona: plataformas eletrônicas registradas na CVM (como CapTable, EqSeed, Kria, antiga Broota, SMU Investimentos e Bloxs; veja a análise completa no [[#CAPÍTULO 14: CAPTAÇÃO ALTERNATIVA DIGITAL: EQUITY CROWDFUNDING (CVM 88) E TOKENIZAÇÃO DE ATIVOS|Capítulo 14 (Captação Alternativa Digital: Equity Crowdfunding e Tokenização de Ativos)]]) permitem captar até R$ 15 milhões por ano-calendário junto a dezenas ou centenas de investidores via títulos conversíveis ou participação societária.
 
 **Regulamentação:** Resolução CVM 88/2022 atualizou limites e condições. Empresa com receita anual até R$ 40 milhões pode captar até R$ 15 milhões em doze meses, via crowdfunding.
 

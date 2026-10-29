@@ -118,7 +118,7 @@ for v, fname in VOL_FILES.items():
                 struct_issues.append((v, i, "MD026_HEADING_PUNCT", s[:120]))
 
         # 0b. Strict Markdown hygiene in volumes: no inline HTML (MD033), no bare ___ outside code, no split callouts (MD028)
-        no_inline_code = re.sub(r"`[^`]+`", "", s)
+        no_inline_code = re.sub(r"`[^`]+`", "CODE", s)
         if re.search(r"</?[a-zA-Z][a-zA-Z0-9]*(?:\s[^>]*)?/?>", no_inline_code):
             struct_issues.append((v, i, "MD033_INLINE_HTML_IN_VOLUME", s[:120]))
         if "___" in no_inline_code:
@@ -174,9 +174,11 @@ for v, fname in VOL_FILES.items():
                 if prev_pipes != cur_pipes:
                     struct_issues.append((v, i, f"TABLE_PIPE_MISMATCH({prev_pipes}!={cur_pipes})", s[:120]))
 
-        # 6. Mechanical punctuation artifacts
+        # 6. Mechanical punctuation, spacing, callout continuity, compound wikilinks & unaccented typos
         if re.search(r":\s+(?:e|mas|ou|que)\b", ln):
             struct_issues.append((v, i, "COLON_CONJ", ln[:120]))
+        if re.search(r"[,;:]\s+[,;:]", no_inline_code):
+            struct_issues.append((v, i, "COLON_COMMA_PUNCT", ln[:120]))
         if ";;" in ln or "::" in ln or ".." in ln:
             if not re.search(r"\.\.\.|`[^`]*\.\.[^`]*`", ln):
                 struct_issues.append((v, i, "DOUBLE_PUNCT", ln[:120]))
@@ -184,6 +186,29 @@ for v, fname in VOL_FILES.items():
             struct_issues.append((v, i, "MIXED_CASE_IBS_CBS", ln[:120]))
         if re.search(r";\s+(?:o problema é que|na conversão,|o processo exige|defina política|a solução é|o risco é|como resultado,|ação recomendada:)\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ]", ln):
             struct_issues.append((v, i, "SEMI_MECHANICAL_UPPER", ln[:120]))
+        if not s.startswith("|") and not s.startswith("```"):
+            prose_after_marker = re.sub(r"^(?:>\s*)*(?:[-*+]|\d+\.)?\s*", "", no_inline_code)
+            if "  " in prose_after_marker:
+                struct_issues.append((v, i, "DOUBLE_SPACE_IN_PROSE", s[:120]))
+        if s.startswith(">") and not re.match(r"^>\s*\[!\w+\]", s) and i < len(lines):
+            b_curr = re.sub(r"^>\s*", "", s)
+            nxt_s = lines[i].strip()
+            if b_curr and not b_curr.startswith(("-", "*", "|", "1.", "2.", "3.", "4.", "5.")) and nxt_s.startswith(">") and not re.match(r"^>\s*\[!\w+\]", nxt_s):
+                b_next = re.sub(r"^>\s*", "", nxt_s)
+                if b_next and re.match(r"^[a-záéíóúâêôãõç]", b_next) and not re.search(r"[.:;?!*_)\]`]$", b_curr):
+                    struct_issues.append((v, i, "SPLIT_CALLOUT_FIRST_LINE", f"{s[:60]} / {nxt_s[:60]}"))
+        for m_wl in re.finditer(r"\[\[([^\]|#]+)(?:#([^\]|]+))?\\?\|([^\]]+)\]\]", s):
+            wl_file, wl_anchor, wl_label = m_wl.group(1), m_wl.group(2) or "", m_wl.group(3)
+            label_phases = re.findall(r"Fase\s+(\d+)", wl_label, flags=re.IGNORECASE)
+            anchor_phases = re.findall(r"FASE\s+(\d+)", wl_anchor, flags=re.IGNORECASE)
+            if len(label_phases) > 1 and len(set(label_phases)) > len(set(anchor_phases)):
+                struct_issues.append((v, i, "COMPOUND_WIKILINK_TARGET", m_wl.group(0)[:120]))
+            label_vols = re.findall(r"Vol(?:ume|\.)?\s*(\d+)", wl_label, flags=re.IGNORECASE)
+            file_vols = re.findall(r"Vol-(\d+)", wl_file, flags=re.IGNORECASE)
+            if len(label_vols) > 1 and len(set(label_vols)) > len(set(file_vols)):
+                struct_issues.append((v, i, "COMPOUND_WIKILINK_TARGET", m_wl.group(0)[:120]))
+        if re.search(r"\b(?:na pratica|da pratica|pela pratica|organizacao|estrategica|licencas|competencias|administracao publica|fazenda publica|deficiencia especifica|subsecao especifica)\b", no_inline_code, flags=re.IGNORECASE):
+            struct_issues.append((v, i, "UNACCENTED_PORTUGUESE_TYPO", s[:120]))
 
     if in_code:
         struct_issues.append((v, code_start, "UNCLOSED_CODE_BLOCK", "EOF reached inside code block"))

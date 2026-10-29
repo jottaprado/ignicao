@@ -884,7 +884,7 @@ Metodologia de vendas estruturada em 7 passos, com ênfase em equal business sta
 
 **Contrato prévio de reunião (*Upfront Contract*):** nos primeiros dois minutos da chamada, combine com transparência o objetivo, o tempo, os papéis de cada lado e o desfecho binário do encontro: *"Temos 30 minutos hoje. Minha proposta é entendermos nos primeiros 20 minutos como vocês controlam as paradas de linha e quais métricas querem mover neste semestre, se virmos que não há aderência, encerramos com total franqueza sem tomar seu tempo, se houver encaixe claro, reservamos os 10 minutos finais para definir o escopo do teste técnico. Esse formato funciona para você?"*
 
-Pain profundo: Sandler insiste em "pain funnel", 3 níveis abaixo da superfície (". e o que isso gera em relação ao seu negócio?").
+Pain profundo: Sandler insiste em "pain funnel", 3 níveis abaixo da superfície ("E o que isso gera em relação ao seu negócio?").
 
 Técnica "pain reverser": quando cliente traz objeção, "reversa" a pergunta. Cliente: "é caro". Vendedor: "você considera caro, comparado a quê?"
 
@@ -897,7 +897,7 @@ Sales call com Sandler método:
 - "O que mais incomoda no seu processo atual?"
 - "Como isso te afeta pessoalmente?"
 - "E se continuar assim pelos próximos 6 meses?"
-- ". e qual o custo real disso?"
+- "E qual o custo real disso?"
 - Se resistência: reversa. "Entendo que soa caro. Em comparação a quê?"
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
@@ -1528,7 +1528,7 @@ Passo 5: Desafie respeitosamente, não humilhe.
 
 Funcionário com código de má qualidade:
 
-Ruinous Empathy (erro comum): "É. tá bom, talvez a gente possa ajustar pequenos detalhes."
+Ruinous Empathy (erro comum): "É, tá bom, talvez a gente possa ajustar pequenos detalhes."
 Resultado: pessoa não melhora, tempo/time desperdiçado, eventualmente demissão surpresa.
 
 Radical Candor: "Maria, esse PR tem 3 problemas significativos: [X, Y, Z]. Preciso que você reescreva. Estou te falando isso porque te vejo com potencial de senior engineer em 12-18 meses, e essa qualidade precisa subir pra chegar lá. Como posso ajudar?"
@@ -2148,7 +2148,7 @@ Resultado:
 
 Princípios complementares:
 
-- **Competência técnica antes da transferência de autoridade:** delegar decisão decisiva para uma equipe que ainda não domina a operação técnica nem conhece os dados do negócio não gera autonomia, mas caos operacional.
+- **Competência técnica antes da transferência de autoridade:** delegar decisão crítica para uma equipe que ainda não domina a operação técnica nem conhece os dados do negócio não gera autonomia, mas caos operacional.
 - Clarity sobre purpose: sem purpose claro, intent não tem critério.
 - Think out loud: cultura de verbalizar raciocínio.
 
@@ -2224,15 +2224,15 @@ Modelo clássico de diagnóstico organizacional que articula sete dimensões int
 
 ##### As regras do jogo
 
-As sete dimensões (em ingles para preservar mnemonico),
+As sete dimensões (em inglês para preservar o mnemônico):
 
-1. **Strategy** (Estrategia), o plano para construir e sustentar vantagem competitiva.
-2. **Structure** (Estrutura), como a organizacao e formalmente desenhada (hierarquia, divisoes, linhas de reporte).
-3. **Systems** (Sistemas), processos formais e informais que governam o trabalho diário (decisão, informação, recompensas).
-4. **Style** (Estilo), padroes de comportamento da lideranca e cultura percebida.
-5. **Staff** (Pessoas), quem está na empresa, em quais papéis, com quais perfis.
-6. **Skills** (Capacidades), competencias distintivas da organizacao como entidade.
-7. **Shared Values** (Valores compartilhados), no centro do modelo, o que a empresa de fato valoriza, vs o que diz valorizar.
+1. **Strategy** (Estratégia): o plano para construir e sustentar vantagem competitiva.
+2. **Structure** (Estrutura): como a organização é formalmente desenhada (hierarquia, divisões, linhas de reporte).
+3. **Systems** (Sistemas): processos formais e informais que governam o trabalho diário (decisão, informação, recompensas).
+4. **Style** (Estilo): padrões de comportamento da liderança e cultura percebida.
+5. **Staff** (Pessoas): quem está na empresa, em quais papéis, com quais perfis.
+6. **Skills** (Capacidades): competências distintivas da organização como entidade.
+7. **Shared Values** (Valores compartilhados): no centro do modelo, o que a empresa de fato valoriza vs. o que diz valorizar.
 
 Os quatro soft (Style, Staff, Skills, Shared Values) são tipicamente mais difíceis de mudar e mais determinantes de sucesso de transformação do que os três hard.
 
@@ -2242,7 +2242,7 @@ Em momentos de transformação organizacional profunda (integração pós-M&A, m
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Tratar como ferramenta de auditoria pontual e não de design contínuo. Mexer apenas em hard sem reconhecer que soft determina execução. Confundir Style (como lideres se comportam de fato) com Shared Values declarados (poster na parede). Aplicar de cima para baixo sem coletar dados qualitativos do time sobre como percebe cada dimensao.
+Tratar como ferramenta de auditoria pontual e não de design contínuo. Mexer apenas em hard sem reconhecer que soft determina execução. Confundir Style (como líderes se comportam de fato) com Shared Values declarados (pôster na parede). Aplicar de cima para baixo sem coletar dados qualitativos do time sobre como percebe cada dimensão.
 
 ---
 
@@ -2711,7 +2711,7 @@ Os quatro pontos de fragilidade específicos desse momento são os seguintes.
 
 2. **O teste de coerência da cultura escrita (entre 40 e 80 pessoas):** quando os novos contratados superam em número os veteranos da primeira hora, a cultura deixa de se transmitir por convivência diária com os fundadores e passa a ser julgada pela coerência entre o que está escrito no manual e quem a liderança promove ou demite.
 
-O terceiro é o primeiro RH estruturado (50 a 80 pessoas). Até aqui, contratação foi feita por fundador mais manager de área. Demissões foram eventos raros, geridos diretamente. Avaliações de performance foram conversas informais. Em 50 a 80 pessoas, a ausência de estrutura começa a custar: contratações que não dão certo porque o processo é ad-hoc, demissões que viram processos trabalhistas, avaliações que geram ressentimento sem produzir desenvolvimento real. Contratar RH sênior (não assistente: profissional que vai estruturar políticas) é decisão decisiva. Contratar junior cedo demais consome recursos sem resolver. Esperar demais cria dívida de processos cara de reverter.
+O terceiro é o primeiro RH estruturado (50 a 80 pessoas). Até aqui, contratação foi feita por fundador mais manager de área. Demissões foram eventos raros, geridos diretamente. Avaliações de performance foram conversas informais. Em 50 a 80 pessoas, a ausência de estrutura começa a custar: contratações que não dão certo porque o processo é ad-hoc, demissões que viram processos trabalhistas, avaliações que geram ressentimento sem produzir desenvolvimento real. Contratar RH sênior (não assistente: profissional que vai estruturar políticas) é decisão crítica. Contratar junior cedo demais consome recursos sem resolver. Esperar demais cria dívida de processos cara de reverter.
 
 O quarto ponto é a primeira calibragem da transparência irrestrita (entre 50 e 100 pessoas). Até 50 pessoas, a reunião geral semanal com todos os dados financeiros abertos funciona bem. Acima desse patamar, informações estratégicas e sensíveis precisam de curadoria por nível de responsabilidade. Como a mudança é politicamente delicada (veteranos sentem a diferença, enquanto recém-chegados não notam), explique o motivo abertamente: mudar a regra sem comunicar gera ressentimento que explode meses depois.
 
@@ -2741,7 +2741,7 @@ Para decidir com objetividade quando o fundador deve delegar uma função operac
 
 A tabela abaixo traduz a transição em critérios acionáveis para cada papel operacional central:
 
-| Papel operacional | Continue enquanto. | Inicie transição quando. | Sinal de que passou da hora |
+| Papel operacional | Continue enquanto | Inicie transição quando | Sinal de que passou da hora |
 |---|---|---|---|
 | **Tech Lead / Arquiteto** | Há menos de 8 engenheiros e suas decisões são mais rápidas que qualquer contratação | Há 2+ squads com complexidades técnicas distintas ou você está atrasando decisões de arquitetura | Engenheiros sênior saindo por falta de autonomia técnica |
 | **Head of Sales** | Você está fechando deals e aprendendo o que vende, ciclo de venda < 30 dias | ARR > R$ 3-5M ou ciclo > 60 dias ou você não consegue replicar o processo em paper | Pipeline estagna porque só você fecha contratos maiores, ou sua agenda em negociações comerciais passa de 50% da semana (faltando tempo para documentar o processo no papel) |
@@ -2866,7 +2866,7 @@ Marketplace (comprador)              R$ 15 – R$ 50
 Marketplace (vendedor)               R$ 80 – R$ 300
 Saúde digital (plano ou assinatura)  R$ 120 – R$ 400
 ------------------------------------------------------
-*Nota metodológica:* As faixas acima são referências operacionais compiladas pelo autor para calibragem inicial no mercado brasileiro (considerando custos de mídia em reais e operação local de pré-vendas), devendo ser sempre validadas frente à margem bruta e ao tempo de recuperação (*payback* ≤ 12 meses em PMEs) da sua própria operação.
+Nota metodológica: As faixas acima são referências operacionais compiladas pelo autor para calibragem inicial no mercado brasileiro (considerando custos de mídia em reais e operação local de pré-vendas), devendo ser sempre validadas frente à margem bruta e ao tempo de recuperação (payback <= 12 meses em PMEs) da sua própria operação.
 ```
 
 A operação de crescimento no Brasil exige dominar alavancas locais de aquisição e conversão: o WhatsApp funciona como canal central de ativação, recuperação de carrinho e fechamento assistido (exigindo uso da API Oficial da WhatsApp Business Platform, gestão rigorosa de consentimento *opt-in* sob a LGPD e prevenção de bloqueio de número), e o Pix (incluindo Pix Automático para recorrência) ao lado do cartão parcelado redefine a conversão de *checkout* frente aos modelos americanos baseados apenas em cartão de crédito.
@@ -2899,7 +2899,7 @@ Marketplace (compradores ativos
 em 90 dias)                     30% – 55%
 Fintech (transações mensais)    55% – 75%
 -------------------------------------
-*Referências de mercado para retenção e engajamento:* estudos de safras (*cohorts*) publicados por fundos e plataformas de análise como Andreessen Horowitz (a16z), Lenny Rachitsky / Casey Winters e relatórios anuais da Amplitude e Mixpanel.
+Referências de mercado para retenção e engajamento: estudos de safras (cohorts) publicados por fundos e plataformas de análise como Andreessen Horowitz (a16z), Lenny Rachitsky / Casey Winters e relatórios anuais da Amplitude e Mixpanel.
 Bessemer Venture Partners, adaptados ao BR
 ```
 
@@ -3533,7 +3533,7 @@ Use a lista abaixo para auditoria do estado da motion enterprise. Itens não cum
 
 **Ver também:**
 
-- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 (Sales: Motion Completa, do Outbound ao Renewal) (Vol. 4)]] – Sales motion completa, com enterprise como uma das quatro partes
+- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 (Sales: Motion Completa, do Outbound ao Renewal) (Vol. 4)]]: Sales motion completa, com enterprise como uma das quatro partes
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 4: BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4 (Branding, Posicionamento de Marca e Product Marketing) (Vol. 4)]]: construção de materiais de habilitação comercial, estudos de caso e posicionamento de categoria para compras complexas.
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1: GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook (Vol. 4)]]
 - [[#CAPÍTULO 3: REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3: Revenue Operations: Infraestrutura, Dados e Processo para Crescer com Previsibilidade]]
@@ -3896,7 +3896,7 @@ Quatro componentes definem a disciplina.
 
 **Biblioteca de casos e templates.** Repositório versionado de cases de cliente por indústria e segmento, templates de email por estágio do funil, scripts de discovery, decks por persona. Acessível dentro do CRM ou em ferramenta dedicada (Highspot, Showpad, Seismic). Sem isso, cada vendedor reinventa material, e a qualidade oscila por pessoa.
 
-Contrate a primeira pessoa dedicada exclusivamente a **Habilitação Comercial (*Sales Enablement*)** quando a equipe atingir de **10 a 15 vendedores** (ou quando a empresa estiver contratando de 2 a 3 novos profissionais comerciais por mês), garantindo que o treinamento inicial, a certificação no roteiro de chamadas e a atualização dos materiais de batalha reduzama rampa de novos contratados.
+Contrate a primeira pessoa dedicada exclusivamente a **Habilitação Comercial (*Sales Enablement*)** quando a equipe atingir de **10 a 15 vendedores** (ou quando a empresa estiver contratando de 2 a 3 novos profissionais comerciais por mês), garantindo que o treinamento inicial, a certificação no roteiro de chamadas e a atualização dos materiais de batalha reduzam a rampa de novos contratados.
 
 Erros comuns. Tratar enablement como evento (kickoff anual) em vez de prática contínua. Treinar só no onboarding e não manter cadência. Confundir enablement com administração de CRM. Contratar para enablement sem mandato para mudar processo de vendas.
 
@@ -4058,7 +4058,7 @@ ICP alinhado (% da base)          Alto    0 = <10%  3 = >60%
 Competição direta (ausência)      Alto    0 = direta  3 = nenhuma
 Incentivo financeiro claro        Médio   0 = inexistente  3 = estruturado
 Capacidade técnica de integrar    Médio   0 = sem time  3 = time dedicado
-Incentivo econômico direto para o vendedor do parceiro na ponta  Alto (peso 2x)  0 = nenhum (acordo apenas institucional), 5 = comissão marginal sem contar na meta, 10 = conta para a meta e bônus do vendedor do parceiro
+Incentivo ao vendedor da ponta    Alto    0 = só institucional  3 = conta na meta e bônus da ponta
 Tamanho da base acessível         Médio   0 = <100  3 = >10.000
 ----------------------------------------------------------
 Score mínimo para avançar: 12/18
@@ -4310,8 +4310,7 @@ Churn de parceiros (% ao ano)      Trimestral    <20%
 ```
 
 > [!tip]
-> Faça uma auditoria trimestral implacável da carteira de parcerias
-> alianças que consumiram horas de engenharia e reuniões por dois trimestres consecutivos sem gerar oportunidades qualificadas registradas (*Deal Registration*) devem ser formalmente encerradas ou rebaixadas para integração passiva sem dedicação executiva.
+> **Faça uma auditoria trimestral rigorosa da carteira de parcerias:** alianças que consumiram horas de engenharia e reuniões por dois trimestres consecutivos sem gerar oportunidades qualificadas registradas (*Deal Registration*) devem ser formalmente encerradas ou rebaixadas para integração passiva sem dedicação executiva.
 
 ---
 
@@ -4355,18 +4354,6 @@ Use a lista abaixo para auditoria. Marque o que já está em pé. O que faltar v
 
 ---
 
-**Ver também:**
-
-- [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS (FASE 15)|Template: Matriz de Parcerias (Pipeline dos 5 Tipos de Canal) (Fase 15)]]: planilha operacional para gestão mensal do funil de alianças.
-- [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (Vol. 8)]]: estrutura jurídica de contratos de parceria, representação comercial (Lei 4.886/1965), MoU e compartilhamento de receita.
-- [[#CAPÍTULO 5: CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 5 (Canais Indiretos e Parcerias: Parcerias, Franquias, Channel)]]: estruturação de programas de canais em níveis (*tiers*), habilitação de revendedores e gestão de conflito de canal.
-- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 (Sales: Motion Completa, do Outbound ao Renewal) (Vol. 4)]] – motion direta de vendas, contraste com BD
-- [[#CAPÍTULO 2: VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (Vendas Complexas Enterprise: Ciclo Longo, Alto Valor, Múltiplos Decisores)]] – quando o canal vende para enterprise, quem coordena
-- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12: Validação do Modelo de Negócio (Vol. 4)]] – Unit economics e viabilidade do revenue share
-- [[#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]] – Quando e como ativar canais de parceiros no plano de crescimento
-
----
-
 ### Programas de inovação aberta, hubs corporativos e editais de PoC no Brasil: como separar vitrine de receita real
 
 O ecossistema brasileiro consolidou alguns formatos recorrentes. Conhecer como cada um funciona de verdade, não como é descrito nos sites institucionais, é o primeiro filtro.
@@ -4399,7 +4386,7 @@ O que esses programas entregam de verdade: acesso a executivos de nível médio 
 
 **Hubs de inovação setoriais**
 
-Além das iniciativas de uma única corporação, o Brasil conta com polos de inovação aberta e ecossistemas regionais relevantes (como Cubo Itaú em São Paulo, Porto Digital no Recife, Instituto Caldeira em Porto Alegre, ACATE em Florianópolis e hubs setoriais como o  Órbi Conecta em Belo Horizonte). Antes de dedicar tempo dos fundadores ou pagar mensalidade em qualquer programa, converse com três startups que participaram nos últimos 12 meses e valide se a iniciativa gera contratos reais com as unidades de negócio ou apenas visibilidade institucional.
+Além das iniciativas de uma única corporação, o Brasil conta com polos de inovação aberta e ecossistemas regionais relevantes (como Cubo Itaú em São Paulo, Porto Digital no Recife, Instituto Caldeira em Porto Alegre, ACATE em Florianópolis e hubs setoriais como o Órbi Conecta em Belo Horizonte). Antes de dedicar tempo dos fundadores ou pagar mensalidade em qualquer programa, converse com três startups que participaram nos últimos 12 meses e valide se a iniciativa gera contratos reais com as unidades de negócio ou apenas visibilidade institucional.
 
 **Editais de MVP e chamadas abertas**
 
@@ -4449,7 +4436,7 @@ MAPA DE INFLUÊNCIA E AUTORIDADE
 
 ---
 
-### 4. O ciclo de compra corporativo
+### O ciclo de compra corporativo
 
 O ciclo de compra de uma grande empresa brasileira tem etapas com nomes diferentes em cada empresa, mas a estrutura subjacente é consistente. Conhecer cada etapa, e saber quanto tempo leva, é o que separa o fundador que protege seu caixa do fundador que quebra esperando o contrato chegar.
 
@@ -4501,7 +4488,7 @@ Quarto, aloque um sócio ou executivo sênior como responsável exclusivo pela r
 
 ---
 
-### 5. Pricing para grandes empresas
+### Pricing para grandes empresas
 
 Cobrar uma fração do valor real na primeira venda para uma grande corporação com a esperança de "entrar barato e subir o preço depois" quase sempre trava a rentabilidade da conta por anos: o setor de compras registra aquele valor inicial como preço-base de referência no sistema e limita reajustes futuros à inflação anual.
 
@@ -4526,7 +4513,7 @@ O que evitar: preço por projeto com escopo aberto (você vai passar os próximo
 
 ---
 
-### 6. Compliance e jurídico corporativo
+### Compliance e jurídico corporativo
 
 O jurídico de uma grande empresa brasileira não é seu inimigo. Ele está fazendo o trabalho dele, que é proteger a empresa de riscos que ele tem obrigação profissional de identificar. Entender o que ele realmente quer, e o que é negociável, acelera enormemente o processo.
 
@@ -4553,8 +4540,7 @@ Propriedade intelectual (100% da PI do produto-base e de todas as evoluções, m
 Cláusula de non-compete abrangente que impeça você de atender outros clientes do mesmo setor é potencialmente fatal para o crescimento. Se a empresa insistir, limite o escopo a até três concorrentes diretos nominalmente listados em anexo e ao subsegmento específico de atuação, condicionado ao pagamento de volume mínimo contratual e temporal (máximo doze meses após término do contrato).
 
 > [!warning]
-> Cláusulas de step-in rights são raras mas existem
-> permitem que a empresa assuma operação do seu produto em caso de falência ou descontinuidade. Se você aceitar isso, certifique-se de que o escrow de código está bem definido e que a empresa não pode executar o step-in enquanto você está operando normalmente.
+> **Cláusulas de *step-in rights* são raras, mas existem:** permitem que a empresa assuma a operação do seu produto em caso de falência ou descontinuidade. Se você aceitar isso, certifique-se de que o *escrow* de código está bem definido e que a empresa não pode executar o *step-in* enquanto você está operando normalmente.
 
 ---
 
@@ -4571,6 +4557,18 @@ Cláusula de non-compete abrangente que impeça você de atender outros clientes
 > **Regra de bolso:** Um acordo de parceria sem patrocinador na unidade de negócio, sem incentivo financeiro para o vendedor da ponta e sem piloto com cinco clientes reais nos primeiros 60 dias é apenas assessoria de imprensa disfarçada.
 >
 > **O Ritual de Segunda-Feira às 9h (30 minutos):** Audite todas as parcerias assinadas há mais de 90 dias na sua Matriz de Parcerias: encerre formalmente as alianças com zero oportunidades registradas (*Deal Registration*) e agende, nas duas parcerias prioritárias, um treinamento prático de 30 minutos com os vendedores da ponta do parceiro.
+
+---
+
+**Ver também:**
+
+- [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS (FASE 15)|Template: Matriz de Parcerias (Pipeline dos 5 Tipos de Canal) (Fase 15)]]: planilha operacional para gestão mensal do funil de alianças.
+- [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (Vol. 8)]]: estrutura jurídica de contratos de parceria, representação comercial (Lei 4.886/1965), MoU e compartilhamento de receita.
+- [[#CAPÍTULO 5: CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 5 (Canais Indiretos e Parcerias: Parcerias, Franquias, Channel)]]: estruturação de programas de canais em níveis (*tiers*), habilitação de revendedores e gestão de conflito de canal.
+- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 (Sales: Motion Completa, do Outbound ao Renewal) (Vol. 4)]]: condução direta de vendas e contraste com Business Development.
+- [[#CAPÍTULO 2: VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (Vendas Complexas Enterprise: Ciclo Longo, Alto Valor, Múltiplos Decisores)]]: coordenação comercial quando o canal vende para contas corporativas.
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12: Validação do Modelo de Negócio (Vol. 4)]]: *unit economics* e viabilidade do compartilhamento de receita (*revenue share*).
+- [[#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]]: quando e como ativar canais de parceiros no plano de crescimento.
 
 ---
 
@@ -5367,7 +5365,7 @@ O domínio executivo consiste em instalar canais diretos de observação que pre
 
 Grandes erros de delegação executiva acontecem nos dois extremos: jogar o novo diretor na piscina sem contexto ("agora a área é sua, nos vemos no fim do trimestre") ou nunca soltar o volante. Adote o protocolo de transição em quatro etapas:
 
-1. **Primeiros 90 dias com imersão conjunta (*Shadowing* e Calibração):** nos primeiros três meses de um novo executivo, trabalhem lado a lado nas decisões decisivas da área até alinhar completamente o padrão de qualidade e os princípios de decisão.
+1. **Primeiros 90 dias com imersão conjunta (*Shadowing* e Calibração):** nos primeiros três meses de um novo executivo, trabalhem lado a lado nas decisões críticas da área até alinhar completamente o padrão de qualidade e os princípios de decisão.
 2. **Feedback loop formal de 30-60-90:** em trinta, sessenta e noventa dias, conduza conversa formal entre fundador e C-level sobre o que está funcionando, onde o fundador ainda precisa estar envolvido e onde o C-level precisa de mais autonomia. Sem essa estrutura, as tensões se acumulam e explodem entre o oitavo e o décimo mês.
 3. **Critério de "mão-na-massa" no perfil:** em startup pré-Série B, C-level que "não opera" não serve. O perfil deve incluir capacidade (e disposição) de operar diretamente trinta a cinquenta por cento do tempo nos primeiros dezoito meses. Candidatos que só fazem "estratégia e gestão de time" não encaixam no estágio.
 4. **Transferência escrita de contexto e alçadas:** documente em duas páginas quais decisões o líder passa a tomar sozinho, quais exigem consulta prévia e quais métricas guardiãs acionam revisão imediata.
@@ -6480,7 +6478,7 @@ Investimento em desenvolvimento do colaborador com potencial de benefício fisca
 
 **Licença parental estendida e a nova Lei da Licença-Paternidade (Lei nº 15.371/2026):** a Constituição Federal (art. 7º, XVIII e XIX) e a CLT garantem 120 dias de licença-maternidade. Já a licença-paternidade, regulamentada após o julgamento da ADO 20 pelo STF por meio da Lei nº 15.371, de 31 de março de 2026 (com vigência a partir de 1º/01/2027), mantém os 5 dias até 31 de dezembro de 2026 e amplia gradualmente o benefício (criando o salário-paternidade pago pela empresa com reembolso previdenciário) para 10 dias em 2027, 15 dias em 2028 e 20 dias a partir de 2029 (condicionado este último degrau ao cumprimento da meta fiscal). Além disso, o Programa Empresa Cidadã (Lei nº 11.770/2008, atualizada pelo art. 10 da Lei nº 15.371/2026) permite prorrogar a licença-maternidade por mais 60 dias (totalizando 180 dias) e somar mais 15 dias à licença-paternidade legal com dedução fiscal no Lucro Real. Muitas startups adotam essa extensão como diferencial de atração e retenção.
 
-**Semana de 4 dias:** em testes pontuais no mercado global e brasileiro, divide-se entre dois modelos: redução real de 20% da jornada semanal sem corte salarial ou compressão de 5 dias de trabalho em 4 dias. Ressalva trabalhista obrigatória: na CLT, a semana comprimida exige acordo formal de compensação de jornada e não pode ultrapassar o teto legal de 10 horas diárias de trabalho (art. 59 da CLT), por isso, um contrato padrão de 44 horas semanais não cabe legalmente em quatro dias sem redução efetiva da jornada contratual para 40 horas ou menos.
+**Semana de 4 dias:** em testes pontuais no mercado global e brasileiro, divide-se entre dois modelos: redução real de 20% da jornada semanal sem corte salarial ou compressão de 5 dias de trabalho em 4 dias. Ressalva trabalhista obrigatória: na CLT, a semana comprimida exige acordo formal de compensação de jornada e não pode ultrapassar o teto legal de 10 horas diárias de trabalho (art. 59 da CLT). Por isso, um contrato de 44 horas semanais (ou de 42 horas na transição de dezembro de 2026 a dezembro de 2027 da EC nº 141/2026, antes da vigência do novo teto constitucional de 40 horas semanais em dezembro de 2027) não cabe legalmente em quatro dias sem redução efetiva da jornada contratual para 40 horas semanais ou menos.
 
 #### Previdência privada com match
 
@@ -7060,7 +7058,7 @@ Intervenção: o CEO ou líder direto precisa nomear o comportamento destrutivo 
 
 **Cultura do herói (*Hero culture*).**
 
-A cultura do herói instala-se quando a operação só funciona porque duas ou três pessoas salvam projetos em colapso virando madrugadas e centralizando todas as decisões decisivas. Elas são aplaudidas nos corredores como salvadoras da pátria e tornam-se de fato insubstituíveis.
+A cultura do herói instala-se quando a operação só funciona porque duas ou três pessoas salvam projetos em colapso virando madrugadas e centralizando todas as decisões críticas. Elas são aplaudidas nos corredores como salvadoras da pátria e tornam-se de fato insubstituíveis.
 
 O problema: heróis não escalam. A empresa se torna dependente de indivíduos não substituíveis. Quando o herói sai, por burnout, por oferta melhor, por qualquer razão, o sistema colapsa. E enquanto está, o herói frequentemente bloqueia, mesmo que sem intenção, o desenvolvimento das pessoas ao redor, porque sempre resolve mais rápido sozinho.
 

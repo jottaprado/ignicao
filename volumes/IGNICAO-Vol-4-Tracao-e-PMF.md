@@ -1220,7 +1220,7 @@ A pergunta central. Separe dois testes distintos: (1) a economia unitária é sa
 Se a margem de contribuição unitária é positiva e o *payback* do CAC está dentro da meta do setor, a economia unitária é saudável. Já o número de clientes ativos necessários para cobrir os custos fixos informa quanto tempo de caixa a operação precisa até o ponto de equilíbrio. Se a margem unitária ou o *payback* reprovarem no teste, corrija preço, custo direto, frete ou retenção antes de escalar.
 
 > [!tip] Canvases Visuais: Pirate Canvas / AARRR (Fase 11)
-> Unit economics fica mais legível quando colado ao funil AARRR (Acquisition, Activation, Retention, Referral, Revenue) do [[#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)]] – cada métrica desta fase (CAC, ativação, churn, NRR, payback) tem casa numa etapa do funil. Use o canvas para localizar onde estão os gargalos do modelo: CAC alto demais é problema de Acquisition. Payback longo pode ser baixa Activation, LTV baixo é Retention insuficiente.
+> Unit economics fica mais legível quando colado ao funil AARRR (Acquisition, Activation, Retention, Referral, Revenue) do [[#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)]]: cada métrica desta fase (CAC, ativação, churn, NRR, payback) tem casa numa etapa do funil. Use o canvas para localizar onde estão os gargalos do modelo: CAC alto demais é problema de Acquisition, payback longo pode ser baixa Activation e LTV baixo é Retention insuficiente.
 
 #### Passo 10: aplique a pergunta diagnóstica canônica de Paul Graham, Default Alive ou Default Dead?
 
@@ -1876,7 +1876,7 @@ xychart-beta
     title "Retenção por coorte - PMF presente vs ausente"
     x-axis "Semanas desde a aquisição" [1, 4, 8, 12, 16, 20, 24]
     y-axis "% usuários ainda ativos" 0 --> 100
-    line [100, 45, 30, 22, 18, 17, 17]
+    line [100, 48, 34, 28, 26, 25, 25]
     line [100, 40, 22, 12, 6, 3, 1]
 ```
 
@@ -2084,7 +2084,7 @@ Antes de avançar para a Fase 14 (capital para escala, Vol. 5) e a Fase 15 (máq
 Alguns usuários adoram. A maioria é indiferente. Foque no sub-segmento que adora. Elimine funcionalidades e mensagens voltadas para o grupo indiferente. Esclareça o posicionamento.
 
 > [!important] Resistência ao recorte é o erro
-> Muitos fundadores hesitam em estreitar o foco com receio de reduzir o mercado endereçável, mas na pratica o recorte faz a empresa ganhar retenção, indicação boca a boca e velocidade comercial no subsegmento que realmente valoriza o produto.
+> Muitos fundadores hesitam em estreitar o foco com receio de reduzir o mercado endereçável, mas na prática o recorte faz a empresa ganhar retenção, indicação boca a boca e velocidade comercial no subsegmento que realmente valoriza o produto.
 
 ##### Caminho C, sem PMF
 
@@ -2372,7 +2372,7 @@ Priorização de 6 features:
 | AI categorização | 50k | 2 | 30% | 6 | 5.000 |
 | Mobile app refactor | 25k | 1 | 100% | 5 | 5.000 |
 
-Ordem matemática pelo índice RICE: conciliação (960) > *dark mode* (280) > IA (120) > refatoração mobile (112) > relatórios (64) > Zapier (45). Repare na armadilha prática: o *dark mode* subiu para o segundo lugar apenas por combinar alcance amplo e esforço mínimo (1 pessoa-mês). Antes de executá-lo à frente do categorizador por IA, filtre pelo objetivo da Fase 13 e verifique se o item move a retenção das safras ou apenas embeleza a interface.
+Ordem matemática pelo índice RICE: conciliação (32.000) > *dark mode* (15.000) > categorização por IA (5.000) e refatoração mobile (5.000) > relatórios customizados (3.750) > integração com Zapier (2.000). Repare na armadilha prática: o *dark mode* subiu para o segundo lugar apenas por combinar alcance amplo e esforço mínimo (1 pessoa-mês). Antes de executá-lo à frente do categorizador por IA, filtre pelo objetivo da Fase 13 e verifique se o item move a retenção das safras ou apenas embeleza a interface.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -2629,7 +2629,7 @@ Os 10 componentes:
 4. Unique value: valor para cliente que vem das features únicas.
 5. Who cares a lot: qual segmento valoriza extraordinariamente essa unique value?
 6. Market category: em que categoria você se posiciona (a palavra que define sua prateleira).
-7. Determinar a categoria de mercado (seguindo os 10 passos de *Obviously Awesome*: listar clientes que amam o produto, montar o time multifuncional, alinhar o vocabulário, listar alternativas reais, isolar atributos únicos, mapear temas de valor, definir quem mais se importa, escolher o contexto de mercado, conectar uma tendência relevante e registrar em um canvas compartilhado).
+7. Consolidar o posicionamento em equipe (seguindo a sequência operacional dos 10 passos de *Obviously Awesome*: listar os clientes que mais amam o produto, montar o time multifuncional de posicionamento, alinhar o vocabulário e descartar preconceitos, listar as alternativas competitivas reais, isolar os atributos e capacidades únicos, agrupar os benefícios em temas de valor, definir o segmento de clientes que mais se importa, escolher a categoria de mercado que evidencia sua força, conectar uma tendência relevante com cautela e registrar o posicionamento em um documento compartilhado).
 8. Relevant trends: tendências de mercado que validam sua posição.
 9. Positioning statement: síntese em forma clara.
 10. Test and iterate: com vendas, marketing, clientes.
@@ -2870,40 +2870,40 @@ Cinco falhas sabotam o marketing de conteúdo: (1) publicar artigos soltos sem a
 
 ```text
 SCORECARD DE PMF
-Periodo: ___
+Período: ___
 
 1. SEAN ELLIS TEST
-- Pergunta, "Como voce se sentiria se nao pudesse mais usar [produto]?"
+- Pergunta: "Como você se sentiria se não pudesse mais usar [produto]?"
 - Total de respondentes: ___
-- "Muito decepcionado", ___ por cento
-- Threshold, >= 40 por cento → forte sinal de PMF
+- "Muito decepcionado": ___%
+- Referência mínima: >= 40% → forte sinal de PMF
 
-2. RETENCAO
-- Cohort retention week 4, ___ por cento (target setor: ___)
-- Cohort retention month 3, ___ por cento
-- Estavel ou melhorando ao longo de cohorts? sim/nao
+2. RETENÇÃO
+- Retenção da safra na semana 4: ___% (meta do setor: ___)
+- Retenção da safra no mês 3: ___%
+- Estável ou melhorando ao longo das safras? sim/não
 
-3. CRESCIMENTO ORGANICO
-- Crescimento semanal medio dos ultimos 8 weeks, ___ por cento
-- Threshold YC, 5 a 7 por cento por semana sustentado
+3. CRESCIMENTO ORGÂNICO
+- Crescimento semanal médio das últimas 8 semanas: ___%
+- Referência YC: 5% a 7% por semana sustentado
 
-4. UNIT ECONOMICS BASICO
-- LTV/CAC, ___ (target: > 3)
-- Payback CAC, ___ meses (target: < 12 em SaaS, < 6 em B2C)
+4. UNIT ECONOMICS BÁSICO
+- LTV/CAC: ___x (meta: >= 3x)
+- Payback do CAC: ___ meses (meta: <= 12m em SaaS PME, <= 6m em B2C)
 
 5. SINAIS QUALITATIVOS
-- Numero de clientes que recomendaram organicamente, ___
-- Receita de referrals como por cento do total, ___ por cento
-- Número e percentual de clientes ativos que ficariam "muito decepcionados" se o produto deixasse de existir: ___
+- Número de clientes que recomendaram espontaneamente: ___
+- Receita vinda de indicação como percentual do total: ___%
+- Clientes expandindo uso ou pedindo novos módulos sem pressão comercial: sim/não
 
-DIAGNOSTICO
-[ ] Sinais matematicos batem (Sean Ellis + retencao + crescimento)
-[ ] Unit economics em faixa saudavel
-[ ] Sinais qualitativos confirmam ou contradizem?
+DIAGNÓSTICO
+[ ] Sinais quantitativos convergem (Sean Ellis + retenção + crescimento)
+[ ] Economia unitária em faixa saudável
+[ ] Sinais qualitativos confirmam a tração
 
-DECISAO
-[ ] PMF confirmado, escalar com cuidado
-[ ] PMF ainda nao, qual lacuna especifica?
+DECISÃO
+[ ] PMF confirmado: preparar escala com disciplina
+[ ] PMF ainda parcial ou ausente: qual lacuna específica corrigir?
 ```
 
 ---
@@ -3655,7 +3655,7 @@ Não medir conversion. Volume de tráfego sem conversion é vanity metric.
 
 ### O Espelho do Capítulo 2: Seu Conteúdo Atrai Compradores com Cartão na Mão ou Apenas Curiosos?
 
-Dezoito meses depois de publicar seus primeiros artigos de fundo de funil e o simulador interativo de reabilitação oral em Belo Horizonte, a clínica da Dra. Camila passou a receber 4 mil visitas orgânicas mensais e 60 pedidos diretos de avaliação sem depender de anúncios pagos. Inspirados por essa lógica entre Recife e Goiânia, Rafael e Bia criaram guias comparativos de tecido, caimento e tabela de medidas com fotos enviadas pelas próprias clientes da loja: em um ano, a busca orgânica e a comunidade de compradoras no WhatsApp já respondiam por 28% dos pedidos mensais, permitindo cortar um terço da verba que antes ia para o leilão da Meta.
+Dezoito meses depois de publicar seus primeiros artigos de fundo de funil e o simulador interativo de reabilitação oral em Belo Horizonte, a clínica da Dra. Camila passou a receber 4 mil visitas orgânicas mensais e 60 pedidos diretos de avaliação sem depender de anúncios pagos. Inspirados por essa lógica entre Recife e Goiânia, Rafael e Bia criaram guias comparativos de ativos naturais, rotinas por tipo de pele e diagnósticos capilares com fotos enviadas pelas próprias clientes da marca: em um ano, a busca orgânica e a comunidade de compradoras no WhatsApp já respondiam por 28% dos pedidos mensais, permitindo cortar um terço da verba que antes ia para o leilão da Meta.
 
 **O Espelho (autodiagnóstico):**
 
@@ -4231,7 +4231,7 @@ Uma boa tagline não descreve o produto, comunica a promessa de valor ou a cren�
 
 Critérios para avaliação de tagline:
 
-- Especifica o bastante para não servir de slogan genérico a qualquer concorrente
+- Específica o bastante para não servir de slogan genérico a qualquer concorrente
 - Genérica o suficiente para não limitar o crescimento da empresa
 - Memorável (ritmo, surpresa ou tensão)
 - Verdadeira (a empresa pode cumprir essa promessa hoje)
@@ -6512,7 +6512,7 @@ Numa terça-feira, Marina fez uma pergunta simples diante dos três monitores:
 
 – "Lucas, na semana passada nós mudamos o fluxo de cadastro e lançamos o alerta automático por WhatsApp. Olhando para essas oitenta telas coloridas, essa mudança fez os clientes usarem mais o sistema e renovarem mais, ou foi tempo jogado no lixo?"
 
-Lucas olhou para o monitor da esquerda, depois para o do meio, depois para o da direita. e ficou mudo. Nenhum daqueles oitenta gráficos respondia à pergunta. Eles tinham terabytes de eventos salvos no banco, mas zero clareza para tomar uma decisão de negócios. Estavam afogados na Cegueira do Excesso de Dados de Vaidade.
+Lucas olhou para o monitor da esquerda, depois para o do meio, depois para o da direita, e ficou mudo. Nenhum daqueles oitenta gráficos respondia à pergunta. Eles tinham terabytes de eventos salvos no banco, mas zero clareza para tomar uma decisão de negócios. Estavam afogados na Cegueira do Excesso de Dados de Vaidade.
 
 Números acumulados que só sobem para a direita (total de cadastros históricos, total de downloads, total de visualizações) são entorpecentes psicológicos: servem para massagear o ego dos fundadores em reuniões de conselho, mas nunca dizem se o motor está prestes a fundir.
 
@@ -7031,11 +7031,11 @@ Um produto nativo em IA enfrenta em 2026 riscos de governança que não existiam
 
 **Model card interno.** Boa prática crescentemente adotada: documentar para uso interno o que o modelo foi testado para fazer e o que não foi, suas limitações conhecidas, seus dados de eval de qualidade, e os casos de uso onde não deve ser usado. Não precisa ser público, mas deve existir. Previne que times de produto expandam o uso para domínios onde o modelo não foi avaliado.
 
-**Regulação emergente.** O Regulamento Europeu de IA (*EU AI Act*, em vigor desde agosto de 2024 com aplicação escalonada: proibições e letramento em fevereiro de 2025, regras para modelos de propósito geral em agosto de 2025 e obrigações para sistemas de alto risco previstas pelo texto original entre agosto de 2026 e agosto de 2027, sob revisão de prazos de implementação no pacote *Digital Omnibus* da Comissão Europeia) classifica as aplicações por nível de risco (inaceitável, alto, limitado e mínimo). Startups brasileiras que atendem clientes ou usuários na União Europeia entram no escopo da norma, e sistemas de alto risco (como concessão de crédito, recrutamento, educação e saúde) exigem avaliação de conformidade, documentação técnica, rastreabilidade de logs e supervisão humana. No Brasil, sob o art. 20 da LGPD, sempre que uma decisão for tomada unicamente com base em tratamento automatizado de dados pessoais, o titular tem direito a solicitar a revisão da decisão e informações claras sobre os critérios utilizados (embora a obrigatoriedade de revisão exclusivamente por pessoa natural tenha sido vetada na Lei 13.853/2019, manter revisão humana em decisões decisivas segue altamente recomendado para reduzir passivos, e o texto do PL 2.338/2023 aprovado no Senado vai na mesma direção ao exigir supervisão humana efetiva em sistemas de alto risco).
+**Regulação emergente.** O Regulamento Europeu de IA (*EU AI Act*, em vigor desde agosto de 2024 com aplicação escalonada: proibições e letramento em fevereiro de 2025, regras para modelos de propósito geral em agosto de 2025 e obrigações para sistemas de alto risco previstas pelo texto original entre agosto de 2026 e agosto de 2027, sob revisão de prazos de implementação no pacote *Digital Omnibus* da Comissão Europeia) classifica as aplicações por nível de risco (inaceitável, alto, limitado e mínimo). Startups brasileiras que atendem clientes ou usuários na União Europeia entram no escopo da norma, e sistemas de alto risco (como concessão de crédito, recrutamento, educação e saúde) exigem avaliação de conformidade, documentação técnica, rastreabilidade de logs e supervisão humana. No Brasil, sob o art. 20 da LGPD, sempre que uma decisão for tomada unicamente com base em tratamento automatizado de dados pessoais, o titular tem direito a solicitar a revisão da decisão e informações claras sobre os critérios utilizados (embora a obrigatoriedade de revisão exclusivamente por pessoa natural tenha sido vetada na Lei 13.853/2019, manter revisão humana em decisões críticas segue altamente recomendado para reduzir passivos, e o texto do PL 2.338/2023 aprovado no Senado vai na mesma direção ao exigir supervisão humana efetiva em sistemas de alto risco).
 
 **Checklist de governança mínima.**
 
-- [ ] Model card interno documentado para cada feature AI decisiva?
+- [ ] Model card interno documentado para cada feature AI crítica?
 - [ ] Human-in-the-loop definido para decisões de alto impacto?
 - [ ] Auditoria de bias realizada com dataset representativo do ICP?
 - [ ] Plano de incidente de IA (trigger, rollback, comunicação)?
@@ -7130,7 +7130,7 @@ A distinção importa porque cada categoria tem implicações diferentes. Itera�
 
 ### Os seis tipos de pivot
 
-**1. Pivot de cliente (*customer pivot*).** Mantém o problema e a solução, mas muda o segmento de cliente-alvo. Isso acontece quando Você descobre que o cliente que imaginava inicialmente não é quem mais sofre, ou mais paga, por esse problema. Um cliente adjacente emerge como mais adequado. Exemplo. Produto pensado para pequena empresa, mas que decola em médias. O pivot é reposicionar ICP, e go-to-market, sem mudar o produto materialmente.
+**1. Pivot de cliente (*customer pivot*).** Mantém o problema e a solução, mas muda o segmento de cliente-alvo. Isso acontece quando você descobre que o cliente que imaginava inicialmente não é quem mais sofre, ou mais paga, por esse problema. Um cliente adjacente emerge como mais adequado. Exemplo. Produto pensado para pequena empresa, mas que decola em médias. O pivot é reposicionar ICP, e go-to-market, sem mudar o produto materialmente.
 
 **2. Pivô de problema (*problem pivot*).** Mantém o perfil de cliente e o conhecimento profundo do seu contexto operacional, mas muda a dor específica que o produto resolve. Ocorre quando o fundador descobre que o problema priorizado inicialmente é secundário diante de uma dor adjacente muito mais aguda e orçada dentro da mesma empresa: por exemplo, uma startup que começou vendendo um CRM comercial para pequenas empresas e, ao notar a desorganização fiscal dos clientes, passou a fornecer uma plataforma de conciliação contábil para esse mesmo público.
 
@@ -7300,8 +7300,8 @@ Com a resposta à pergunta de Andy Grove (do item 1 do Espelho acima) em mãos, 
 Ao concluir a travessia das Fases 11 a 13 e dos onze capítulos deste volume, os quatro negócios que acompanham esta coleção saem da incerteza do MVP e chegam ao *Product-Market Fit* com motores comerciais e operacionais distintos:
 
 - **Lucas e Marina (SaaS B2B e IA em São Paulo e Florianópolis):** após o pivô de recorte para focar exclusivamente na conciliação e auditoria de tesouraria, estabilizaram a curva de retenção das safras, alcançaram NRR acima de 112% ao ano com cobrança híbrida e *payback* do CAC abaixo de nove meses.
-- **Rafael e Bia (varejo D2C e marca nativa digital em São Paulo):** domaram a dependência de mídia paga com CRM e recorrência via WhatsApp e Pix, blindaram a margem de contribuição descontando frete, devoluções e tributos na ponta do lápis e transformaram o atendimento público em alavanca de recompra.
-- **Camila (marketplace e SaaS vertical de saúde em Belo Horizonte):** destravou a liquidez geográfica polo a polo, eliminou o vazamento de transações prendendo a agenda e o split de pagamentos ao fluxo de trabalho da clínica e reduziu o abandono de pacientes redesenhando o pós-atendimento.
-- **Henrique (hardware, IoT e IA industrial no interior de São Paulo e Centro-Oeste):** trocou o projeto sob medida por contratos anuais recorrentes com taxa de implantação que financia o equipamento, operando agentes preditivos em cascata com 92% de aprovação em um clique e margem bruta de software.
+- **Rafael e Bia (varejo D2C e marca nativa digital entre Recife e Goiânia):** domaram a dependência de mídia paga com CRM e recorrência via WhatsApp e Pix, blindaram a margem de contribuição descontando frete, devoluções e tributos na ponta do lápis e transformaram o atendimento público em alavanca de recompra.
+- **Camila (rede de clínicas e SaaS vertical de saúde em Belo Horizonte):** destravou a liquidez geográfica polo a polo, eliminou o vazamento de transações prendendo a agenda e o split de pagamentos ao fluxo de trabalho da clínica e reduziu o abandono de pacientes redesenhando o pós-atendimento.
+- **Henrique (hardware, IoT e IA industrial em Curitiba, com usinas clientes no Paraná e no Centro-Oeste):** trocou o projeto sob medida por contratos anuais recorrentes com taxa de implantação que financia o equipamento, operando agentes preditivos em cascata com 92% de aprovação em um clique e margem bruta de software.
 
-Com a retenção provada e a economia unitária saudável, cada um deles enfrenta agora a pergunta estratégica que abre o **Volume 5 (*Captação, Venture Capital e M&A*):** crescer com o próprio fluxo de caixa dos clientes (*bootstrapping*), contratar dívida e fomento não dilutivo (FINEP, BNDES, *venture debt*) ou captar capital de risco institucional para acelerar a conquista do mercado?
+Com a retenção provada e a economia unitária saudável, cada um deles enfrenta agora a pergunta estratégica que abre o **Volume 5 (*Finanças, Contabilidade, Tributário, Modelagem e Captação de Capital*):** crescer com o próprio fluxo de caixa dos clientes (*bootstrapping*), contratar dívida e fomento não diluitivo (Finep, BNDES, *venture debt*) ou captar capital de risco institucional para acelerar a conquista do mercado?

@@ -276,7 +276,7 @@ Estas cinco perguntas, adaptadas ao seu domínio, formam um núcleo mínimo para
 > 4. O que você já fez para tentar resolver isso? Se o entrevistado não fez absolutamente nada, a dor não é forte o suficiente para gerar negócio.
 > 5. O que você não gosta nas soluções que já tentou? A resposta é o rascunho inicial do seu roadmap de produto, com palavras do cliente.
 
-Para separar na pratica o *Pain Level* 4 do *Pain Level* 5 sem recorrer a perguntas hipotéticas sobre disposição a pagar, investigue sinais indiretos de orçamento já comprometido: pergunte quanto a empresa já desembolsou nos últimos seis meses com consultorias, horas extras, ferramentas paliativas ou retrabalho para conter o problema, e quem assinou essa despesa. Clientes no Nível 5 citam valores, fornecedores e prazos reais. No Nível 4, mostram a gambiarra interna, mas ainda não destinaram verba específica. Faça essa sondagem de custo histórico no fim da conversa, nunca na abertura, para não induzir a resposta.
+Para separar na prática o *Pain Level* 4 do *Pain Level* 5 sem recorrer a perguntas hipotéticas sobre disposição a pagar, investigue sinais indiretos de orçamento já comprometido: pergunte quanto a empresa já desembolsou nos últimos seis meses com consultorias, horas extras, ferramentas paliativas ou retrabalho para conter o problema, e quem assinou essa despesa. Clientes no Nível 5 citam valores, fornecedores e prazos reais. No Nível 4, mostram a gambiarra interna, mas ainda não destinaram verba específica. Faça essa sondagem de custo histórico no fim da conversa, nunca na abertura, para não induzir a resposta.
 
 > [!tip] Regra 80/20 de escuta em campo
 > **Regra 80/20 de escuta:** fale no máximo 20% do tempo e deixe o entrevistado ocupar os outros 80% narrando episódios reais da própria rotina (tanto nas entrevistas de descoberta da Fase 4 quanto nas entrevistas de aprofundamento da Fase 5).
@@ -555,7 +555,7 @@ Transforme a prospecção de descoberta em rotina semanal: toda segunda-feira, a
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Rob Fitzpatrick, empreendedor que passou pela Y Combinator em 2007 e fundador da consultoria de educação empreendedora Fundador Centric, publicou *The Mom Test* em 2013, um guia direto de cerca de 130 páginas. O título nasce da regra central: até a sua mãe vai dizer que a sua ideia é boa se você perguntar do jeito errado. O método ensina a formular perguntas ancoradas no passado concreto que extraem a verdade mesmo de interlocutores que querem agradar.
+Rob Fitzpatrick, empreendedor que passou pela Y Combinator em 2007 e fundador da consultoria de educação empreendedora Founder Centric, publicou *The Mom Test* em 2013, um guia direto de cerca de 130 páginas. O título nasce da regra central: até a sua mãe vai dizer que a sua ideia é boa se você perguntar do jeito errado. O método ensina a formular perguntas ancoradas no passado concreto que extraem a verdade mesmo de interlocutores que querem agradar.
 
 ##### A mecânica central (sem jargão)
 
@@ -2389,7 +2389,7 @@ Nenhum desses aprendizados emergiria de entrevista telefônica.
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Sociólogo Robert K. Merton desenvolveu "focused interviews" nos anos 1940 analisando reações de audiência a filmes de propaganda da Segunda Guerra. Comercialmente, virou "focus group" nos anos 1950 com aplicação a pesquisa de mercado (TV, produtos). Richard Krueger (U. Minnesota) refinou metodologicamente em *Focus Groups: A Practical Guide for Applied Research* (1988+). Uso excessivo em marketing dos anos 80-90 gerou decisivas, método ainda é útil se bem aplicado.
+Sociólogo Robert K. Merton desenvolveu "focused interviews" nos anos 1940 analisando reações de audiência a filmes de propaganda da Segunda Guerra. Comercialmente, virou "focus group" nos anos 1950 com aplicação a pesquisa de mercado (TV, produtos). Richard Krueger (U. Minnesota) refinou metodologicamente em *Focus Groups: A Practical Guide for Applied Research* (1988+). O uso excessivo em marketing nos anos 1980 e 1990 gerou críticas metodológicas, mas a técnica segue útil quando bem aplicada.
 
 ##### A mecânica central (sem jargão)
 
@@ -2524,7 +2524,7 @@ Implicação: produto que resolve fragmentação (visão única) atacaria dor do
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Cinco erros derrubam um estudo de diário: (1) pedir formulários diários longos demais, o que multiplica o desistência já no terceiro dia, (2) abandonar o grupo sem mensagens curtas de acompanhamento do pesquisador, (3) analisar os registros isoladamente sem fazer uma entrevista individual de 20 minutos ao final da semana para entender o contexto, (4) iniciar com apenas três ou quatro pessoas, ficando sem amostra válida se metade parar de responder, e (5) enviar perguntas enviesadas (*"qual problema grave você teve hoje?"*) em vez de instruções neutras (*"registre o momento em que precisou conferir o saldo hoje"*).
+Cinco erros derrubam um estudo de diário: (1) pedir formulários diários longos demais, o que multiplica a desistência já no terceiro dia, (2) abandonar o grupo sem mensagens curtas de acompanhamento do pesquisador, (3) analisar os registros isoladamente sem fazer uma entrevista individual de 20 minutos ao final da semana para entender o contexto, (4) iniciar com apenas três ou quatro pessoas, ficando sem amostra válida se metade parar de responder, e (5) enviar perguntas enviesadas (*"qual problema grave você teve hoje?"*) em vez de instruções neutras (*"registre o momento em que precisou conferir o saldo hoje"*).
 
 ---
 
@@ -2575,14 +2575,14 @@ Passo 5: Atualize anualmente. Usuários e mercado mudam.
 
 **Renata, 41 anos: diretora administrativa-financeira de distribuidora de autopeças em Londrina (PR)** (baseada nas entrevistas `ENTR-03`, `ENTR-08`, `ENTR-11` e `ENTR-15`):
 
-- Contexto: 2 sócios, 8 funcionários, atende 80 pacientes/semana.
+- **Contexto:** distribuidora regional de médio porte (R$ 18 milhões/ano, 35 funcionários, 3 bancos, 1.800 boletos e Pix/mês).
 - **Objetivos e trabalhos (*jobs*):** fechar o fluxo de caixa real na sexta-feira até as 16h sem depender de planilhas manuais do assistente financeiro e apresentar o relatório de inadimplência aos sócios na segunda-feira com segurança.
-- Frustrações: não entende relatórios do contador, descobre problemas tarde, medo de perder dinheiro.
-- Comportamento: usa WhatsApp intensamente, desconfia de tecnologia complexa, pede opinião do contador para tudo.
-- Motivações: autonomia, segurança, orgulho profissional.
-- Quote: "Eu só queria saber se tá dando certo sem precisar pedir ajuda pro marido e pro contador toda hora."
+- **Frustrações:** gasta 6 horas toda sexta-feira baixando arquivos OFX/CNAB de três bancos e cruzando no Excel com notas fiscais do ERP, já pagou frete e boleto em duplicidade por falha de digitação.
+- **Comportamento:** aprova pagamentos pelo celular entre reuniões, cobra a equipe pelo WhatsApp e rejeita sistemas que exijam meses de consultoria de TI.
+- **Motivações:** previsibilidade de caixa, blindagem contra erros operacionais e reputação de rigor perante os sócios.
+- **Citação literal (*verbatim*):** *"Na sexta-feira às 17h eu ainda não sei se o saldo que aparece no banco é dinheiro livre ou boleto que o ERP ainda não baixou."*
 
-Uso em decisões: feature de "relatório em linguagem simples" ganha prioridade (alinha com Camila), feature de "API para integração" desce prioridade (Camila não usa).
+Uso em decisões: o alerta automático de divergência entre boleto/Pix e nota fiscal entra no topo do MVP (resolve a sexta-feira de Renata), enquanto módulos de gráficos anuais cosméticos são descartados do escopo inicial.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -2804,12 +2804,12 @@ Aplicando a fórmula de oportunidade de Ulwick ($\text{Oportunidade} = \text{Imp
 
 - **Job 3 (Baixa prioridade, nota 4/10): "Visualizar gráficos anuais de faturamento por região em painel colorido"** (Importância = 3/5, Satisfação atual = 2/5 → $\text{Oportunidade} = 3 + (3 - 2) = 4$). Descartado do escopo inicial.
 
-- Emotional: "sentir que está no controle".
-- Social: "não parecer incompetente perante sócios ou família".
+- **Dimensão emocional:** sentir-se no controle do caixa antes de autorizar pagamentos na sexta-feira.
+- **Dimensão social:** demonstrar segurança e domínio dos números perante os sócios e a auditoria contábil.
 
-Implicação: produto que **faz Job 3 (alerta proativo de anomalias)** tem mais valor do que Job 1 ou 2 individualmente. O roadmap prioriza detecção de anomalias, indicador preventivo de saúde financeira e alertas preditivos.
+Implicação: o produto que **resolve o Job 1 (conciliação diária automática entre bancos e notas fiscais com alerta proativo de divergências)** entrega valor imediato muito superior a painéis estáticos de relatórios (Job 3). O roteiro de desenvolvimento prioriza a trava contra pagamentos duplicados e a reconciliação em tempo real.
 
-Concorrência redefinida: para Job 3, competidor não é só outros SaaS financeiros, é também "contador que telefona em crise", "WhatsApp com sócio". Design do produto considera essas alternativas.
+Concorrência redefinida: para o Job 1, o concorrente real não é apenas outro software financeiro, mas a planilha de sexta-feira do assistente, o comprovante avulso enviado por WhatsApp e a conferência manual por telefone com o contador.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -2950,11 +2950,9 @@ Tela visual organizada em **eixo horizontal de tempo** (etapas cronológicas pel
 - **2. Ação:** o que a pessoa faz concretamente naquela etapa.
 - **3. Objetivo:** o que ela tenta resolver naquele passo.
 - **4. Ferramentas atuais:** planilhas, conversas de WhatsApp, cadernos ou sistemas que ela usa hoje naquela etapa.
-- **Ação**: o que o cliente faz nessa etapa (concretamente, clica, abre app, liga, fala com).
-- **Objetivo**: o que ele tenta cumprir.
-- **Pontos de Dor**: onde algo dá errado, demora, frustra.
-- **Emoções**: o que ele sente (ansiedade, alívio, raiva, tédio, entusiasmo).
-- **Oportunidades**: onde existe espaço para intervenção.
+- **5. Pontos de dor:** onde algo dá errado, demora ou gera retrabalho e frustração.
+- **6. Emoções:** o que a pessoa sente naquele momento (ansiedade, alívio, irritação, insegurança).
+- **7. Oportunidades:** onde existe espaço concreto para intervenção do produto.
 
 Versões mais avançadas adicionam: ferramentas/canais usados, métricas de sucesso por etapa, KPIs internos, owners do touchpoint, dados quantitativos (NPS por etapa, conversão).
 
@@ -3052,15 +3050,7 @@ ___________________________________________
 Motivações principais (do que se importa)
 1) _______________________________________
 2) _______________________________________
-7. GATILHOS DE BUSCA E BARREIRAS À TROCA (forças de mudança)
-   - Gatilho que dispara a busca ativa ("o dia em que a corda arrebentou"): [preencher]
-   - Barreiras e ansiedades que travam a adoção (*anxiety* / *habit*): [preencher]
 
-8. CITAÇÃO LITERAL MARCANTE (*verbatim* entre aspas, com código da entrevista):
-   "[preencher]" (Entrevista: `JTBD-.`)
-
-9. BASE DE EVIDÊNCIA RASTREÁVEL (quais entrevistas de problema, sessões JTBD e observações sustentam esta ficha):
-   - Entrevistas e observações: `[ENTR-., JTBD-., OBS-.]`
 Frustrações principais
 1) _______________________________________
 2) _______________________________________
@@ -3598,7 +3588,7 @@ Regulamentação tratada como detalhe e a covardia estratégica de não excluir 
 
 #### Passo 10: construa o Canvas da Cunha (parte central)
 
-Este passo sintetiza na pratica o levantamento dos Passos 1 a 9. Sem definir a cunha de entrada no Canvas da Cunha, o Dossiê de Mercado corre o risco de virar apenas um relatório panorâmico sem direção comercial. A pergunta decisiva desta etapa é direta: por qual subsegmento específico começaremos a vender na segunda-feira? A resposta operacional é a Estratégia da Cunha (*Wedge Strategy*).
+Este passo sintetiza na prática o levantamento dos Passos 1 a 9. Sem definir a cunha de entrada no Canvas da Cunha, o Dossiê de Mercado corre o risco de virar apenas um relatório panorâmico sem direção comercial. A pergunta decisiva desta etapa é direta: por qual subsegmento específico começaremos a vender na segunda-feira? A resposta operacional é a Estratégia da Cunha (*Wedge Strategy*).
 
 A cunha é um ponto de entrada restrito e de alta alavancagem. Empresas que tentam vender desde o primeiro dia "para pequenas e médias empresas em geral" ou "para qualquer indústria" diluem o esforço: com foco largo, a mensagem fica genérica, o custo de aquisição sobe e o produto serve mal a todos. A cunha inverte essa lógica: entra por uma fresta específica, domina o subsegmento inicial e só então expande.
 
@@ -5933,7 +5923,6 @@ Além dos sete padrões clássicos de produto, mercado e governança, a reversã
 | 4 | Se fundador sumir sessenta dias, empresa continua? | Sim |
 | 5 | Se Google ou big tech vira isso feature, você sobrevive? | Sim |
 | 6 | Expansão internacional respeita os três pré-requisitos? | Sim antes de expandir |
-| 7 | Time de produto sênior está retido? Métricas-chave crescem? | Sim |
 | 7 | Equipe sênior de produto segue retida e métricas de uso crescem? | Sim |
 | 8 | A operação sobrevive 18 a 24 meses sem novo capital externo e com juro em dois dígitos? | Sim |
 

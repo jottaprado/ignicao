@@ -175,7 +175,7 @@ Quatro tipos de contrato.
 
 ##### Acordo de sócios desde a fundação
 
-Indispensável desde o primeiro dia entre cofundadores. Na LTDA, como as quotas são subscritas na abertura, o *vesting* opera por cláusula de opção de recompra das quotas não consolidadas pelo valor nominal (*reverse vesting*) no acordo de sócios, redigida com cautela para afastar risco de requalificação trabalhista se o sócio também for empregado. O acordo precisa cobrir seis pontos: (1) divisão societária e cronograma de *vesting*, (2) regras de saída voluntária, involuntária, invalidez e sucessão por morte, (3) matérias sujeitas a veto em decisões decisivas, (4) mecanismos de resolução de impasse e foro/arbitragem, (5) deveres de não concorrência e confidencialidade, e (6) cláusulas de *tag-along* (direito de venda conjunta) e *drag-along* (obrigação de venda conjunta) para rodadas futuras.
+Indispensável desde o primeiro dia entre cofundadores. Na LTDA, como as quotas são subscritas na abertura, o *vesting* opera por cláusula de opção de recompra das quotas não consolidadas pelo valor nominal (*reverse vesting*) no acordo de sócios, redigida com cautela para afastar risco de requalificação trabalhista se o sócio também for empregado. O acordo precisa cobrir seis pontos: (1) divisão societária e cronograma de *vesting*, (2) regras de saída voluntária, involuntária, invalidez e sucessão por morte, (3) matérias sujeitas a veto em decisões críticas, (4) mecanismos de resolução de impasse e foro/arbitragem, (5) deveres de não concorrência e confidencialidade, e (6) cláusulas de *tag-along* (direito de venda conjunta) e *drag-along* (obrigação de venda conjunta) para rodadas futuras.
 
 ```mermaid
 xychart-beta
@@ -207,7 +207,7 @@ A escolha dos cofundadores e o alinhamento prévio de expectativas estão na [[I
 > A conversa de divisão de equity deve acontecer em ambiente estruturado, com documentação. Acordos verbais em jantar geram memórias diferentes seis meses depois. Use um template de acordo ou leve para advogado desde o primeiro rascunho.
 
 > [!tip] Capítulo 12 (Vol. 6): Stock Options para Startups Brasileiras
-> O [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12: Stock Options e ESOP no Brasil (Vol. 6)]] cobre a estrutura jurídica e fiscal dos planos de incentivo de longo prazo: opções mercantis versus *phantom shares*, o julgamento vinculante do STJ no Tema 1.226 sobre IRPF, os cuidados previdenciários e como redigir a carta-convite de outorga sem criar passivo fiscal ou trabalhista.
+> O [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12: Stock Options e ESOP no Brasil (Vol. 6)]] cobre a estrutura jurídica e fiscal dos planos de incentivo de longo prazo: opções mercantis versus *phantom shares*, os julgamentos vinculantes do STJ nos Temas 1.226 (IRPF) e 1.379 (INSS/contribuição previdenciária), os requisitos de risco mercantil e como redigir a carta-convite de outorga sem criar passivo fiscal ou trabalhista.
 
 ##### Contrato com clientes
 
@@ -641,7 +641,7 @@ flowchart LR
 
 #### O que é o CPSI (arts. 12 a 15 da LC 182/2021)
 
-Os arts. 12 a 15 da LC 182/2021 autorizam órgãos e entidades da administração publica a realizar licitação em modalidade especial (aberta a qualquer pessoa física ou jurídica, isoladamente ou em consórcio) para celebrar o Contrato Público para Solução Inovadora (CPSI), com vigência de até 12 meses prorrogável por mais 12, para o desenvolvimento ou a execução experimental de soluções inovadoras.
+Os arts. 12 a 15 da LC 182/2021 autorizam órgãos e entidades da administração pública a realizar licitação em modalidade especial (aberta a qualquer pessoa física ou jurídica, isoladamente ou em consórcio) para celebrar o Contrato Público para Solução Inovadora (CPSI), com vigência de até 12 meses prorrogável por mais 12, para o desenvolvimento ou a execução experimental de soluções inovadoras.
 
 Combinado com a Lei 14.133/2021 (Nova Lei de Licitações), abre um caminho estruturado para govtech que não existia antes de 2021.
 
@@ -674,7 +674,7 @@ Depois de perder uma licitação tradicional da antiga Lei 8.666 nos primeiros a
 
 ### As Fronteiras da Lei: O Que o Marco Legal NÃO Resolve para o Sócio Administrador
 
-**Tributação de stock options:** a LC 182/2021 não alterou o regime fiscal das opções de compra para colaboradores. Em setembro de 2024, o STJ fixou tese vinculante no Tema 1.226 (recursos repetitivos): planos de opção de compra de ações (*stock option plans*) com voluntariedade, onerosidade e risco real de mercado possuem natureza mercantil para fins de Imposto de Renda Pessoa Física (IRPF), não incidindo IRPF na outorga nem no exercício, mas apenas ganho de capital (15% a 22,5%) na revenda futura das ações com lucro. Atenção a duas ressalvas práticas: o Tema 1.226 vincula a discussão de IRPF sobre compra de ações, mas não encerra automaticamente autuações de contribuição previdenciária (INSS) no CARF quando o fisco aponta ausência de risco mercantil, nem se confunde com planos de *phantom shares* pagos em dinheiro em LTDA (tributados como remuneração). Ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 (Stock Options e ESOP no Brasil) do Volume 6]].
+**Tributação de stock options:** a LC 182/2021 não alterou o regime fiscal das opções de compra para colaboradores. Em setembro de 2024, o STJ fixou tese vinculante no Tema 1.226 (recursos repetitivos): planos de opção de compra de ações (*stock option plans*) com voluntariedade, onerosidade e risco real de mercado possuem natureza mercantil para fins de Imposto de Renda Pessoa Física (IRPF), não incidindo IRPF na outorga nem no exercício, mas apenas ganho de capital (15% a 22,5%) na revenda futura das ações com lucro. Em 14 de outubro de 2026, o STJ consolidou a segurança jurídica ao julgar o Tema 1.379, confirmando que também não incide contribuição previdenciária (INSS) sobre planos mercantis de *stock options*. Atenção a duas ressalvas práticas: a proteção dos Temas 1.226 e 1.379 exige que o plano tenha efetiva natureza mercantil (onerosidade, voluntariedade e risco real de mercado, sem subvenção gratuita disfarçada de salário), e não se confunde com planos de *phantom shares* liquidados em dinheiro em LTDA (tributados como remuneração). Ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 (Stock Options e ESOP no Brasil) do Volume 6]].
 
 **Propriedade intelectual**. A lei não cria regras de IP para startups. Patentes, marcas, e cessão de código seguem legislação própria. Ver [[#CAPÍTULO 3: PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (Propriedade Intelectual e INPI)]].
 
@@ -859,7 +859,7 @@ A Consolidação das Leis do Trabalho e a jurisprudência trabalhista tratam a r
 
 Na Justiça do Trabalho, a desconsideração da personalidade jurídica para alcançar bens de sócios não exige a prova de desvio de finalidade ou de confusão patrimonial prevista no art. 50 do Código Civil. A jurisprudência trabalhista aplica por analogia a Teoria Menor do art. 28, § 5º, do CDC (por força do art. 8º da CLT), observando o rito processual do incidente de desconsideração (IDPJ, art. 855-A da CLT): não encontrados bens livres da empresa devedora suficientes para satisfazer a execução, o juiz instaura o incidente e ordinariamente redireciona a cobrança aos sócios (ao passo que, para outras empresas do mesmo grupo econômico que não participaram da fase de conhecimento, o STF vedou o redirecionamento executivo direto no Tema 1.232, julgado em outubro de 2025).
 
-A **Reforma Trabalhista de 2017 (Lei 13.467/2017)** inseriu o art. 855-A na CLT para exigir a instauração formal do IDPJ (arts. 133 a 137 do CPC) antes de atingir o patrimônio dos sócios. Isso garantiu o direito de defesa em 15 dias, mas o § 2º do próprio art. 855-A autoriza o juiz a conceder tutela provisória de urgência para bloqueio cautelar via Sisbajud antes da citação do sócio, e na pratica o IDPJ trabalhista avança rapidamente sempre que a pessoa jurídica não apresenta bens penhoráveis.
+A **Reforma Trabalhista de 2017 (Lei 13.467/2017)** inseriu o art. 855-A na CLT para exigir a instauração formal do IDPJ (arts. 133 a 137 do CPC) antes de atingir o patrimônio dos sócios. Isso garantiu o direito de defesa em 15 dias, mas o § 2º do próprio art. 855-A autoriza o juiz a conceder tutela provisória de urgência para bloqueio cautelar via Sisbajud antes da citação do sócio, e na prática o IDPJ trabalhista avança rapidamente sempre que a pessoa jurídica não apresenta bens penhoráveis.
 
 > [!note] Execução trabalhista contra sócios minoritários
 > A Justiça do Trabalho, ao incluir sócios na execução, não distingue automaticamente entre sócio-gerente e sócio minoritário passivo. O sócio que tinha 5% das quotas mas não participava da gestão pode ser incluído na execução e precisar apresentar sua defesa via IDPJ. Se não o fizer no prazo, a penhora pode se concretizar. Sócios minoritários que não participam da administração devem monitorar processos trabalhistas da empresa para proteger seus interesses.
@@ -2011,7 +2011,7 @@ Liste explicitamente pelo número ou título quais cláusulas são vinculantes, 
 
 ### Contrato de Advisor (Padrão FAST): Entregáveis de Disponibilidade, Vesting Mensal e Zero Poder de Veto
 
-No modelo *Fundador/Advisor Standard Template* (FAST v3, mantido pelo Founder Institute), a participação do conselheiro consultivo varia conforme o estágio da startup (*Idea/Pre-Seed*, *Seed* ou *Series A/Growth*) e o nível de contribuição (*Standard*, *Strategic* ou *Expert*), indo de 0,10% a 1,00% em opções, com *vesting* mensal ao longo de 24 meses e *cliff* de 3 meses (embora no Brasil diversas startups estendam o *cliff* para 6 a 12 meses ou alinhem o contrato ao cronograma de 4 anos do plano geral de *stock options* visto no Volume 1, Capítulo 12). O contrato deve especificar os entregáveis objetivos de disponibilidade (horas mensais, abertura de portas comerciais ou revisão técnica), prever cessão integral de PI e declarar expressamente que o *advisor* atua em caráter estritamente consultivo, sem cargo estatutário, assento deliberativo, direito de voto ou poder de veto societário.
+No modelo *Founder/Advisor Standard Template* (FAST v3, mantido pelo Founder Institute), a participação do conselheiro consultivo varia conforme o estágio da startup (*Idea/Pre-Seed*, *Seed* ou *Series A/Growth*) e o nível de contribuição (*Standard*, *Strategic* ou *Expert*), indo de 0,10% a 1,00% em opções, com *vesting* mensal ao longo de 24 meses e *cliff* de 3 meses (embora no Brasil diversas startups estendam o *cliff* para 6 a 12 meses ou alinhem o contrato ao cronograma de 4 anos do plano geral de *stock options* visto no [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Volume 6, Capítulo 12]] e na [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 12: REDE, MENTORES E ADVISORS: COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|governança de conselheiros do Volume 1, Capítulo 12]]). O contrato deve especificar os entregáveis objetivos de disponibilidade (horas mensais, abertura de portas comerciais ou revisão técnica), prever cessão integral de PI e declarar expressamente que o *advisor* atua em caráter estritamente consultivo, sem cargo estatutário, assento deliberativo, direito de voto ou poder de veto societário.
 
 #### Escopo de trabalho
 
@@ -2689,7 +2689,7 @@ O que **não pode** ser negociado coletivamente (art. 611-B):
 - Salário mínimo.
 - Normas de saúde e segurança do trabalho.
 - Proibições de discriminação.
-- Licença maternidade/paternidade.
+- Licença-maternidade e licença-paternidade (incluindo a ampliação gradual de 5 para até 20 dias e o salário-paternidade instituídos pela Lei nº 15.371/2026, detalhados no Volume 6, Capítulo 11).
 - 13º salário e FGTS.
 
 #### Data-base
@@ -3061,8 +3061,7 @@ Custos ocultos revelados só na tela final (drip pricing)      Art. 6º, III e a
 ```
 
 > [!important]
-> *Dark patterns* geram autuação direta
-> o CDC, combinado com o Marco Civil da Internet e a LGPD, fundamenta sanções administrativas e condenações judiciais contra plataformas que empregam interfaces enganosas ou obstáculos artificiais de cancelamento. A ANPD e a Senacon também fiscalizam padrões manipulativos na coleta de consentimento.
+> ***Dark patterns* geram autuação direta:** o CDC, combinado com o Marco Civil da Internet e a LGPD, fundamenta sanções administrativas e condenações judiciais contra plataformas que empregam interfaces enganosas ou obstáculos artificiais de cancelamento. A ANPD e a Senacon também fiscalizam padrões manipulativos na coleta de consentimento.
 
 **Regras para publicidade de crédito**
 
@@ -3137,7 +3136,7 @@ CDC - Lei 8.078/1990               Base de todo o sistema
 Decreto 7.962/2013                 Decreto do Comércio Eletrônico (informação, atendimento e arrependimento)
 Lei 12.965/2014 (Marco Civil)      Responsabilidade de plataformas
 Lei 13.709/2018 (LGPD)             Dados pessoais - interseção com CDC
-**Res:** CMN 4.881/2020 e normas BCB   Transparência e Custo Efetivo Total (CET) em operações de crédito
+Res. CMN 4.881/2020 e normas BCB   Transparência e Custo Efetivo Total (CET) em operações de crédito
 Decreto 13.135/2026 (substitui o Dec. 11.034 em 02/11/2026) SAC humano 8h-20h, triagem IA e cancelamento imediato
 Guia CONAR de Influenciadores e Anexo Q  Publicidade digital com criadores de conteúdo e testemunhais
 ```
@@ -3146,11 +3145,11 @@ Guia CONAR de Influenciadores e Anexo Q  Publicidade digital com criadores de co
 
 **Ver também:**
 
-- [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9: LGPD, Compliance e Governança de Dados]] – proteção de dados pessoais e interface direta com o CDC
-- [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5: Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo]] – Termos de Uso, SLA, assinatura eletrônica e validade probatória
-- [[#CAPÍTULO 3: PROPRIEDADE INTELECTUAL E INPI|Capítulo 3: Propriedade Intelectual e INPI]] – proteção de marca, domínio e código-fonte
-- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO|Fase 11: MVP e Experimentos de Mercado (Vol. 4)]] – momento em que a oferta comercial ao consumidor entra em produção
-- [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#FASE 17: OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17: Operações, Processos e Gestão em Escala (Vol. 7)]] – implementação de compliance operacional no produto
+- [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9: LGPD, Compliance e Governança de Dados]]: proteção de dados pessoais e interface direta com o CDC
+- [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5: Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo]]: Termos de Uso, SLA, assinatura eletrônica e validade probatória
+- [[#CAPÍTULO 3: PROPRIEDADE INTELECTUAL E INPI|Capítulo 3: Propriedade Intelectual e INPI]]: proteção de marca, domínio e código-fonte
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO|Fase 11: MVP e Experimentos de Mercado (Vol. 4)]]: momento em que a oferta comercial ao consumidor entra em produção
+- [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#FASE 17: OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17: Operações, Processos e Gestão em Escala (Vol. 7)]]: implementação de compliance operacional no produto
 
 ---
 
@@ -3516,8 +3515,7 @@ Para ações consumeristas individuais no JEC, um escritório generalista ou uma
 - Nunca recomendar acordo quando o cálculo econômico claramente favorece a transação
 
 > [!tip]
-> Peça relatório trimestral de todos os processos ativos com
-> estado atual, próxima movimentação esperada, prazo, risco atualizado e valor provisionado. Se o advogado recusar ou não conseguir entregar, é um sinal relevante sobre a qualidade da gestão.
+> **Peça relatório trimestral de todos os processos ativos com:** estado atual, próxima movimentação esperada, prazo, risco atualizado e valor provisionado. Se o advogado recusar ou não conseguir entregar, é um sinal relevante sobre a qualidade da gestão.
 
 ---
 
@@ -3554,12 +3552,12 @@ Este capítulo integra os quatro vetores de contencioso (trabalhista, cível, tr
 
 **Ver também:**
 
-- [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5: Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo]] – modelos e cláusulas contratuais que reduzem litígios na origem
-- [[#CAPÍTULO 6: DIREITO DO TRABALHO PARA STARTUPS|Capítulo 6: Direito do Trabalho para Startups]] – prevenção de passivo trabalhista na contratação
-- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2: CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2: Contabilidade, Regimes Fiscais e Tributário Estratégico (Vol. 5)]] – escolha de regime e gestão do contencioso fiscal
-- [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9: LGPD, Compliance e Governança de Dados]] – prevenção a incidentes regulatórios e responsabilidade civil por dados
-- [[#FASE 18: ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18: Estruturação Jurídica, Societária e Blindagem Operacional]] – fundamentos da estruturação legal da empresa
-- [[IGNICAO-Vol-4-Tracao-e-PMF#Canvas: Risk Canvas|Canvas: Risk Canvas (Fase 12, Vol. 4)]] – quadro visual de avaliação de riscos operacionais, regulatórios e de execução da Fase 12
+- [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5: Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo]]: modelos e cláusulas contratuais que reduzem litígios na origem
+- [[#CAPÍTULO 6: DIREITO DO TRABALHO PARA STARTUPS|Capítulo 6: Direito do Trabalho para Startups]]: prevenção de passivo trabalhista na contratação
+- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2: CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2: Contabilidade, Regimes Fiscais e Tributário Estratégico (Vol. 5)]]: escolha de regime e gestão do contencioso fiscal
+- [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9: LGPD, Compliance e Governança de Dados]]: prevenção a incidentes regulatórios e responsabilidade civil por dados
+- [[#FASE 18: ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18: Estruturação Jurídica, Societária e Blindagem Operacional]]: fundamentos da estruturação legal da empresa
+- [[IGNICAO-Vol-4-Tracao-e-PMF#Canvas: Risk Canvas|Canvas: Risk Canvas (Fase 12, Vol. 4)]]: quadro visual de avaliação de riscos operacionais, regulatórios e de execução da Fase 12
 
 ---
 
@@ -3874,7 +3872,7 @@ A relevância para uma empresa brasileira não é óbvia à primeira vista. Mas 
 - usa IA em decisões que afetam cidadãos europeus
 - coloca no mercado ou coloca em serviço um sistema de IA na União Europeia, ou cujos resultados (*outputs*) gerados pelo sistema de IA sejam utilizados na União Europeia (alcance extraterritorial direto do art. 2º, 1, do Regulamento UE 2024/1689)
 
-.está juridicamente sujeita ao EU AI Act nos dois primeiros casos, independentemente de sua sede ser no Brasil. Além disso, mesmo quando a startup atua apenas no mercado doméstico, investidores europeus ou multinacionais clientes frequentemente exigem por força contratual a adoção de controles equivalentes aos do regulamento europeu durante a diligência técnica.
+A startup está juridicamente sujeita ao EU AI Act nos três casos acima, independentemente de sua sede ser no Brasil. Além disso, mesmo quando a startup atua apenas no mercado doméstico, investidores europeus ou multinacionais clientes frequentemente exigem por força contratual a adoção de controles equivalentes aos do regulamento europeu durante a diligência técnica.
 
 As categorias do EU AI Act são:
 
@@ -3942,7 +3940,7 @@ O PL 2338/2023 lista as aplicações de IA consideradas de alto risco. Os pontos
 - Segurança pública: identificação biométrica, avaliação de risco criminal, monitoramento
 - Benefícios sociais: elegibilidade a programas governamentais
 
-Para um sistema de RH-tech com triagem automatizada de currículos, uma healthtech com suporte ao diagnóstico médico ou uma edtech com avaliação determinante de ingresso e certificação, o produto enquadra-se diretamente como de alto risco pelo art. 14 do PL 2338/2023. E para uma fintech de crédito, embora o Senado tenha remetido a regulação prudencial de escoragem financeira ao Banco Central e à LGPD, os bancos parceiros cobram na pratica o mesmo padrão de auditabilidade e explicabilidade.
+Para um sistema de RH-tech com triagem automatizada de currículos, uma healthtech com suporte ao diagnóstico médico ou uma edtech com avaliação determinante de ingresso e certificação, o produto enquadra-se diretamente como de alto risco pelo art. 14 do PL 2338/2023. E para uma fintech de crédito, embora o Senado tenha remetido a regulação prudencial de escoragem financeira ao Banco Central e à LGPD, os bancos parceiros cobram na prática o mesmo padrão de auditabilidade e explicabilidade.
 
 **Obrigações dos agentes da cadeia de IA: desenvolvedor, distribuidor e aplicador (art. 4º do PL 2338/2023)**
 
@@ -4373,11 +4371,11 @@ PL 2338/2023        (180 dias para dispositivos prioritários e até 730
 
 **Ver também:**
 
-- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10: IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10: IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026) (Vol. 1)]] – uso prático de IA no dia a dia do fundador
-- [[#CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11: Compliance e Anticorrupção para Startups]] – estrutura geral de integridade, governança e conformidade corporativa
-- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12: Validação do Modelo de Negócio e Mapeamento de Riscos (Vol. 4)]], ferramentas visuais de análise de risco do modelo de negócio
-- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10: AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 10: AI Como Parte do Produto (AI-Native Product) (Vol. 4)]], decisões de arquitetura, provedores de modelos e governança de IA desde o desenho do produto
-- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12: Validação do Modelo de Negócio (Vol. 4)]] – onde modelos de crédito e precificação com IA aparecem com maior frequência
+- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10: IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10: IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026) (Vol. 1)]]: uso prático de IA no dia a dia do fundador
+- [[#CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11: Compliance e Anticorrupção para Startups]]: estrutura geral de integridade, governança e conformidade corporativa
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12: Validação do Modelo de Negócio e Mapeamento de Riscos (Vol. 4)]]: ferramentas visuais de análise de risco do modelo de negócio
+- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10: AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 10: AI Como Parte do Produto (AI-Native Product) (Vol. 4)]]: decisões de arquitetura, provedores de modelos e governança de IA desde o desenho do produto
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12: Validação do Modelo de Negócio (Vol. 4)]]: onde modelos de crédito e precificação com IA aparecem com maior frequência
 
 ---
 
@@ -4401,7 +4399,7 @@ Submeta todos os recursos de Inteligência Artificial do seu produto a este inte
 
 ### A Responsabilidade Objetiva da Lei 12.846/2013 e o Representante Comercial Sem Controle
 
-Em Curitiba, a empresa de tecnologia industrial e gestão pública de Henrique disputava uma licitação competitiva de R$ 3,8 milhões em um município de médio porte do interior. Na pressa de abrir aquela região, o diretor comercial havia contratado um representante autônomo local por indicação informal, sem questionário prévio de integridade (*due diligence* de terceiros), sem cláusula resolutiva anticorrupção revisada e apenas com a promessa de comissão sobre o êxito. Sem que Henrique soubesse, o representante prometeu pagar por fora uma "consultoria" de 8% a um assessor da comissão municipal para acelerar o ateste técnico da prova de conceito. A operação policial que investigava a prefeitura interceptou as mensagens no celular do assessor e intimou a empresa a prestar esclarecimentos em investigação preliminar. Na manhã seguinte, Henrique constatou na pratica o rigor do artigo 2º da Lei Anticorrupção Brasileira (Lei 12.846/2013): a responsabilidade civil e administrativa da pessoa jurídica por atos lesivos à administração pública é objetiva, sujeitando a empresa à multa administrativa de 0,1% a 20% do faturamento bruto (art. 6º, I) e, de forma cumulada pela Nova Lei de Licitações (Lei 14.133/2021, arts. 155 e 156, que também exige Programa de Integridade em contratações de grande vulto, conforme art. 25, § 4º), às sanções de impedimento de licitar ou declaração de inidoneidade, mesmo sem ciência do CEO.
+Em Curitiba, a empresa de tecnologia industrial e gestão pública de Henrique disputava uma licitação competitiva de R$ 3,8 milhões em um município de médio porte do interior. Na pressa de abrir aquela região, o diretor comercial havia contratado um representante autônomo local por indicação informal, sem questionário prévio de integridade (*due diligence* de terceiros), sem cláusula resolutiva anticorrupção revisada e apenas com a promessa de comissão sobre o êxito. Sem que Henrique soubesse, o representante prometeu pagar por fora uma "consultoria" de 8% a um assessor da comissão municipal para acelerar o ateste técnico da prova de conceito. A operação policial que investigava a prefeitura interceptou as mensagens no celular do assessor e intimou a empresa a prestar esclarecimentos em investigação preliminar. Na manhã seguinte, Henrique constatou na prática o rigor do artigo 2º da Lei Anticorrupção Brasileira (Lei 12.846/2013): a responsabilidade civil e administrativa da pessoa jurídica por atos lesivos à administração pública é objetiva, sujeitando a empresa à multa administrativa de 0,1% a 20% do faturamento bruto (art. 6º, I) e, de forma cumulada pela Nova Lei de Licitações (Lei 14.133/2021, arts. 155 e 156, que também exige Programa de Integridade em contratações de grande vulto, conforme art. 25, § 4º), às sanções de impedimento de licitar ou declaração de inidoneidade, mesmo sem ciência do CEO.
 
 Basta um único despachante aduaneiro, representante comercial ou consultor de licitação oferecer uma vantagem indevida em nome da sua marca para expor o CNPJ da empresa a multas severas, bloqueio cautelar e proibição de contratar com o poder público.
 
@@ -4548,7 +4546,7 @@ Reputação e antecedentes
 
 Capacidade e proporcionalidade
 [ ] O parceiro tem estrutura operacional compatível com o serviço prestado?
-[ ] A remuneração é compatível com o serviço técnico efetivamente comprovado? Em vendas ao setor público, qualquer comissão de êxito exige justificativa escrita, *due diligence* prévia e aprovação da diretoria ou do conselho, pois percentuais fora do padrão ou sem entregável técnico documentado são sinal clássico de alerta.
+[ ] A remuneração é compatível com o serviço técnico efetivamente comprovado? Em vendas ao setor público, qualquer comissão de êxito exige justificativa escrita, diligência prévia (due diligence) e aprovação da diretoria ou do conselho, pois percentuais fora do padrão ou sem entregável técnico documentado são sinal clássico de alerta.
 [ ] O pagamento está condicionado à emissão de nota fiscal detalhada acompanhada do relatório técnico do serviço efetivamente prestado?
 [ ] Há justificativa documentada para a escolha deste parceiro específico?
 
@@ -4806,8 +4804,8 @@ Despesas e reembolsos
 Acesso a sistemas financeiros
 [ ] MFA em todos os sistemas financeiros (banco, ERP, folha)
 [ ] Revisão de acessos privilegiados: mensal para produção e sistemas financeiros decisivos, e trimestral para os demais sistemas
-[ ] Acesso de ex-colaboradores e ex-prestadores revogado no dia do desligamento (em até 1 hora para sistemas decisivos e em até 24 horas para as demais ferramentas)
-[ ] Registros (*logs*) preservados segundo a tabela unificada: no mínimo 6 meses para acesso a aplicações (Marco Civil, art. 15), 1 ano para trilhas de segurança e auditoria (PCI DSS / SOC 2 / ISO 27001), 5 anos para registros de incidentes de dados (Res. CD/ANPD 15/2024) e documentos fiscais/financeiros, e 20 anos para prontuários de saúde e registros ocupacionais (Lei 13.787/2018 e NR-7)
+[ ] Acesso de ex-colaboradores e ex-prestadores revogado no dia do desligamento (em até 1 hora para sistemas críticos e em até 24 horas para as demais ferramentas)
+[ ] Registros (logs) preservados segundo a tabela unificada: no mínimo 6 meses para acesso a aplicações (Marco Civil, art. 15), 1 ano para trilhas de segurança e auditoria (PCI DSS / SOC 2 / ISO 27001), 5 anos para registros de incidentes de dados (Res. CD/ANPD 15/2024) e documentos fiscais/financeiros, e 20 anos para prontuários de saúde e registros ocupacionais (Lei 13.787/2018 e NR-7)
 
 Transações com partes relacionadas
 [ ] Registro e divulgação de todas as transações entre a empresa e seus sócios/diretores
@@ -4816,8 +4814,7 @@ Transações com partes relacionadas
 ```
 
 > [!tip]
-> A maioria dos controles acima não requer software caro
-> exige processo documentado, dupla aprovação e segregação real de funções. Uma empresa de dez pessoas consegue implantar todos os itens da lista com planilhas auditáveis e dupla alçada configurada diretamente no *internet banking* corporativo, proibindo autorização de pagamentos apenas por mensagem de WhatsApp ou e-mail sem confirmação por chamada de voz para número previamente cadastrado.
+> **A maioria dos controles acima não requer software caro:** exige processo documentado, dupla aprovação e segregação real de funções. Uma empresa de dez pessoas consegue implantar todos os itens da lista com planilhas auditáveis e dupla alçada configurada diretamente no *internet banking* corporativo, proibindo autorização de pagamentos apenas por mensagem de WhatsApp ou e-mail sem confirmação por chamada de voz para número previamente cadastrado.
 
 #### O que não é SOX mas parece SOX
 
@@ -5274,7 +5271,7 @@ Mesmo em programas maduros, incidentes acontecem. A diferença entre empresas qu
 
 O guia de referência é o **NIST SP 800-61 Rev. 3 (publicado em abril de 2025)**, que integrou a resposta a incidentes às seis funções do NIST CSF 2.0 (Governar, Identificar, Proteger, Detectar, Responder e Recuperar), enquanto no dia a dia operacional as equipes continuam organizando os *runbooks* no ciclo clássico de quatro etapas consagrado pela revisão anterior: Preparação (plano, ferramentas, runbooks, contatos, feito antes). Detecção e análise (SOC recebe alerta, triage, escalação). Contenção, erradicação e recuperação (isolar, remover causa, restaurar). E pós-incidente (análise de causa raiz, lições aprendidas, atualização de controles).
 
-> [!warning] Decisões decisivas em tempo real
+> [!warning] Decisões críticas em tempo real
 > **Comunique dentro do prazo legal.** Ocultar um incidente agrava severamente as sanções administrativas e a perda de confiança dos clientes. Pela Resolução CD/ANPD nº 15/2024, qualquer incidente de segurança que possa acarretar risco ou dano relevante aos titulares deve ser comunicado à ANPD e aos afetados em até 3 dias úteis contados da ciência de que houve afetação de dados pessoais (ou 6 dias úteis para agentes de pequeno porte, conforme detalhado nos [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulos 9]] e [[#CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|11]]). Se houver dados sujeitos ao GDPR europeu, o prazo perante a autoridade europeia é de 72 horas corridas.
 >
 > Pagamento de ransomware é controverso. FBI e polícia geralmente orientam não pagar. Backup testado evita precisar. OFAC nos EUA pode penalizar pagamento a entidades sancionadas.
@@ -5372,4 +5369,4 @@ Faça esta auditoria de segurança de cinco minutos junto com seu líder de tecn
 
 ---
 
-**Fecho do Volume 8 e próximos passos:** Com a estrutura societária e contratual blindada (Capítulos 1 a 5), as relações de trabalho e de propriedade intelectual protegidas (Capítulos 6 e 7), a engenharia tributária ajustada à Reforma do IBS/CBS (Capítulo 8) e a operação resguardada por governança de dados e IA, *compliance*, controles internos antifraude e segurança da informação auditável (Capítulos 9 a 13), sua empresa tem o alicerce jurídico e técnico para escalar sem passivos ocultos. Para consulta rápida da terminologia técnica, jurídica e financeira utilizada neste volume, recorra ao Dicionário de Termos de Negócios, Tecnologia e Finanças no Volume 10. No Volume 9 (Maturidade, Governança e Exit), avançamos para o próximo estágio da jornada: conselho de administração, gestão de crise aguda, expansão internacional, fusões e aquisições (M&A) e preparação para o IPO.
+**Fecho do Volume 8 e próximos passos:** Com a estrutura societária, a propriedade intelectual e a arquitetura contratual blindadas (Capítulos 1 a 5), as relações de trabalho e de consumo protegidas (Capítulos 6 e 7), a gestão estratégica do contencioso e do passivo contingente estruturada (Capítulo 8) e a operação resguardada por governança de dados e IA, *compliance*, controles internos antifraude e segurança da informação auditável (Capítulos 9 a 13), sua empresa tem o alicerce jurídico e técnico para escalar sem passivos ocultos. Para consulta rápida da terminologia técnica, jurídica e financeira utilizada neste volume, recorra ao Dicionário de Termos de Negócios, Tecnologia e Finanças no Volume 10. No Volume 9 (Maturidade, Governança e Exit), avançamos para o próximo estágio da jornada: conselho de administração, gestão de crise aguda, expansão internacional, fusões e aquisições (M&A) e preparação para o IPO.

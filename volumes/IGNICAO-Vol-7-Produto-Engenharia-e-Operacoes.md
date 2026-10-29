@@ -1212,7 +1212,7 @@ Medir apenas volume de atividade (como commits ou linhas de código por dia) cri
 
 ---
 
-#### Framework: Memorando Narrativo de 6 Páginas (Amazon 6-Pager, Jeff Bezos, ver também Capítulo 8: Comunicação Interna e Gestão do Conhecimento)
+#### Framework: Memorando Narrativo de 6 Páginas (Amazon 6-Pager, Jeff Bezos, ver também Capítulos 8 e 9: Gestão do Conhecimento e Comunicação Interna)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -1372,7 +1372,7 @@ Exemplo aplicado, Onboarding de novo cliente SaaS. Suppliers: Sales (info do cli
 
 ---
 
-#### Framework: Mapeamento de Fluxo de Valor (Value Stream Mapping, Ohno / Rother & Shook, 1998, ver Capítulo 9: Operações de Atendimento, Suporte Técnico e Escala de Operações)
+#### Framework: Mapeamento de Fluxo de Valor (Value Stream Mapping, Ohno / Rother & Shook, 1998, ver Capítulo 10: Operações em Escala)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -1476,7 +1476,7 @@ Bons OKRs são *mensuráveis* (ancorados em números verificáveis), *desafiador
 
 ---
 
-#### Template: Pós-Mortem Sem Culpa de Incidente Técnico (Referência para o Capítulo 3: Dívida Técnica e Confiabilidade e para o Capítulo 8: Comunicação Interna e Gestão do Conhecimento)
+#### Template: Pós-Mortem Sem Culpa de Incidente Técnico (Referência para o Capítulo 4: Engineering Management, Developer Experience e Gestão de Dívida Técnica e para os Capítulos 8 e 9: Gestão do Conhecimento e Comunicação Interna)
 
 > [!note] Quando usar
 > Após qualquer incidente que afetou usuários, dados ou operações por mais de 15 minutos, ou que causou perda de dados, falha de pagamento ou exposição de informações. Circule o rascunho em até 48 horas após a resolução e publique a versão final revisada com o time em até cinco dias úteis. Quando houver incidente de segurança com dados pessoais que possa acarretar risco ou dano relevante aos titulares, acione imediatamente o encarregado (DPO) para comunicar a ANPD e os titulares em até três dias úteis do conhecimento (Resolução CD/ANPD nº 15/2024, art. 6º. Ver Volume 8, Capítulo 9).
@@ -1518,11 +1518,11 @@ Bons OKRs são *mensuráveis* (ancorados em números verificáveis), *desafiador
 
 ##### 3. Causa-raiz (5 Porquês)
 
-- **Por quê 1:** `[O serviço ficou fora do ar porque.]`
-- **Por quê 2:** `[Isso aconteceu porque.]`
-- **Por quê 3:** `[Isso foi possível porque.]`
-- **Por quê 4:** `[O sistema permitiu isso porque.]`
-- **Por quê 5 (causa-raiz):** `[A causa fundamental foi.]`
+- **1º Porquê:** `[O serviço ficou fora do ar porque <descrever causa imediata>]`
+- **2º Porquê:** `[Isso aconteceu porque <descrever causa subjacente>]`
+- **3º Porquê:** `[Isso foi possível porque <descrever falha de controle>]`
+- **4º Porquê:** `[O sistema permitiu isso porque <descrever lacuna de processo ou arquitetura>]`
+- **5º Porquê (causa-raiz):** `[A causa fundamental foi <descrever causa-raiz sistêmica>]`
 
 ##### 4. Fatores contribuintes
 
@@ -1556,7 +1556,6 @@ Bons OKRs são *mensuráveis* (ancorados em números verificáveis), *desafiador
 - [ ] Status page atualizada durante o incidente
 - [ ] E-mail / in-app notification enviado para afetados
 - [ ] SLA credit aplicado (se contratualmente obrigado)
-- [ ] Resposta individual para clientes enterprise que reportaram
 - [ ] Resposta individual enviada para clientes corporativos que reportaram a falha
 - [ ] Incidente de segurança com dados pessoais sob risco ou dano relevante: o encarregado (DPO) avaliou o impacto e comunicou formalmente a ANPD (Agência Nacional de Proteção de Dados, Lei 15.352/2026) e os titulares em até 3 dias úteis do conhecimento (Resolução CD/ANPD nº 15/2024, art. 6º, prazo em dobro para agentes de pequeno porte, ver Volume 8, Capítulo 9)
 
@@ -2597,7 +2596,7 @@ Em tecnologia no Brasil, a contratação via PJ é frequente em faixas seniores 
 
 Depois de 2020, o trabalho remoto e o híbrido consolidaram-se em tecnologia. Em 2026, embora muitas empresas operem em regime híbrido, exigir presença física integral restringe a busca ao raio geográfico local.
 
-Bootcamps, e programas alternativos (Reprograma, Awari, Trybe, Cubos Academy, Resilia Educacao), formam devs sem graduação tradicional. Sinal válido. Olhe portfolio ou código.
+Bootcamps e programas alternativos (Reprograma, Awari, Trybe, Cubos Academy, Resilia Educação) formam devs sem graduação tradicional. Sinal válido. Olhe portfolio ou código.
 
 Universidades referência. USP, Unicamp, UFMG, UFRJ, ITA, UFPE, UFRGS, UnB. Mas pedigree não é tudo. Muitos excelentes vieram de outros caminhos.
 
@@ -2853,7 +2852,7 @@ O principal indicador de ativação é o TTFHW (*Time To First Hello World*), qu
 
 **NPS de Desenvolvedores (*Developer NPS*):** meça periodicamente a satisfação dos engenheiros que integram a plataforma, tendo como referência de mercado notas acima de 30 como saudáveis e acima de 50 como patamar de excelência.
 
-### Parte 2.2: Experiência do Desenvolvedor Interno (Internal DevEx) e Produtividade da Engenharia
+#### Experiência do Desenvolvedor Interno (Internal DevEx) e Produtividade da Engenharia
 
 #### DX interno
 
@@ -2966,11 +2965,11 @@ DX externo como afterthought. Em produto para dev, documentação é o produto. 
 
 *Roteiros de operação (runbooks) testados a frio*: obrigue o especialista a documentar o passo a passo de implantação e resposta a incidentes e valide o documento colocando outro engenheiro para executá-lo em homologação sem ajuda.
 
-*Rodízio de plantão com acompanhamento (shadowing)*: incluir engenheiros de squads vizinhos como acompanhantes na escala de plantão distribui na pratica o domínio sobre os modos de falha do sistema.
+*Rodízio de plantão com acompanhamento (shadowing)*: incluir engenheiros de squads vizinhos como acompanhantes na escala de plantão distribui na prática o domínio sobre os modos de falha do sistema.
 
-*Registros de decisão de arquitetura (ADRs)*: conforme a disciplina de engenharia vista no Capítulo 2 (e detalhada com modelo prático completo no Capítulo 8, seção 5), registre no repositório o contexto, a decisão tomada, as alternativas descartadas e as consequências aceitas para que novos engenheiros compreendam a evolução do sistema.
+*Registros de decisão de arquitetura (ADRs)*: conforme a disciplina de engenharia vista no Capítulo 2 (e detalhada com modelo prático completo no Capítulo 8, Gestão do Conhecimento, e no Capítulo 9, Comunicação Interna, seção 5), registre no repositório o contexto, a decisão tomada, as alternativas descartadas e as consequências aceitas para que novos engenheiros compreendam a evolução do sistema.
 
-**Sucessão para papel de CTO ou Tech Lead sênior.** Para o papel mais decisivo de conhecimento concentrado, o plano deve incluir: (1) identificar internamente 1-2 candidatos de longo prazo, (2) dar-lhes exposição gradual às responsabilidades de liderança técnica (representação em board, decisões de arquitetura), (3) documentar decisões estratégicas com raciocínio, para que successor entenda o "why" além do "what". Em scaleup, o CTO que não tem sucessor planejado é risco para a empresa inteira: especialmente em M&A, onde adquirente avalia dependência de pessoa-chave.
+**Sucessão para papel de CTO ou Tech Lead sênior.** Para o papel mais decisivo de conhecimento concentrado, o plano deve incluir: (1) identificar internamente 1-2 candidatos de longo prazo, (2) dar-lhes exposição gradual às responsabilidades de liderança técnica (representação em board, decisões de arquitetura), (3) documentar decisões estratégicas com raciocínio, para que o sucessor entenda o "why" além do "what". Em scaleup, o CTO que não tem sucessor planejado é risco para a empresa inteira: especialmente em M&A, onde adquirente avalia dependência de pessoa-chave.
 
 **Quando não há candidato interno.** Contratação de Staff ou Principal Engineer com mandato explícito de distribuir conhecimento antes de escalar. Consultant ou advisor técnico temporário para documentar sistemas legados. Engineering manager que faz pair sistemático com o technical lead para aprender suficiente para gerenciar em ausência.
 
@@ -3692,7 +3691,7 @@ ATENDIMENTO AO CLIENTE
 
 CUSTOS E QUALIDADE
 [ ] Monitoro custo de IA como linha separada no P&L
-[ ] Mantenho a suíte de *evals* e o adaptador de contingência ativos conforme o protocolo da seção de arquitetura agnóstica
+[ ] Mantenho a suíte de evals e o adaptador de contingência ativos conforme o protocolo da seção de arquitetura agnóstica
 [ ] Defini métricas de qualidade de saída monitoradas em produção
 [ ] Tenho fallback documentado para o caso de falha ou degradação do fornecedor
 ```
@@ -3703,9 +3702,9 @@ CUSTOS E QUALIDADE
 
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13: CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)|Capítulo 13: Cultura como Disciplina e em Situações Críticas (Vol. 6)]], como introduzir ferramentas de IA e automação sem gerar resistência cultural no time
 - [[#OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA (FASE 17)|Blocos de Mapeamento de Processos (SIPOC e Fluxo de Valor) na Fase 17 (neste volume)]], ferramentas para desenhar e enxugar fluxos operacionais antes de automatizá-los
-- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO|Fase 11: MVP e Experimentos de Mercado (Vol. 4)]] – quando AI Ops começa a fazer sentido operacional
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala (Vol. 6)]] – como escalar operações com IA sem perder qualidade
-- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4: PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|Capítulo 4: Planejamento Financeiro e Orçamento (Vol. 5)]] – como tratar custo de IA no P&L e no planejamento financeiro
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO|Fase 11: MVP e Experimentos de Mercado (Vol. 4)]], quando AI Ops começa a fazer sentido operacional
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala (Vol. 6)]], como escalar operações com IA sem perder qualidade
+- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4: PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|Capítulo 4: Planejamento Financeiro e Orçamento (Vol. 5)]], como tratar custo de IA no P&L e no planejamento financeiro
 
 ---
 
@@ -4418,8 +4417,7 @@ Estratégico   Qualquer        One-pager primeiro, PRD depois
 ```
 
 > [!tip]
-> A regra prática
-> se a feature vai levar mais de duas semanas de desenvolvimento, escreva um PRD. Se vai levar menos, um brief é suficiente. Se você não sabe ainda se vai ser desenvolvida, escreva um one-pager e valide primeiro.
+> **A regra prática:** se a *feature* vai levar mais de duas semanas de desenvolvimento, escreva um PRD. Se vai levar menos, um *brief* é suficiente. Se você não sabe ainda se vai ser desenvolvida, escreva um *one-pager* e valide primeiro.
 
 **Onde armazenar e como versionar.**
 
@@ -4568,8 +4566,7 @@ Uma proxy simples para medir lacunas de documentação: quantas vezes por semana
 Ferramentas como Slack e Microsoft Teams permitem buscar por padrões de perguntas. Um time de gestão do conhecimento maduro monitora perguntas frequentes e as usa como insumo para priorizar o que documentar.
 
 > [!note]
-> Uma forma simples de capturar isso
-> peça que o time use uma tag específica (por exemplo, `#precisa-de-wiki`) sempre que fizer uma pergunta que deveria estar respondida na documentação. Em um mês, você terá uma lista priorizada do que documentar.
+> **Uma forma simples de capturar isso:** peça que o time use uma *tag* específica (por exemplo, `#precisa-de-wiki`) sempre que fizer uma pergunta que deveria estar respondida na documentação. Em um mês, você terá uma lista priorizada do que documentar.
 
 **Satisfação do novo colaborador com onboarding.**
 
@@ -5205,8 +5202,7 @@ Campos obrigatórios de um SOP:
 - Data da última revisão
 
 > [!warning]
-> Documento sem data de revisão envelhece rápido
-> agende revisão trimestral (a cada 90 dias) para runbooks e POPs decisivos e semestral para os demais documentos.
+> **Documento sem data de revisão envelhece rápido:** agende revisão trimestral (a cada 90 dias) para *runbooks* e POPs decisivos e semestral para os demais documentos.
 
 #### Onde Guardar
 
@@ -5585,8 +5581,7 @@ Número de usuários registrados, downloads, sessões: são métricas de vaidade
 Em times de até 10 pessoas, a comunicação acontece por osmose. A partir de 15 pessoas, a comunicação precisa de estrutura intencional (ver [[#CAPÍTULO 9: COMUNICAÇÃO INTERNA|Capítulo 9]]). O erro clássico é multiplicar reuniões síncronas em vez de substituir o alinhamento informal por documentos e mensagens assíncronas. Antes de criar uma reunião, pergunte: isso pode ser resolvido com um documento ou uma mensagem estruturada?
 
 > [!warning]
-> Reuniões síncronas mal dimensionadas escondem um custo alto na escala
-> colocar 8 líderes por 1 hora na sala consome 8 horas produtivas, e convocar 50 pessoas por 90 minutos queima até 75 horas de trabalho da empresa. Restrinja a reunião semanal de gestão aos líderes de área (enviando o resumo escrito à equipe) e trate encontros síncronos como exceções planejadas.
+> **Reuniões síncronas mal dimensionadas escondem um custo alto na escala:** colocar 8 líderes por 1 hora na sala consome 8 horas produtivas, e convocar 50 pessoas por 90 minutos queima até 75 horas de trabalho da empresa. Restrinja a reunião semanal de gestão aos líderes de área (enviando o resumo escrito à equipe) e trate encontros síncronos como exceções planejadas.
 
 #### Armadilha 4: Onboarding Informal
 
