@@ -1174,10 +1174,10 @@ O Brasil tem uma das arquiteturas fintech mais articuladas do mundo, com o BCB f
 
 **Referências práticas:**
 
-- BCB: www.bcb.gov.br (Agenda BC#, resoluções do CMN e do BCB, normas de autorização e conformidade).
-- CVM: www.cvm.gov.br.
-- ABFintechs: www.abfintechs.com.br (associação, canais com reguladores).
-- Anbima: www.anbima.com.br (regulação autorregulatória).
+- BCB: `www.bcb.gov.br` (Agenda BC#, resoluções do CMN e do BCB, normas de autorização e conformidade).
+- CVM: `www.cvm.gov.br`.
+- ABFintechs: `www.abfintechs.com.br` (associação, canais com reguladores).
+- Anbima: `www.anbima.com.br` (regulação autorregulatória).
 
 #### 2. HEALTHTECH: regulação pela ANVISA, ANS, CFM e conselhos profissionais
 
@@ -1253,9 +1253,9 @@ Modelos alternativos que escapam do registro ANS:
 
 **Referências práticas:**
 
-- ANVISA: www.gov.br/anvisa (consultas técnicas, classificação de dispositivos).
-- ANS: www.gov.br/ans.
-- CFM: portal.cfm.org.br.
+- ANVISA: `www.gov.br/anvisa` (consultas técnicas, classificação de dispositivos).
+- ANS: `www.gov.br/ans`.
+- CFM: `portal.cfm.org.br`.
 - Sindusfarma, Abimed (associações setoriais).
 
 #### 3. EDTECH: regulação pelo MEC, CAPES, conselhos
@@ -8315,13 +8315,13 @@ Para dominar uma vertical no Brasil, seu produto precisa entregar quatro pilares
 
 | Setor Vertical no Brasil | Nº Estimado de Estabelecimentos | Dor Operacional Central (O Wedge) | Camada de Fintech / Transação Embarcada | Ticket SaaS + ARPU Total (Com Fintech) | Casos Brasileiros e Globais de Referência |
 |---|---|---|---|---|---|
-| **Clínicas Médicas e Consultórios** | ~220.000 estabelecimentos ambulatoriais e >575 mil médicos em atividade (CNES/DataSUS e *Demografia Médica* CFM 2024/2025, ~400 mil estabelecimentos somando saúde médica e odontológica) | Prontuário eletrônico (CFM), prescrição digital (Memed), faturamento TISS/TUSS para convênios e redução de faltas | Cobrança de consultas particulares, antecipação de repasses de planos de saúde e crédito médico | R$ 200–600 (SaaS) → R$ 900–2.500 (Total) | **Brasil:** Afya (iClinic, Medicinae, Shosp), Feegow, Amplimed<br/>**Global:** Athenahealth, eClinicalWorks |
+| **Clínicas Médicas e Consultórios** | ~220.000 estabelecimentos ambulatoriais e >575 mil médicos em atividade (CNES/DataSUS e *Demografia Médica* CFM 2024/2025, ~400 mil estabelecimentos somando saúde médica e odontológica) | Prontuário eletrônico (CFM), prescrição digital (Memed), faturamento TISS/TUSS para convênios e redução de faltas | Cobrança de consultas particulares, antecipação de repasses de planos de saúde e crédito médico | R$ 200–600 (SaaS) → R$ 900–2.500 (Total) | **Brasil:** Afya (iClinic, Medicinae, Shosp), Feegow, Amplimed; **Global:** Athenahealth, eClinicalWorks |
 | **Clínicas e Consultórios Odontológicos** | ~180.000 clínicas e consultórios e >400 mil cirurgiões-dentistas (estatísticas do CFO e Sebrae) | Odontograma digital, orçamento parcelado de implantes/ortodontia e confirmação via WhatsApp | Parcelamento recorrente no cartão/boleto para tratamentos longos e compra B2B de insumos dentais | R$ 150–450 (SaaS) → R$ 800–2.200 (Total) | **Brasil:** Simples Dental (Henry Schein), Dental Office, Clinicorp |
-| **Salões de Beleza, Barbearias e Estética** | ~500.000+ formais | Agenda multiprofissional, estoque de insumos por ml/g e **Split da Lei do Salão-Parceiro** | Maquininha com *split* automático salão/profissional, sinal via Pix no agendamento e conta digital | R$ 120–350 (SaaS) → R$ 650–1.800 (Total) | **Brasil:** Trinks (Stone), Avec, Gendo, Belle Software<br/>**Global:** Boulevard, Vagaro, Fresha |
-| **Academias, CrossFit, Pilates e Assessorias** | ~45.000 academias e estúdios | Controle de acesso por catraca facial, treinos no app e inadimplência de mensalidades | Cobrança recorrente no cartão sem tomar limite, Pix recorrente e venda de suplementos/planos anuais | R$ 250–700 (SaaS) → R$ 1.100–3.000 (Total) | **Brasil:** Tecnofit, EVO (W12), Pacto, Next Fit<br/>**Global:** Mindbody, Glofox |
-| **Restaurantes, Bares e Padarias** | ~1.200.000 ativos | PDV ágil, KDS na cozinha, ficha técnica de CMV, integração delivery e autoatendimento | Smart POS na mesa, *split* de gorjeta (10%), conciliação de vales-refeição e antecipação de recebíveis | R$ 180–550 (SaaS) → R$ 950–2.800 (Total) | **Brasil:** Linx Degust, Saipos, Goomer, Anota AI, Consumer<br/>**Global:** Toast (NYSE: TOST) |
-| **Construção Civil, Engenharia e Incorporação** | ~150.000 construtoras e escritórios | Orçamento SINAPI, diário de obra, medição de empreiteiros, compras de cimento/aço e SPEs | Cotação e compra B2B financiada de materiais de construção, antecipação para fornecedores e seguro garantia | R$ 800–5.000 (SaaS) → R$ 2.500–12.000 (Total) | **Brasil:** Sienge (Softplan), Obra Prima, Construct IN<br/>**Global:** Procore |
-| **Oficinas Mecânicas e Centros Automotivos** | ~120.000 oficinas | Ordem de serviço com fotos/vídeo pelo WhatsApp, placa/chassi e cotação de autopeças | Catálogo integrado de compra de autopeças B2B + parcelamento do conserto no cartão em até 12x | R$ 150–400 (SaaS) → R$ 700–2.000 (Total) | **Brasil:** Ultracar, Oficina Inteligente, Cilia (orçamentação)<br/>**Global:** ShopMonkey, ServiceTitan |
+| **Salões de Beleza, Barbearias e Estética** | ~500.000+ formais | Agenda multiprofissional, estoque de insumos por ml/g e **Split da Lei do Salão-Parceiro** | Maquininha com *split* automático salão/profissional, sinal via Pix no agendamento e conta digital | R$ 120–350 (SaaS) → R$ 650–1.800 (Total) | **Brasil:** Trinks (Stone), Avec, Gendo, Belle Software; **Global:** Boulevard, Vagaro, Fresha |
+| **Academias, CrossFit, Pilates e Assessorias** | ~45.000 academias e estúdios | Controle de acesso por catraca facial, treinos no app e inadimplência de mensalidades | Cobrança recorrente no cartão sem tomar limite, Pix recorrente e venda de suplementos/planos anuais | R$ 250–700 (SaaS) → R$ 1.100–3.000 (Total) | **Brasil:** Tecnofit, EVO (W12), Pacto, Next Fit; **Global:** Mindbody, Glofox |
+| **Restaurantes, Bares e Padarias** | ~1.200.000 ativos | PDV ágil, KDS na cozinha, ficha técnica de CMV, integração delivery e autoatendimento | Smart POS na mesa, *split* de gorjeta (10%), conciliação de vales-refeição e antecipação de recebíveis | R$ 180–550 (SaaS) → R$ 950–2.800 (Total) | **Brasil:** Linx Degust, Saipos, Goomer, Anota AI, Consumer; **Global:** Toast (NYSE: TOST) |
+| **Construção Civil, Engenharia e Incorporação** | ~150.000 construtoras e escritórios | Orçamento SINAPI, diário de obra, medição de empreiteiros, compras de cimento/aço e SPEs | Cotação e compra B2B financiada de materiais de construção, antecipação para fornecedores e seguro garantia | R$ 800–5.000 (SaaS) → R$ 2.500–12.000 (Total) | **Brasil:** Sienge (Softplan), Obra Prima, Construct IN; **Global:** Procore |
+| **Oficinas Mecânicas e Centros Automotivos** | ~120.000 oficinas | Ordem de serviço com fotos/vídeo pelo WhatsApp, placa/chassi e cotação de autopeças | Catálogo integrado de compra de autopeças B2B + parcelamento do conserto no cartão em até 12x | R$ 150–400 (SaaS) → R$ 700–2.000 (Total) | **Brasil:** Ultracar, Oficina Inteligente, Cilia (orçamentação); **Global:** ShopMonkey, ServiceTitan |
 | **Escolas Privadas, Cursos e Idiomas** | ~42.000 escolas privadas + cursos | Secretaria acadêmica, diário do professor, comunicação com os pais e inadimplência escolar (8%–15%) | **Garantia de receita escolar** (a plataforma adianta 100% das mensalidades no dia 5 e assume a cobrança dos pais) | R$ 500–3.000 (SaaS) → R$ 3.000–15.000 (Total) | **Brasil:** Arco/isaac, Sponte, ClassApp, Agenda Edu, WPensar |
 
 ---

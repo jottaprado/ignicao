@@ -114,8 +114,20 @@ for v, fname in VOL_FILES.items():
             hset.add(h_text)
             if "[[" in h_text:
                 struct_issues.append((v, i, "WIKILINK_IN_HEADING", s[:120]))
-            if h_text.endswith((",", ";", ":", "!")):
+            if h_text.endswith((".", ",", ";", ":", "!")):
                 struct_issues.append((v, i, "MD026_HEADING_PUNCT", s[:120]))
+
+        # 0b. Strict Markdown hygiene in volumes: no inline HTML (MD033), no bare ___ outside code, no split callouts (MD028)
+        no_inline_code = re.sub(r"`[^`]+`", "", s)
+        if re.search(r"</?[a-zA-Z][a-zA-Z0-9]*(?:\s[^>]*)?/?>", no_inline_code):
+            struct_issues.append((v, i, "MD033_INLINE_HTML_IN_VOLUME", s[:120]))
+        if "___" in no_inline_code:
+            struct_issues.append((v, i, "BARE_UNDERSCORE_PLACEHOLDER", s[:120]))
+        if s == "" and 1 < i < len(lines):
+            prev_ln = lines[i - 2].lstrip()
+            next_ln = lines[i].lstrip()
+            if prev_ln.startswith(">") and next_ln.startswith(">") and not re.match(r"^>\s*\[!", next_ln):
+                struct_issues.append((v, i, "MD028_SPLIT_CALLOUT_BLOCKQUOTE", next_ln[:120]))
 
         # 1. Em-dash check
         if "—" in ln:

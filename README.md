@@ -2,7 +2,7 @@
 
 # 🔥 IGNIÇÃO
 
-### O manual operacional do empreendedor brasileiro
+## O manual operacional do empreendedor brasileiro
 
 *Do pré-zero ao exit e Family Office · 11 volumes (Edição Narrativa Enxuta v5.3) · 21 fases · 185 capítulos · 1,42 milhão de palavras · Zero duplicatas.*
 

@@ -2205,12 +2205,12 @@ Esta seção apresenta o scorecard mestre da Fase 13. Para declarar PMF com conf
 
 | Dimensão | Critério mínimo de passagem | Como medir | Seu número |
 |---|---|---|---|
-| **Retenção por safra** | Curva de retenção achata e se estabiliza acima do piso do modelo (≥ 20% a 30% em D30 no consumo, ≥ 40% de usuários ativos e ≥ 85% de contas pagantes em D90 no B2B) | Análise de coorte (*cohort analysis*) pela data de ativação | ____ |
-| **Percepção de indispensabilidade** | ≥ 40% de usuários ativos responderiam "muito decepcionado" se o produto deixasse de existir (Sean Ellis Test) | Pesquisa com amostra mínima de 40 usuários ativos (ou entrevistas individuais com 100% das contas em B2B enterprise de base pequena, tratando o índice como sinal qualitativo) | ____ |
-| **Crescimento orgânico** | ≥ 20% das novas aquisições via indicação ou busca direta como piso (≥ 30% como sinal forte) | Pergunta de origem no cadastro e rastreamento de indicações | ____ |
-| **Disposição de pagar** | Clientes renovam e não pedem desconto por iniciativa própria, churn de clientes (logos) ≤ 5% ao mês | Taxa de renovação no fim do primeiro período contratado | ____ |
-| **Expansão natural** | ≥ 25% dos clientes expandem uso (mais usuários, mais módulos, mais volume) sem ação de vendas | NRR > 100% em base de 6+ meses | ____ |
-| **Feedback qualitativo** | ≥ 5 clientes conseguem articular o problema resolvido em linguagem própria que você não ensinou | Entrevistas com clientes de 3+ meses | ____ |
+| **Retenção por safra** | Curva de retenção achata e se estabiliza acima do piso do modelo (≥ 20% a 30% em D30 no consumo, ≥ 40% de usuários ativos e ≥ 85% de contas pagantes em D90 no B2B) | Análise de coorte (*cohort analysis*) pela data de ativação | `[___]` |
+| **Percepção de indispensabilidade** | ≥ 40% de usuários ativos responderiam "muito decepcionado" se o produto deixasse de existir (Sean Ellis Test) | Pesquisa com amostra mínima de 40 usuários ativos (ou entrevistas individuais com 100% das contas em B2B enterprise de base pequena, tratando o índice como sinal qualitativo) | `[___]` |
+| **Crescimento orgânico** | ≥ 20% das novas aquisições via indicação ou busca direta como piso (≥ 30% como sinal forte) | Pergunta de origem no cadastro e rastreamento de indicações | `[___]` |
+| **Disposição de pagar** | Clientes renovam e não pedem desconto por iniciativa própria, churn de clientes (logos) ≤ 5% ao mês | Taxa de renovação no fim do primeiro período contratado | `[___]` |
+| **Expansão natural** | ≥ 25% dos clientes expandem uso (mais usuários, mais módulos, mais volume) sem ação de vendas | NRR > 100% em base de 6+ meses | `[___]` |
+| **Feedback qualitativo** | ≥ 5 clientes conseguem articular o problema resolvido em linguagem própria que você não ensinou | Entrevistas com clientes de 3+ meses | `[___]` |
 
 **Como usar o scorecard.**
 

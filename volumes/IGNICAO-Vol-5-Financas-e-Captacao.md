@@ -1140,9 +1140,9 @@ Documento de 2-3 páginas, revisão semestral. Tipologia das fontes (Lei do Bem,
 
 **Necessidade de caixa nos próximos 18 meses:**
 
-- Cenário pessimista (estresse): R$ _____
-- Cenário base (realista): R$ _____
-- Cenário otimista (aceleração): R$ _____
+- Cenário pessimista (estresse): `R$ [___]`
+- Cenário base (realista): `R$ [___]`
+- Cenário otimista (aceleração): `R$ [___]`
 
 **Composição planejada:**
 
@@ -1167,9 +1167,9 @@ Documento de 2-3 páginas, revisão semestral. Tipologia das fontes (Lei do Bem,
 
 **Próximos 90 dias:**
 
-1. _____
-2. _____
-3. _____
+1. `[___]`
+2. `[___]`
+3. `[___]`
 
 ---
 
@@ -2258,7 +2258,7 @@ Mútuo participativo (instrumento híbrido): combina características de emprés
 
 #### Termos típicos de rodada anjo BR (2026)
 
-#### Aspectos societários e fiscais do aporte anjo e da conversão em S.A.
+#### Aspectos societários e fiscais do aporte-anjo e da conversão em sociedade anônima (S.A.)
 
 No ecossistema brasileiro, os primeiros cheques combinam redes de investidores-anjo (como Anjos do Brasil, Poli Angels, Insper Angels, FGV Angels, Gávea Angels e Curitiba Angels), plataformas de *crowdfunding* reguladas pela Resolução CVM 88/2022 (como EqSeed, Captable e Kria) e fundos *pre-seed/seed* institucionais (como Canary, DOMO Invest, Norte Ventures, Bossa Invest e  Astella). Para a mecânica completa de prospecção, *valuation* e *term sheet* dessas rodadas, veja o [[#CAPÍTULO 11: INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|Capítulo 11]].
 
@@ -6368,7 +6368,7 @@ Se a rodada qualificada ocorrer antes do vencimento, o saldo converte-se automat
 
 ---
 
-### O Mútuo Conversível na realidade jurídica brasileira: risco de execução de dívida no vencimento e cuidados na Ltda.
+### O Mútuo Conversível na realidade jurídica brasileira: risco de execução de dívida no vencimento e cuidados na sociedade limitada (Ltda.)
 
 O mútuo conversível é o equivalente brasileiro da nota conversível: um contrato de empréstimo (arts. 586 a 592 do Código Civil) acoplado ao direito de converter o crédito em quotas ou ações futuras. Tornou-se o instrumento mais utilizado nas rodadas Anjo, Pré-Seed e Seed no Brasil porque permite injetar capital rapidamente em uma Sociedade Limitada (Ltda.) mantendo o investidor fora do contrato social até a transformação em S.A. na Série A. Com isso, o investidor não responde por passivos trabalhistas, tributários ou desconsideração da personalidade jurídica da empresa, salvo em caso de dolo, fraude ou simulação com envolvimento direto do investidor (conforme o art. 8º da LC 182/2021). Cuidado decisivo no vencimento: como todo mútuo tem data de vencimento, exija cláusula expressa determinando que, na ausência de rodada qualificada até a data final, o crédito seja **automaticamente convertido pelo *valuation cap* ou prorrogado**, afastando o risco de execução judicial em dinheiro.
 

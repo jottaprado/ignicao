@@ -280,7 +280,7 @@ Quatro modalidades, dependendo do negócio.
 > [!note] Coberturas essenciais para startups: D&O, E&O, cyber e Key Man
 > O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8: GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8: Gestão de Risco e Seguros para Startups (Vol. 5)]] detalha quando contratar cada apólice, as exclusões típicas que o fundador precisa revisar e os gatilhos contratuais que tornam o D&O e o E&O obrigatórios após a entrada de fundos institucionais e clientes corporativos.
 
-### Caso aplicado: a blindagem passo a passo da PadariaPro Ltda.
+### Caso aplicado: a blindagem passo a passo da PadariaPro (Ltda.)
 
 Ao contrário de Lucas e Marina, que precisaram desembolsar R$ 180 mil às pressas na diligência da Série A para limpar passivos acumulados, veja como a PadariaPro LTDA (SaaS de gestão para padarias que acompanhamos desde o Volume 1) montou sua fundação jurídica no dia zero:
 
@@ -2791,7 +2791,6 @@ Você precisa dominar **A Engenharia de Defesa Consumerista e Reputacional**: tr
 >
 > - [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]], dado pessoal do consumidor, base legal e direitos
 > - [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], termos de uso, contratos de adesão e cláusulas abusivas
-
 > - [[#CAPÍTULO 8: CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 8 (Contencioso e Litígio para Startups)]], reclamações consumeristas, Juizado Especial e provisão de passivo
 > - [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4: MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 (Marketplaces, Plataformas e Efeitos de Rede: Liquidez, Ovo-e-Galinha e Risco de Plataforma) (Vol. 3)]], responsabilidade solidária do marketplace pelo lojista terceiro
 

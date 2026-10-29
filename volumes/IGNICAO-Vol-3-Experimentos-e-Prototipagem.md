@@ -4622,8 +4622,8 @@ Para que essa arquitetura pare em pé, você precisa escapar da Armadilha da Fil
 > - [[#CAPÍTULO 4: MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4: Marketplaces, Plataformas e Efeitos de Rede]], para construir efeitos de ecossistema e integrações da comunidade.
 > - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1: GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 do Volume 6 (Growth como Função Organizacional)]], conectando a adoção técnica gratuita à conversão comercial.
 > - [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#IGNIÇÃO: Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais|Volume 10 (Playbooks Setoriais e Glossário)]], que analisa casos globais e brasileiros de software de código aberto comercial.
-> - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10: OPERAÇÕES EM ESCALA|Capítulo 10 (Operações em Escala) (Vol. 7)]], operação quando a comunidade vira parte do produto
-
+> - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10: OPERAÇÕES EM ESCALA|Capítulo 10 (Operações em Escala) (Vol. 7)]], operação quando a comunidade vira parte do produto.
+>
 > **Aplicabilidade**: empresas dev-tools ou infra. Crescente em SaaS moderno.
 
 ### Por que abrir parte do código acelera a adoção e reduz o CAC em mercados técnicos

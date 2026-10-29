@@ -75,10 +75,10 @@ Ao longo dos **Volumes 1 a 10**, além das histórias reais de grandes empresas 
 
 | Arquétipo | Quem São e Onde Operam | A Dor Inicial (Volumes 1 a 4, *Criar*) | O Desafio de Escala e Saída (Volumes 5 a 9, *Manter e Evoluir*) |
 | :--- | :--- | :--- | :--- |
-| **1. Lucas & Marina**<br/>*(SaaS B2B & AI-Native)* | **Lucas** (29, ex-engenheiro sênior de banco em SP, brilhante mas tentado a programar escondido) e **Marina** (31, comercial nata e pragmática, baseada em Florianópolis). | Quase quebram construindo um produto cheio de funcionalidades que ninguém pediu, aprendem a ouvir o cliente no *Mom Test* e financiam o MVP vendendo um *Serviço Produtizado* antes de escalar o SaaS. | Focam sua plataforma de tesouraria preditiva e *Embedded Finance* em distribuidores e empresas médias, enfrentam *churn*, contratam o primeiro VP de Vendas, negociam a **Série A** em São Paulo e recebem uma proposta de **M&A estratégico** no Volume 9. |
-| **2. Dra. Camila**<br/>*(Economia Real, Saúde & Serviços)* | **Camila** (34, cirurgiã-dentista especializada em reabilitação oral em Belo Horizonte que abriu clínica própria e corre o risco clássico de virar refém da própria cadeira 14h por dia). | Compra equipamento caro por impulso e depois insiste nele para não admitir a perda (*falácia do custo afundado*), mistura as contas da casa com o caixa do CNPJ ao pagar despesas familiares pelo Pix da clínica e hesita na hora de cobrar o preço justo pela sessão até dominar margem de contribuição e processos. | Transforma o consultório em máquina autogerenciável (*estilo Traction/Grove*), expande via **Franquias (Lei 13.966/2019)**, passa o bastão para um CEO profissional com *Phantom Shares* e constrói uma **Cash Cow + Holding Familiar** no Volume 9. |
-| **3. Henrique**<br/>*(Industrial, Agro & B2G / GovTech)* | **Henrique** (38, engenheiro mecânico de Curitiba com forte trânsito no interior do Paraná e Mato Grosso, vendendo hardware e software para usinas, indústrias e prefeituras). | Sofre com discursos técnicos cheios de jargão, leva "não" em banca de edital GovTech por não provar validação institucional e quase morre no purgatório de pilotos gratuitos (*POCs*). | Aprende a vender para comitês complexos de seis cadeiras, usa subvenção **Finep, Fundação Araucária, BNDES e EMBRAPII** e importação da Ásia (**TTD 409**), faz o **Spin-off** de uma unidade interna e consolida concorrentes via **M&A Buy-Side**. |
-| **4. Rafael & Bia**<br/>*(Varejo, D2C, Comércio & Marketplace)* | **Rafael** (27, criativo de marketing, com sede comercial no Recife) e **Bia** (28, engenheira de produção, liderando o centro de distribuição e operações em Goiânia). | Iludem-se com faturamento bruto alto movido a tráfego pago caro, sofrem o aperto de margem e de capital de giro em datas de pico comercial e descobrem na pele o peso do frete logístico e da tributação sobre consumo no varejo brasileiro. | Sobrevivem a uma crise severa de caixa e à transição da **Reforma Tributária (IBS/CBS)**, lideram uma reestruturação operacional difícil com corte de custos e constroem uma marca *omnichannel* com retenção real. |
+| **1. Lucas & Marina** *(SaaS B2B & AI-Native)* | **Lucas** (29, ex-engenheiro sênior de banco em SP, brilhante mas tentado a programar escondido) e **Marina** (31, comercial nata e pragmática, baseada em Florianópolis). | Quase quebram construindo um produto cheio de funcionalidades que ninguém pediu, aprendem a ouvir o cliente no *Mom Test* e financiam o MVP vendendo um *Serviço Produtizado* antes de escalar o SaaS. | Focam sua plataforma de tesouraria preditiva e *Embedded Finance* em distribuidores e empresas médias, enfrentam *churn*, contratam o primeiro VP de Vendas, negociam a **Série A** em São Paulo e recebem uma proposta de **M&A estratégico** no Volume 9. |
+| **2. Dra. Camila** *(Economia Real, Saúde & Serviços)* | **Camila** (34, cirurgiã-dentista especializada em reabilitação oral em Belo Horizonte que abriu clínica própria e corre o risco clássico de virar refém da própria cadeira 14h por dia). | Compra equipamento caro por impulso e depois insiste nele para não admitir a perda (*falácia do custo afundado*), mistura as contas da casa com o caixa do CNPJ ao pagar despesas familiares pelo Pix da clínica e hesita na hora de cobrar o preço justo pela sessão até dominar margem de contribuição e processos. | Transforma o consultório em máquina autogerenciável (*estilo Traction/Grove*), expande via **Franquias (Lei 13.966/2019)**, passa o bastão para um CEO profissional com *Phantom Shares* e constrói uma **Cash Cow + Holding Familiar** no Volume 9. |
+| **3. Henrique** *(Industrial, Agro & B2G / GovTech)* | **Henrique** (38, engenheiro mecânico de Curitiba com forte trânsito no interior do Paraná e Mato Grosso, vendendo hardware e software para usinas, indústrias e prefeituras). | Sofre com discursos técnicos cheios de jargão, leva "não" em banca de edital GovTech por não provar validação institucional e quase morre no purgatório de pilotos gratuitos (*POCs*). | Aprende a vender para comitês complexos de seis cadeiras, usa subvenção **Finep, Fundação Araucária, BNDES e EMBRAPII** e importação da Ásia (**TTD 409**), faz o **Spin-off** de uma unidade interna e consolida concorrentes via **M&A Buy-Side**. |
+| **4. Rafael & Bia** *(Varejo, D2C, Comércio & Marketplace)* | **Rafael** (27, criativo de marketing, com sede comercial no Recife) e **Bia** (28, engenheira de produção, liderando o centro de distribuição e operações em Goiânia). | Iludem-se com faturamento bruto alto movido a tráfego pago caro, sofrem o aperto de margem e de capital de giro em datas de pico comercial e descobrem na pele o peso do frete logístico e da tributação sobre consumo no varejo brasileiro. | Sobrevivem a uma crise severa de caixa e à transição da **Reforma Tributária (IBS/CBS)**, lideram uma reestruturação operacional difícil com corte de custos e constroem uma marca *omnichannel* com retenção real. |
 
 ---
 
@@ -2126,7 +2126,7 @@ Sempre que uma frase da sua Declaração Inicial depender de fé no comportament
 
 > [!tip] Quadros visuais que complementam os 7 blocos da DII
 > A DII em texto corrido é o entregável obrigatório desta fase. Se você raciocina melhor visualmente, combine-a com os quadros de uma página da coleção: o [[#Canvas: Lean Canvas (Ash Maurya, 2012)|Canvas: Lean Canvas (Ash Maurya, 2012)]] (na Fase 1, focado em hipóteses pré-PMF), o [[#Canvas: *Business Model Canvas* (Alexander Osterwalder, 2010)|Canvas: *Business Model Canvas* (Alexander Osterwalder, 2010)]] (ao fim desta Fase 2, útil para checar parcerias, atividades e recursos internos) e o [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014) (Vol. 2)]] (que aprofunda o encaixe entre o Bloco 2 e o Bloco 4).
-
+>
 > **Alternativa centrada em produto:**
 > Para fundadores vindos de gestão de produto, o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Canvas: Opportunity Canvas (Jeff Patton, 2014) (Vol. 3)]], publicado por Jeff Patton, organiza a oportunidade em dez seções: usuários e clientes, problemas, soluções atuais, ideias de solução, como os usuários usarão a solução, estratégia de adoção, métricas de usuário, desafios de negócio, benefícios, métricas de negócio e orçamento.
 
@@ -3837,12 +3837,12 @@ flowchart LR
 
 **Check-in semanal (5 minutos, domingo à noite):**
 
-- Energia física (0-10): _____
-- Clareza mental (0-10): _____
-- Conexão emocional com a empresa (0-10): _____
-- Conexão emocional com pessoas próximas (0-10): _____
-- Qualidade do sono (0-10): _____
-- Alguma coisa escondida/ignorada nesta semana? _____
+- Energia física (0-10): `[___]`
+- Clareza mental (0-10): `[___]`
+- Conexão emocional com a empresa (0-10): `[___]`
+- Conexão emocional com pessoas próximas (0-10): `[___]`
+- Qualidade do sono (0-10): `[___]`
+- Alguma coisa escondida/ignorada nesta semana? `[___]`
 
 Leia os três níveis do termômetro (em sintonia com o diagrama acima): notas abaixo de 5 em duas ou mais categorias por duas semanas seguidas acionam o alerta amarelo (reduza a carga imediata e abra o jogo com seu sócio), se o quadro persistir por quatro semanas sem melhora, entra em alerta laranja (exigindo psicoterapia e redesenho estrutural da rotina), e qualquer pontuação abaixo de 4 em três ou mais categorias (ou sintoma físico como a taquicardia de Rafael, que marcou energia 3, sono 2 e clareza 4 antes da briga com Bia) aciona o alerta vermelho: agende avaliação com psicólogo clínico ou médico psiquiatra na mesma semana. Este termômetro é um instrumento de autovigilância semanal, e não substitui escalas clínicas validadas (como PHQ-9 e GAD-7) aplicadas por profissionais, em caso de crise aguda ou pensamento de autoagressão, ligue imediatamente para o CVV (188, gratuito 24h) ou para o SAMU (192).
 
@@ -3878,7 +3878,7 @@ Férias: reais, pelo menos dez dias por ano, sem email. Não "férias ao lado do
 
 A frase "a empresa sou eu" é sinal de alarme. Empresa é o que o fundador faz, não o que o fundador é. Quando os dois se fundem, crítica à empresa vira ataque pessoal, decepção com resultado vira colapso existencial e exit ou fechamento vira crise de identidade.
 
-Exercício: escrever dez frases "eu sou _____" sem nenhuma delas mencionar a empresa ou papel profissional. Dificuldade neste exercício é sinal de fusão identidade-empresa.
+Exercício: escrever dez frases "eu sou `[___]`" sem nenhuma delas mencionar a empresa ou papel profissional. Dificuldade neste exercício é sinal de fusão identidade-empresa.
 
 Cultivar papéis e interesses fora do CNPJ protege a lucidez de quem lidera e sustenta a caminhada de longo prazo sem destruir a pessoa por trás do cargo.
 

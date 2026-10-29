@@ -23,7 +23,7 @@ Desde que siga os seguintes termos:
 ---
 
 **Texto completo da licença:**
-https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.pt
+<https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.pt>
 
 **Uso educacional:** permitido sem restrições adicionais para fins de ensino não comercial.
 

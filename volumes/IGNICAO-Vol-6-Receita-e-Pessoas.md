@@ -988,12 +988,12 @@ Documento vivo de 4-6 páginas, revisão trimestral. Princípios de posicionamen
 
 **Métricas mensais:**
 
-- Share of Voice: _____
-- Branded Search: _____
-- Direct Traffic: _____
-- Cobertura editorial: _____
-- Pipeline atribuído a marca/referência: _____
-- NPS: _____
+- Share of Voice: `[___]`
+- Branded Search: `[___]`
+- Direct Traffic: `[___]`
+- Cobertura editorial: `[___]`
+- Pipeline atribuído a marca/referência: `[___]`
+- NPS: `[___]`
 
 ---
 
@@ -6690,7 +6690,7 @@ Instrumento híbrido: opção emitida para investidores, advisors, ou parceiros 
 
 ---
 
-### Vesting no Brasil é contratual: como estruturar em Ltda. e S.A. fechada e quando escolher entre Phantom Shares e Holding S.A.
+### Vesting no Brasil é contratual: como estruturar em Ltda. e S.A. fechada e quando escolher entre Phantom Shares e Holding (S.A.)
 
 Esse é o ponto que mais surpreende fundadores que estudaram o modelo de Delaware: a legislação societária brasileira não opera a aquisição gradual (*vesting*) automática de participação diretamente no contrato social de uma sociedade limitada (LTDA), nem em S.A. fechada na forma usada nos EUA. A solução no Brasil é contratual, não societária, e isso traz consequências práticas.
 

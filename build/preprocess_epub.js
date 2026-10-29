@@ -19,7 +19,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execFileSync } = require('child_process');
+const { execFileSync, execSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 const VOLUMES_DIR = path.join(ROOT, 'volumes');
@@ -116,7 +116,7 @@ function findMmdc() {
   ];
   for (const c of candidates) {
     try {
-      execFileSync(c, ['--version'], { stdio: 'pipe', shell: IS_WIN });
+      execSync(`"${c}" --version`, { stdio: 'pipe' });
       return c;
     } catch (_) {
       /* try next */
@@ -155,10 +155,9 @@ function getOrRenderMermaidPng(rawBody) {
 
   if (MMDC) {
     try {
-      execFileSync(
-        MMDC,
-        ['-i', `"${mmdPath}"`, '-o', `"${pngPath}"`, '-s', '2', '-b', 'white', '-p', `"${puppeteerConfig}"`],
-        { stdio: 'pipe', timeout: 120000, shell: IS_WIN }
+      execSync(
+        `"${MMDC}" -i "${mmdPath}" -o "${pngPath}" -s 2 -b white -p "${puppeteerConfig}"`,
+        { stdio: 'pipe', timeout: 120000 }
       );
       console.log(`      Novo diagrama renderizado (mmdc): ${pngName}`);
       mmdCache.set(norm, pngName);
