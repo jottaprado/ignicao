@@ -304,13 +304,13 @@ Registre a sequência definida no Banco de Hipóteses (coluna "Ordem de teste") 
 
 Para tornar o método concreto, este é o detalhamento de uma hipótese bet-the-company da mesma ideia trabalhada nas fases anteriores, no formato padronizado dos Passos 2 a 5.
 
-HIPÓTESE: Donos de padaria com 2 a 5 lojas em São Paulo perdem 8% ou mais do custo mensal de insumos decisivos como farinha, manteiga e fermento por compras de emergência e desperdício (a hipótese sobre a causa operacional, falta de previsão diária de compras, entra separada como H1b).
+HIPÓTESE: Donos de padaria com 2 a 5 lojas em São Paulo perdem 8% ou mais do custo mensal de insumos críticos como farinha, manteiga e fermento por compras de emergência e desperdício (a hipótese sobre a causa operacional, falta de previsão diária de compras, entra separada como H1b).
 
 ATRIBUTO DA TEORIA: Nó "Dor real e frequente" da árvore de teoria (Fase 3). A árvore pressupõe que o problema existe na intensidade necessária para gerar disposição a pagar. Se falsa, todo o ramo de monetização cai antes de qualquer experimento de preço.
 
 POR QUE IMPORTA (Risco × Incerteza): R = 5 (inviabiliza o negócio se for falsa, pois sem perda financeira relevante o dono não paga pelo software), I = 4 (o autorrelato nas entrevistas da Fase 4 sugere que a perda existe, mas ainda faltam dados auditados de notas fiscais). Prioridade = R × I = 20 (aposta de vida ou morte).
 
-PARA VALIDAR PRECISO VER: pelo menos 7 em 10 padarias com 2 a 5 lojas em São Paulo registrando perda igual ou superior a 8% do custo de insumos decisivos ao longo de 30 dias de notas fiscais auditadas (cinco semanas de ciclo total, somando 30 dias de coleta e uma semana de análise).
+PARA VALIDAR PRECISO VER: pelo menos 7 em 10 padarias com 2 a 5 lojas em São Paulo registrando perda igual ou superior a 8% do custo de insumos críticos ao longo de 30 dias de notas fiscais auditadas (cinco semanas de ciclo total, somando 30 dias de coleta e uma semana de análise).
 
 Diagnóstico H/E: H = 8 (cadeia causal consistente com casos análogos do varejo alimentar) e E = 3 (autorrelato em 12 entrevistas, ainda sem auditoria documental). Quadrante H ≥ 7 e E < 6: prioridade máxima para experimentação empírica.
 
@@ -338,7 +338,7 @@ Você concluiu a Fase 7 quando todos os critérios abaixo estão cumpridos.
 - [ ] Banco de Hipóteses (Template: Banco de Hipóteses, modelo de planilha (Fase 7)) com 15 a 30 itens classificados nas cinco categorias (problema, solução, cliente, canal, monetização). Pelo menos três em cada categoria, sem nenhuma vazia.
 - [ ] Inventário inicial de 15 a 30 premissas mapeadas a partir da Árvore da Teoria (Fase 3) e filtradas pela matriz Risco × Incerteza ($R \times I$) até isolar as 3 a 5 apostas de vida ou morte (*bet-the-company*).
 - [ ] Cem por cento das apostas de vida ou morte redigidas com os oito elementos obrigatórios do Passo 2: (1) Hipótese atômica, (2) Vínculo com a árvore da teoria, (3) Por que importa ($R \times I$ e $H/E$), (4) Para validar preciso ver, (5) Vamos descartar se, (6) Zona cinzenta e ação prevista, (7) Experimento e amostra mínima e (8) Custo e duração máxima.
-- [ ] Cada hipótese vinculada a um nó ou seta da árvore de teoria (Fase 3). Nenhuma órfã.
+- [ ] Cada hipótese está vinculada a um nó ou seta da árvore de teoria (Fase 3), sem deixar nenhuma órfã.
 - [ ] Diagnóstico $H/E$ (Força da Hipótese e Força da Evidência, de 1 a 10 em cada eixo) aplicado a todas as apostas de vida ou morte filtradas pela matriz $R \times I$, com status padronizado no Banco de Hipóteses (*Nova*, *Em teste*, *Validada*, *Refutada* ou *Abandonada*).
 - [ ] Três a cinco apostas de vida ou morte identificadas por R × I ≥ 15 e ordenadas pelo sistema H/E (quadrante H alto e E baixo no topo da fila).
 - [ ] Três ou mais Hypothesis Canvas (Template: Hypothesis Canvas (Fase 7)) preenchidos para as bet-the-company.
@@ -457,7 +457,7 @@ Estresse da hipótese H1 do PadariaPro (antes de ir a campo):
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Engenheiro civil e economista francês Jules Dupuit publicou *On the Measurement of the Utility of Public Works* em 1844, estabelecendo os fundamentos do CBA ao introduzir a função de demanda derivada de utilidade marginal e o conceito de excedente do consumidor (depois reformulado por Marshall). Pigou e outros economistas refinaram no início do séc. XX. Hoje é padrão em decisões governamentais (análise de impacto de políticas), infraestrutura (projetos de engenharia) e decisões empresariais com múltiplos fatores.
+Engenheiro civil e economista francês Jules Dupuit publicou *On the Measurement of the Utility of Public Works* em 1844, estabelecendo os fundamentos do CBA ao introduzir a função de demanda derivada de utilidade marginal e o conceito de excedente do consumidor (depois reformulado por Marshall). Pigou e outros economistas refinaram o método no início do século XX. Hoje é padrão em decisões governamentais (análise de impacto de políticas), infraestrutura (projetos de engenharia) e decisões empresariais com múltiplos fatores.
 
 ##### A mecânica central (sem jargão)
 
@@ -482,11 +482,11 @@ Passo 2: Taxa de desconto apropriada. Custo de capital da empresa (WACC) ou taxa
 
 Passo 3: Incluir custos de oportunidade. Se eng team trabalha em X, não trabalha em Y. Y é custo de oportunidade.
 
-Passo 4: Quantificar benefícios intangíveis. Brand, cultura, learning, são reais mas difíceis. Usar proxies ou ranges.
+Passo 4: Quantifique benefícios intangíveis (brand, cultura e learning são reais, mas difíceis de medir), recorrendo a proxies ou faixas de estimativa (*ranges*).
 
 Passo 5: Análise de sensibilidade. E se premissa X for 20% diferente? Decisão muda?
 
-Passo 6: Documentar premissas. Facilita revisão e aprendizado.
+Passo 6: Documente as premissas adotadas, pois isso facilita a revisão e o aprendizado.
 
 ##### Na trincheira real: como isso funciona na prática
 
@@ -523,7 +523,7 @@ Cinco deslizes arruínam a análise de custo-benefício em estágio inicial: esq
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Expected Value: conceito estatístico formalizado por Pierre Fermat e Blaise Pascal no séc. XVII. Aplicação a decisão de negócio popularizada por von Neumann e Morgenstern em *Theory of Games and Economic Behavior* (1944).
+Expected Value: conceito estatístico formalizado por Pierre Fermat e Blaise Pascal no século XVII, cuja aplicação a decisões de negócio foi popularizada por von Neumann e Morgenstern em *Theory of Games and Economic Behavior* (1944).
 
 Bayesian Thinking: formulado por Thomas Bayes (séc. XVIII) e popularizado na tomada de decisão contemporânea por Annie Duke, ex-jogadora profissional de pôquer, em *Thinking in Bets* (2018).
 
@@ -550,7 +550,7 @@ Investimento positivo EV. Mas: variância alta (pode perder tudo). EV não mostr
 
 Bayesian:
 
-- Começa com a probabilidade inicial (*prior*): no PadariaPro, os fundadores atribuem 40% de probabilidade inicial de que a perda supere 8% do custo de insumos decisivos (nota $E = 3$). Quando 7 das 10 padarias auditadas comprovam nas notas fiscais perda igual ou superior a 8% (atingindo exatamente o limiar pré-registrado de 7 em 10), a probabilidade revista (*posterior*) sobe para 75% e a nota $E$ avança legitimamente de 3 para 6.
+- Começa com a probabilidade inicial (*prior*): no PadariaPro, os fundadores atribuem 40% de probabilidade inicial de que a perda supere 8% do custo de insumos críticos (nota $E = 3$). Quando 7 das 10 padarias auditadas comprovam nas notas fiscais perda igual ou superior a 8% (atingindo exatamente o limiar pré-registrado de 7 em 10), a probabilidade revista (*posterior*) sobe para 75% e a nota $E$ avança legitimamente de 3 para 6.
 - Evidência nova chega.
 - Atualiza para posterior (crença revisada).
 - Decisões baseadas em posteriors atualizados, não em priors estáticos.
@@ -571,7 +571,7 @@ Bayesian:
 1. Comece com prior explícito (% de chance de hipótese ser verdade).
 2. Ao receber evidência, pergunte: quão provável é essa evidência se hipótese for verdade vs. falsa?
 3. Atualize usando Teorema de Bayes (ou aproximação informal).
-4. Decisões baseadas em posteriors.
+4. Tome as decisões com base nas probabilidades atualizadas (*posteriors*).
 
 ##### Na trincheira real: como isso funciona na prática
 
@@ -644,7 +644,7 @@ Quadrantes:
 
 - Alta certeza + alto risco: confortável, monitorar.
 - Alta certeza + baixo risco: ignorar.
-- Baixa certeza + alto risco: testar URGENTEMENTE. Premissas decisivas não validadas.
+- Baixa certeza + alto risco: exige testar URGENTEMENTE, pois reúne as premissas decisivas ainda não validadas.
 - Baixa certeza + baixo risco: testar depois.
 
 ##### Roteiro de aplicação prática na operação
@@ -779,7 +779,7 @@ O bloco de auditoria da amostra revelou o ponto cego da rodada: das 8 usinas e c
 
 | ID | Tipo | Hipótese | Por que importa | R×I | H / E | Critério de validação | Critério de descarte | Método e Custo | Status | Resultado |
 |---|---|---|---|---|---|---|---|---|---|---|
-| H01 | Problema | Donos de padaria com 2 a 5 lojas em SP perdem ≥ 8% do custo de insumos decisivos em compras de emergência e desperdício | Sem perda financeira relevante o dono não paga pelo software | 5×4 = 20 | H=8 / E=3 | ≥ 7 em 10 padarias auditadas com perda ≥ 8% nas notas de 30 dias | ≤ 3 em 10 padarias com perda ≥ 8% (entre 4 e 6 = zona cinzenta) | Auditoria de notas fiscais de 30 dias (R$ 0 e 5 semanas) | Validada | 7/10 confirmadas |
+| H01 | Problema | Donos de padaria com 2 a 5 lojas em SP perdem ≥ 8% do custo de insumos críticos em compras de emergência e desperdício | Sem perda financeira relevante o dono não paga pelo software | 5×4 = 20 | H=8 / E=3 | ≥ 7 em 10 padarias auditadas com perda ≥ 8% nas notas de 30 dias | ≤ 3 em 10 padarias com perda ≥ 8% (entre 4 e 6 = zona cinzenta) | Auditoria de notas fiscais de 30 dias (R$ 0 e 5 semanas) | Validada | 7/10 confirmadas |
 | H02 | Monetização | Donos de redes de 2 a 5 padarias pagam ≥ R$ 290/mês (ou R$ 400/mês no plano multiunidade) pela previsão diária de compras no WhatsApp | Define a viabilidade econômica do SaaS | 5×4 = 20 | H=8 / E=2 | ≥ 60% de aceitação no plano-alvo com 10 pré-vendas pagas no Pix | < 40% de aceitação ou < 4 pré-vendas pagas | Smoke test + pré-venda via Pix (R$ 1.500 e 3 semanas) | Em teste | Rodada extra |
 
 ---
@@ -999,7 +999,7 @@ Catálogo dos oito experimentos mais úteis para validação de problema e clien
 
 ##### Problem Interview (entrevista de problema)
 
-Já coberto na [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]. Útil também para hipóteses emergentes. Custo baixo. Tempo de uma a duas semanas. Limitação: respostas são opiniões, não ações.
+Já coberto na [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]], esse formato também é útil para hipóteses emergentes, com custo baixo e tempo de uma a duas semanas. Limitação: respostas são opiniões, não ações.
 
 ##### 1. Teste de Página de Destino (*Landing Page Test* ou *Smoke Test*)
 
@@ -1009,7 +1009,7 @@ Como medir: taxa de conversão de visitantes qualificados do ICP em ação concr
 
 ##### Concierge Experiment (experimento manual)
 
-Você entrega manualmente o valor que o seu produto promete. Sem automatizar nada. Por exemplo: se o produto seria um app de gestão de frota, você mesmo gerencia a frota de um cliente usando planilha e WhatsApp, cobrando pelo serviço.
+Você entrega manualmente o valor que o seu produto promete, sem automatizar nada nessa fase. Por exemplo: se o produto seria um app de gestão de frota, você mesmo gerencia a frota de um cliente usando planilha e WhatsApp, cobrando pelo serviço.
 
 Como medir no experimento *Concierge*: o cliente utilizou o serviço toda semana, pagou pelo valor entregue e renovou ao final do período? Teto de execução para *Concierge*: 4 a 8 semanas de atendimento manual conduzido pelos próprios fundadores, revelando gargalos operacionais que nenhuma entrevista estática mostra.
 
@@ -1032,19 +1032,19 @@ Como medir: número de pagamentos antecipados confirmados, cartas de intenção 
 
 Dentro de um produto existente (blog, comunidade), ou de uma página, você coloca um botão que promete uma feature que ainda não construiu. Quando o usuário clica, aparece um aviso de "em breve" acompanhado de um formulário de cadastro.
 
-Como medir: percentual de usuários que clicam. Custo muito baixo. Limitação: mede interesse, não compra.
+Como medir: acompanhe o percentual de usuários que clicam, em um teste de custo muito baixo. Limitação: mede interesse, não compra.
 
 ##### Community Test (teste em comunidade)
 
 Compartilhe a ideia em comunidades relevantes (Reddit, grupos de Facebook, Discord, fóruns especializados). Meça reações genuínas, perguntas, pedidos de acesso.
 
-Como medir: engajamento, comentários, DMs. Custo zero. Limitação: comunidades têm viés. Algumas são positivas demais. Outras cínicas demais.
+Como medir: acompanhe o engajamento, os comentários e as DMs, com custo financeiro zero. Limitação: comunidades têm viés, pois algumas são positivas demais e outras são cínicas demais.
 
 ##### A/B Test (teste comparativo de proposta de valor)
 
 Teste duas ou três formas diferentes de descrever o problema ou a solução, e veja qual converte mais. Útil quando você ainda não sabe como falar com o cliente.
 
-Como medir: conversão relativa. Custo moderado.
+Como medir: compare a taxa de conversão relativa, o que exige custo moderado.
 
 ##### Guia rápido para escolher a técnica
 
@@ -1065,7 +1065,7 @@ Este passo é a ponte entre teoria e experimento. É onde a maioria dos empreend
 
 Qual é a hipótese testável? Copie literalmente a sentença formulada no Banco de Hipóteses da [[#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]].
 
-O que eu vou perguntar ou observar? Pergunta específica no questionário. Ação observada no experimento. Evento rastreado no analytics.
+O que eu vou perguntar ou observar? Defina uma pergunta específica no questionário, uma ação observada no experimento ou um evento rastreado no analytics.
 
 Quais são as respostas ou eventos possíveis? Opções discretas ou faixas numéricas.
 
@@ -1078,7 +1078,7 @@ A hipótese: "Tráfego nas grandes capitais é um problema relevante para profis
 Você pode escolher outra forma de medir (por exemplo, nota de um a sete, ou foco apenas na resposta "mais de cinco dias"). O importante é que a escolha seja feita antes de ver os dados, documentada, e aplicada de forma consistente na análise.
 
 > [!important] Quatro regras de operacionalização
-> Conecte a medida à hipótese de forma rastreável. Se alguém te perguntar "por que você escolheu essa métrica e não outra?", você precisa conseguir responder em termos da teoria. Defina ex-ante (antes de coletar). Definir medida depois de ver dados é auto-engano matemático: você vai inevitavelmente escolher a métrica que confirma o que já acredita. Pré-teste as suas perguntas com duas a três pessoas de confiança. Pergunta mal formulada gera lixo. Ajuste antes do campo. Prefira medidas já estabelecidas (KPIs do setor, escalas validadas da literatura de pesquisa) quando existirem, em vez de inventar métricas próprias. A sua métrica só é "nova" se não existir nada comparável.
+> Conecte a medida à hipótese de forma rastreável. Se alguém te perguntar "por que você escolheu essa métrica e não outra?", você precisa conseguir responder em termos da teoria. Defina ex-ante (antes de coletar). Definir medida depois de ver dados é auto-engano matemático: você vai inevitavelmente escolher a métrica que confirma o que já acredita. Pré-teste as suas perguntas com duas a três pessoas de confiança, pois pergunta mal formulada gera lixo e exige ajuste antes de ir a campo. Prefira medidas já estabelecidas (KPIs do setor, escalas validadas da literatura de pesquisa) quando existirem, em vez de inventar métricas próprias. A sua métrica só é "nova" se não existir nada comparável.
 
 > [!note] Capítulo 6 (Vol. 1): Tomada de Decisão como Disciplina
 > A decisão de rodar ou não um experimento, e com que profundidade, é ela mesma uma decisão estruturável. O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6: TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6: Tomada de Decisão como Disciplina (Vol. 1)]] oferece o framework SPADE para documentar critérios antes de agir, e o pré-mortem para antecipar por que um experimento pode produzir conclusão errada. Use especialmente em hipóteses Tipo 1, onde errar o desenho do experimento tem custo alto.
@@ -1146,7 +1146,7 @@ Se foi inconclusivo: o problema é a amostra, a operacionalização, ou a teoria
 > [!note] Falsificabilidade empírica (Karl Popper, *A Lógica da Pesquisa Científica*, 1934): nenhum volume de confirmações prova uma teoria em definitivo, mas um único experimento bem controlado pode refutá-la
 > Você só pode aprender que está errado por meio de evidência. Nunca pode provar que está certo em definitivo.
 
-Resultados negativos, nesse enquadramento, são informação valiosa. Não fracasso. Um empreendedor que trata toda evidência refutadora como ruído acaba cego para os sinais que mais deveriam fazê-lo repensar.
+Resultados negativos, nesse enquadramento, são informação valiosa, e não sinal de fracasso. Um empreendedor que trata toda evidência refutadora como ruído acaba cego para os sinais que mais deveriam fazê-lo repensar.
 
 #### Passo 9: decida e atualize Banco de Hipóteses, árvore de teoria e Declaração
 
@@ -1186,7 +1186,7 @@ EXPERIMENTO #1
 
 Hipótese: Donos de padaria pagariam R$ 400 por mês por loja pelo PadariaPro se a redução de perda for demonstrada em sessenta dias.
 
-Pergunta central: Qual faixa de preço mensal o dono de padaria com 2 a 5 lojas em São Paulo aceita pagar por um sistema de previsão de compras e alerta de estoque de insumos decisivos com garantia de redução de perdas em 60 dias?
+Pergunta central: Qual faixa de preço mensal o dono de padaria com 2 a 5 lojas em São Paulo aceita pagar por um sistema de previsão de compras e alerta de estoque de insumos críticos com garantia de redução de perdas em 60 dias?
 
 Desenho: montar uma página simples no Framer (quatro horas de trabalho) apresentando três planos mensais por loja (R$ 290, R$ 400 e R$ 590) e o botão de chamada para ação "Quero entrar na turma piloto das 10 primeiras padarias". Quando o visitante clica, abre-se um aviso de pré-lançamento acompanhado de formulário que coleta nome, padaria, número de lojas, telefone e intenção de adesão ao plano escolhido caso a previsão automática de demanda seja entregue em sessenta dias (*Fake Door* combinado com carta de intenção de pagamento). Distribuição nos grupos de WhatsApp de panificação e abordagem direta no LinkedIn, ligando em até quarenta e oito horas para cada inscrito a fim de confirmar o compromisso.
 
@@ -1317,7 +1317,7 @@ Ideia somada a dados reais de comportamento supera qualquer coleção de opiniõ
 
 ##### Passos práticos de implantação
 
-Para cada hipótese de produto: identificar qual é a decisão binária "vamos construir ou não". Escolher uma das oito técnicas que melhor responde essa decisão. Definir threshold de sucesso antes do experimento (quantos clicks no fake door? quantas compras no One-Night Stand?). Rodar por 1-7 dias. Decidir na base dos dados, não do desejo.
+Para cada hipótese de produto: identificar qual é a decisão binária "vamos construir ou não", escolher uma das oito técnicas que melhor responde essa decisão, definir o threshold de sucesso antes do experimento (quantos clicks no fake door? quantas compras no One-Night Stand?), rodar o teste por 1 a 7 dias e decidir na base dos dados, não do desejo.
 
 ##### Na trincheira real: como isso funciona na prática
 
@@ -1546,7 +1546,7 @@ Técnica estatística para **priorizar um conjunto de atributos ou itens**. Resp
 
 ##### As regras do jogo
 
-Problema que resolve: quando você tem 20 features candidatas e quer saber quais priorizar, perguntar "em escala 1-10, quão importante é X?" 20 vezes gera ratings inflacionados (tudo parece 8-9). MaxDiff força tradeoffs.
+Problema que resolve: quando você tem 20 features candidatas e quer saber quais priorizar, perguntar "em escala 1-10, quão importante é X?" 20 vezes gera ratings inflacionados (tudo parece 8-9), enquanto o MaxDiff força escolhas explícitas (*trade-offs*).
 
 ##### Roteiro de aplicação prática na operação
 
@@ -2123,7 +2123,7 @@ Princípios-chave:
 
 ##### Na trincheira real: como isso funciona na prática
 
-Árvore de Oportunidades (OST) para o PadariaPro com o resultado desejado "reduzir a perda de farinha e insumos decisivos em 30% nas padarias-piloto":
+Árvore de Oportunidades (OST) para o PadariaPro com o resultado desejado "reduzir a perda de farinha e insumos críticos em 30% nas padarias-piloto":
 
 - **Oportunidade 1 (prioritária):** o dono da padaria fecha o pedido de farinha às 6h da manhã no chute porque não tem visibilidade rápida do que sobrou no estoque da noite anterior.
 - **Solução 1.1:** mensagem automática no WhatsApp às 6h com a sugestão pronta de compra para responder "SIM".
@@ -2865,9 +2865,9 @@ Pontos de travamento observados: cinco de cinco participantes levaram mais de tr
 
 Requisitos essenciais (*must-have*) para ativação: concluir o *onboarding* em menos de cinco minutos (reduzindo o tempo atual de doze a vinte minutos), aplicar máscara automática no campo de CNPJ, incluir explicação contextual no cadastro de fornecedor e permitir pular o preenchimento opcional de cardápio.
 
-Funcionalidade decisiva a simplificar. Ajuste de pedido recorrente. Mover para WhatsApp com comando natural.
+A funcionalidade decisiva a simplificar é o ajuste de pedido recorrente, que deve migrar para o WhatsApp com comando natural.
 
-**Descarte:** Seção "cardápio" não é essencial para MVP. Cortar.
+**Descarte:** Como a seção "cardápio" não é essencial para o MVP, a decisão é cortá-la do escopo.
 
 Iteração prioritária. Simplificar onboarding para três passos. CNPJ, depois primeiro fornecedor, depois primeiro pedido teste.
 
@@ -2877,7 +2877,7 @@ Iteração prioritária. Simplificar onboarding para três passos. CNPJ, depois 
 
 Para ilustrar como uma startup B2B brasileira aplica os testes de solução e o corte de escopo da Fase 10 antes de escalar o desenvolvimento, acompanhe uma simulação didática inspirada nos primeiros passos de plataformas de recrutamento e seleção digital no país (segmento consolidado por empresas como a Gupy, fundada em 2015). Nessa reconstrução pedagógica, antes de construir dezenas de módulos de RH, a equipe recruta de cinco a oito empresas parceiras para testar apenas o fluxo essencial de triagem de candidatos, medindo o tempo gasto pelos recrutadores para fechar uma vaga antes e depois do protótipo funcional.
 
-O resultado foi composto. As iterações cruas, baseadas em uso real, calibraram a plataforma antes do go-to-market geral. As empresas-piloto viraram primeiros cases. Depois evangelistas. Depois canal de referência. A Gupy se tornaria, anos depois, uma das maiores plataformas de recrutamento da América Latina.
+O resultado foi composto. As iterações cruas, baseadas em uso real, calibraram a plataforma antes do go-to-market geral. As empresas-piloto viraram primeiros cases, depois evangelistas e, em seguida, canal de referência. A Gupy se tornaria, anos depois, uma das maiores plataformas de recrutamento da América Latina.
 
 Piloto estruturado com poucas empresas gera aprendizados cem vezes mais úteis que lançamento aberto sem foco. E os primeiros pilotos viram, se bem cuidados, os primeiros vendedores da sua empresa.
 
@@ -3129,9 +3129,9 @@ Tarefa: "Novo usuário completa configuração inicial e faz primeira ação."
 Passos corretos:
 
 1. Criar conta.
-2. Confirmar email.
-3. Preencher info da empresa.
-4. Importar primeiro dado.
+2. Confirmar o endereço de email cadastrado pelo usuário.
+3. Preencher as informações básicas da empresa no painel.
+4. Importar o primeiro conjunto de dados para a conta.
 5. Executar primeira ação (criar orçamento).
 
 Walkthrough revelou:
@@ -3313,7 +3313,7 @@ Na condução do *Think-Aloud*, neutralize três erros de moderação: transform
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-John Brooke desenvolveu SUS em 1986 na Digital Equipment Corporation para medir usabilidade de sistemas de escritório. Publicado formalmente em 1996. É a escala de usabilidade mais usada no mundo: milhares de estudos a aplicaram, permitindo benchmarks robustos. É disponibilizado gratuitamente em domínio público.
+John Brooke desenvolveu o SUS em 1986 na Digital Equipment Corporation para medir a usabilidade de sistemas de escritório, tendo o método sido publicado formalmente em 1996. É a escala de usabilidade mais usada no mundo: milhares de estudos a aplicaram, permitindo benchmarks robustos. É disponibilizado gratuitamente em domínio público.
 
 ##### A mecânica central (sem jargão)
 
@@ -3374,7 +3374,7 @@ Cinco cuidados preservam a validade do questionário SUS: nunca use a nota numé
 
 **Quando usar.** Ao concluir os testes de solução e usabilidade no fim desta Fase 10, imediatamente antes de iniciar a construção do MVP na Fase 11 (Vol. 4). Refaça toda vez que o time quiser adicionar feature ao escopo. A regra é mover algo para "won't have" antes de adicionar novo "must".
 
-**Exemplo de preenchimento (PadariaPro).** Proposta de valor: *"envia às 6h pelo WhatsApp a sugestão diária de compra de farinha e insumos decisivos e fecha o pedido com o fornecedor em um clique"*. Persona foco: *"Fábio, dono de rede de 2 a 5 padarias em São Paulo e Campinas"*. Must Haves (até 10 itens): *"importação de vendas do dia anterior via CSV, cálculo automático de reposição de 5 insumos decisivos, disparo diário no WhatsApp às 6h e página web enxuta para confirmação de pedidos acima de R$ 1.000"*. Won't Haves (exclusões explícitas): *"integração automática com ERP fiscal, aplicativo nativo iOS/Android, controle de validade por câmera e múltiplos níveis de alçada (ficam para depois dos 20 primeiros clientes pagantes)"*. Critério numérico pós-90 dias: *"10 redes de padarias pagando R$ 290/mês (ou R$ 400/mês no plano multiunidade) e pelo menos 70% dos pedidos semanais confirmados pelo sistema sem edição manual"*.
+**Exemplo de preenchimento (PadariaPro).** Proposta de valor: *"envia às 6h pelo WhatsApp a sugestão diária de compra de farinha e insumos críticos e fecha o pedido com o fornecedor em um clique"*. Persona foco: *"Fábio, dono de rede de 2 a 5 padarias em São Paulo e Campinas"*. Must Haves (até 10 itens): *"importação de vendas do dia anterior via CSV, cálculo automático de reposição de 5 insumos críticos, disparo diário no WhatsApp às 6h e página web enxuta para confirmação de pedidos acima de R$ 1.000"*. Won't Haves (exclusões explícitas): *"integração automática com ERP fiscal, aplicativo nativo iOS/Android, controle de validade por câmera e múltiplos níveis de alçada (ficam para depois dos 20 primeiros clientes pagantes)"*. Critério numérico pós-90 dias: *"10 redes de padarias pagando R$ 290/mês (ou R$ 400/mês no plano multiunidade) e pelo menos 70% dos pedidos semanais confirmados pelo sistema sem edição manual"*.
 
 ```text
 ESPECIFICAÇÃO DO MVP
@@ -3521,7 +3521,7 @@ Este manual se baseia na abordagem científica ao empreendedorismo (Camuffo et a
 
 ### Fundamentação acadêmica, as duas tradições por trás dos frameworks
 
-Para entender por que esses dois frameworks coexistem (e por que nenhum é "certo" isoladamente), vale saber a linhagem intelectual de cada um. Ott et al. (2017) categoriza as abordagens à tomada de decisão em incerteza em duas famílias.
+Para entender por que esses dois frameworks coexistem (e por que nenhum é "certo" isoladamente), vale saber a linhagem intelectual de cada um: o trabalho de Ott e coautores (2017) categoriza as abordagens à tomada de decisão em incerteza em duas famílias.
 
 A primeira família é a das *cognition-based approaches* (abordagens baseadas em cognição). Elas pressupõem que decisores conseguem compreender o mercado e o comportamento do cliente ao raciocinar através de modelos mentais e estruturas cognitivas. A estratégia emerge de uma representação mental clara do problema. Autores como Felin e Zenger (2009, 2017) e Ehrig e Schmidt (2022) mostram que formular primeiro um mapa causal explícito do problema permite descartar caminhos inviáveis antes de gastar recursos no mercado. O insight central é simples: pensar primeiro (teoria, atributos, causas), agir depois. Uma boa representação cognitiva reduz o espaço de busca.
 
@@ -3712,13 +3712,13 @@ Pegue as cinco decisões pendentes da semana e marque ao lado de cada uma: [R] (
 ### LEITURAS E REFERÊNCIAS COMPLEMENTARES
 
 - **Camuffo, A., Cordova, A., Gambardella, A., & Spina, C. (2020).** *A scientific approach to entrepreneurial decision making: Evidence from a randomized control trial*. Management Science, 66(2), 564–586. Estudo pioneiro com 116 startups que demonstrou aumento de receita e maior precisão nos pivôs.
-- **Camuffo, A., Gambardella, A., Messinese, D., Novelli, E., Paolucci, E., & Spina, C. (2024).** *A scientific approach to entrepreneurial decision-making: Large-scale replication and extension*. Strategic Management Journal. Replicação em larga escala com mais de 750 empreendedores confirmando os efeitos sobre encerramento honesto de teses inviáveis, foco de pivô e receita.
+- **Camuffo, A., Gambardella, A., Messinese, D., Novelli, E., Paolucci, E., & Spina, C. (2024).** *A scientific approach to entrepreneurial decision-making: Large-scale replication and extension*, publicado no *Strategic Management Journal*. Replicação em larga escala com mais de 750 empreendedores confirmando os efeitos sobre encerramento honesto de teses inviáveis, foco de pivô e receita.
 - **Coali, A., Novelli, E., Sirigiri, A., & Spina, C. (2024).** *A scientific approach to decision-making: Key tools and design principles*. Journal of Business Venturing Design. Artigo-fonte das ferramentas de atributos da teoria, pontos de corte (*thresholds*) e auditoria da amostra (*sample due diligence*) aplicadas neste volume.
-- **Felin, T., Gambardella, A., Novelli, E., & Zenger, T. (2024).** *A scientific method for startups*. Journal of Management. Distinção teórica e prática entre a formulação causal da abordagem científica e a experimentação puramente tentativa do *Lean Startup*.
-- **Novelli, E., & Spina, C. (2024).** *Making business model decisions like scientists: Strategic commitment, uncertainty and economic performance*. Strategic Management Journal. Mostra como o estágio de maturidade do negócio modera os ganhos do método científico.
+- **Felin, T., Gambardella, A., Novelli, E., & Zenger, T. (2024).** *A scientific method for startups*, publicado no *Journal of Management*. Distinção teórica e prática entre a formulação causal da abordagem científica e a experimentação puramente tentativa do *Lean Startup*.
+- **Novelli, E., & Spina, C. (2024).** *Making business model decisions like scientists: Strategic commitment, uncertainty and economic performance*, publicado no *Strategic Management Journal*. Mostra como o estágio de maturidade do negócio modera os ganhos do método científico.
 - **Agarwal, R., et al. (2024).** *Does a theory-of-value add value? Evidence from a Randomized Control Trial with Tanzanian Entrepreneurs*. Evidência empírica do impacto da construção de teoria causal em mercados emergentes.
-- **Ehrig, T., & Schmidt, J. (2022).** *Theory-based learning and experimentation*. Strategic Management Journal. Fundamentação formal de como hipóteses estratégicas são derivadas e atualizadas a partir de árvores teóricas.
-- **Zellweger, T. M., & Zenger, T. R. (2021).** *Entrepreneurs as scientists: A pragmatist approach to producing value out of uncertainty*. Academy of Management Review. Base epistemológica do empreendedor-cientista sob incerteza knightiana.
+- **Ehrig, T., & Schmidt, J. (2022).** *Theory-based learning and experimentation*, publicado no *Strategic Management Journal*. Fundamentação formal de como hipóteses estratégicas são derivadas e atualizadas a partir de árvores teóricas.
+- **Zellweger, T.M., & Zenger, T.R. (2021).** *Entrepreneurs as scientists: A pragmatist approach to producing value out of uncertainty*, publicado na *Academy of Management Review*. Base epistemológica do empreendedor-cientista sob incerteza knightiana.
 
 ---
 
@@ -3964,7 +3964,7 @@ A avaliação honesta conta a seu favor em editais que buscam estágios específ
 Antes de encerrar qualquer fase e avançar para a seguinte, formalize por escrito as quatro peças do seu próximo experimento comprometido (*Committed Next Move*) e vincule-as aos três vereditos pré-declarados (Avançar, Iterar ou Pivotar/Matar).
 
 > [!warning] Sinal de que você ainda apenas explora
-> A ausência de qualquer uma das quatro é sinal de que você está ainda em exploração. Não em compromisso.
+> A ausência de qualquer uma das quatro é sinal de que você está ainda em exploração, e não em compromisso.
 
 - [ ] **Uma cunha definida.** O comprador, o workflow, e o resultado exatos, que você está mirando *primeiro*. Se essa descrição muda dependendo do interlocutor, a cunha ainda não fechou (veja o Wedge Stress Test da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]]).
 - [ ] **Uma hipótese testável e falsificável:** uma afirmação única e clara sobre o que precisa se confirmar para a fase avançar, redigida antes do teste com ponto de corte numérico explícito (conforme a disciplina do [[#CAPÍTULO 1: ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1: Abordagem Científica vs. Lean Startup]]). Para calibrar os limiares quantitativos de cada etapa, consulte sempre o checklist de saída da respectiva fase neste volume e, para os estágios de tração e escala, os quadros de métricas dos Volumes 4 e 5.
@@ -3989,7 +3989,7 @@ Um bom próximo movimento (*Committed Next Move*) produz evidência observável 
 **Compromisso comportamental do comprador.** O comprador formal (não apenas usuário ou champion) aceita iniciar um piloto pago com critérios claros de sucesso, assina carta de intenção com prazo e valor, abre um canal interno de trabalho ou libera acesso técnico à equipe. Qualquer um desses é ponte para contrato real.
 
 > [!important] Regra combinada
-> Para o Committed Next Move ser considerado bem-desenhado, ele precisa nominalmente especificar qual dos quatro sinais você espera ver. E qual volume desse sinal você considera suficiente para declarar sucesso. Sem essa especificação ex-ante, você vai terminar a janela olhando os dados em busca de confirmação. E isso é viés. Não aprendizado.
+> Para o Committed Next Move ser considerado bem-desenhado, ele precisa nominalmente especificar qual dos quatro sinais você espera ver. E qual volume desse sinal você considera suficiente para declarar sucesso. Sem essa especificação ex-ante, você vai terminar a janela olhando os dados em busca de confirmação, o que representa viés, e não aprendizado.
 
 ---
 
@@ -4094,22 +4094,22 @@ A tabela abaixo mapeia os principais elementos operacionais do framework, e onde
 
 ### Como Idea → Wedge → Scale se relaciona com os outros três frameworks
 
-O quarto framework não substitui os três anteriores. Ele se inscreve neles. Trazendo um recorte pedagógico específico.
+O quarto framework não substitui os três anteriores, mas se inscreve neles ao trazer um recorte pedagógico específico.
 
 **Com o Framework 1 (Científico).** O Antler é silencioso sobre rigor metodológico de evidência (thresholds ex-ante, due diligence de amostra, e falsificabilidade). Essas continuam vindo do Framework 1. O Antler contribui com a hierarquia de decisões. O que validar primeiro, e em que ordem. Quando os dois se combinam, você obtém experimentos cientificamente sólidos sobre os atributos certos, na sequência certa.
 
 **Convergência com o Eixo 2 (Execução Enxuta):** ferramentas práticas como o *Mom Test*, a classificação de níveis de dor (*Pain Levels*) e os testes rápidos de compromisso são compartilhadas entre aceleradoras globais como Y Combinator e Antler, a obra de Steve Blank e Ash Maurya e os passos que estruturamos nas Fases 4 a 8 deste manual. O diferencial específico da lente Antler está na disciplina de sequência: conquistar primeiro um monopólio local na fresta da cunha antes de disputar a guerra de plataforma.
 
-**Com o Framework 3 (Jornada PSF para PMF para Escala).** Os dois frameworks são quase isomórficos em seus primeiros movimentos. Mas com ênfases diferentes. PSF é atingido quando a Cunha está comprovada (o produto entrega o *job* principal para o ICP definido). O PMF é atingido quando o produto se torna indispensável na cunha inicial (superando o corte de 40% no teste de Sean Ellis e estabilizando a retenção na Fase 13), momento a partir do qual a expansão intra-conta passa a impulsionar uma retenção líquida de receita (NRR) acima de 100%. A Escala do Antler corresponde ao pós-PMF do Framework 3. Quando usados juntos, o Antler traz o *como* (três caminhos intra, mais três extra, mais disciplina de variável isolada). E o Framework 3 traz o *quando* (métricas de transição entre estágios).
+**Com o Framework 3 (Jornada PSF para PMF para Escala).** Os dois frameworks são quase isomórficos em seus primeiros movimentos, embora tenham ênfases diferentes. PSF é atingido quando a Cunha está comprovada (o produto entrega o *job* principal para o ICP definido). O PMF é atingido quando o produto se torna indispensável na cunha inicial (superando o corte de 40% no teste de Sean Ellis e estabilizando a retenção na Fase 13), momento a partir do qual a expansão intra-conta passa a impulsionar uma retenção líquida de receita (NRR) acima de 100%. A Escala do Antler corresponde ao pós-PMF do Framework 3. Quando usados juntos, o Antler traz o *como* (três caminhos intra, mais três extra, mais disciplina de variável isolada). E o Framework 3 traz o *quando* (métricas de transição entre estágios).
 
 > [!tip] Regra prática
 > Quando em dúvida sobre qual framework invocar, pergunte o tipo de dúvida que está sendo feita.
 >
-> "Minha evidência é confiável?". Framework 1.
+> "Minha evidência é confiável?": recorra ao Framework 1.
 >
 > "Minha ideia tem qualidade?". Framework 2 (filtros).
 >
-> "Em que ponto do ciclo eu estou, e o que esperar daqui?". Framework 3.
+> "Em que ponto do ciclo eu estou, e o que esperar daqui?": recorra ao Framework 3.
 >
 > "O que fazer *em ordem* para avançar daqui?". Framework 4 (Antler).
 
@@ -4123,7 +4123,7 @@ Os oito conceitos abaixo sintetizam o vocabulário operacional da lente Antler u
 
 - **3. *Buyer Precision Test* (Teste de Precisão do Comprador):** verificação em 30 segundos do quarto elemento da cunha: *"Nós vendemos para [cargo exato] em [tipo específico de empresa] porque essa pessoa responde pela meta de [resultado mensurável] e assina sozinha a rubrica de [orçamento existente]"*. Se você não souber nomear o cargo e a rubrica, ainda não encontrou o comprador.
 
-- **4. *Platform vs. Wedge* (Plataforma vs. Cunha):** uma plataforma abrange múltiplos fluxos, departamentos e integrações, uma cunha resolve um único fluxo decisivo melhor do que qualquer alternativa. Toda grande plataforma B2B nasceu como uma cunha afiada que conquistou o direito de expandir depois.
+- **4. *Platform vs. Wedge* (Plataforma vs. Cunha):** uma plataforma abrange múltiplos fluxos, departamentos e integrações, uma cunha resolve um único fluxo crítico melhor do que qualquer alternativa. Toda grande plataforma B2B nasceu como uma cunha afiada que conquistou o direito de expandir depois.
 
 - **5. *Expansion Discipline* (Disciplina de Expansão):** princípio segundo o qual a empresa só abre um novo vetor de crescimento depois de dominar a cunha inicial com retenção e economia unitária comprovadas, expandindo primeiro dentro dos clientes atuais (*intra-conta*) antes de buscar novos mercados (*extra-conta*).
 
@@ -4201,7 +4201,7 @@ Ao longo deste capítulo, veremos como corrigir os dois erros que quase mataram 
 
 **Dependência de lojas de aplicativos e ecossistemas.** Construir seu negócio sobre a infraestrutura de um gigante acelera a distribuição inicial, mas cobra pedágio e impõe risco regulatório e contratual: nas lojas móveis (Apple App Store e Google Play), as comissões históricas de 15% a 30% sobre bens digitais e as travas contra links externos de pagamento tornaram-se alvo de forte intervenção antitruste e judicial entre 2024 e 2026 (incluindo o *Digital Markets Act* na União Europeia, as decisões no caso *Epic v. Apple* nos Estados Unidos e as medidas preventivas e investigações do CADE no Brasil sobre pagamentos fora do aplicativo). Em lojas de software B2B como Shopify App Store, Salesforce AppExchange e TOTVS Store, além da comissão de 15% a 20%, a sobrevivência depende da aprovação técnica e do algoritmo de busca da plataforma hospedeira.
 
-**Dependência técnica e de APIs decisivas.** Negócios inteiramente dependentes da política de preços ou das regras de uma única API de terceiros (como mudanças nas tarifas por mensagem da API oficial do WhatsApp Business da Meta, limites de requisição de provedores de IA ou alterações unilaterais em conectores de ERP) podem ver sua margem bruta evaporar da noite para o dia quando o provedor reajusta a tabela ou lança nativamente a funcionalidade que você vendia.
+**Dependência técnica e de APIs críticas.** Negócios inteiramente dependentes da política de preços ou das regras de uma única API de terceiros (como mudanças nas tarifas por mensagem da API oficial do WhatsApp Business da Meta, limites de requisição de provedores de IA ou alterações unilaterais em conectores de ERP) podem ver sua margem bruta evaporar da noite para o dia quando o provedor reajusta a tabela ou lança nativamente a funcionalidade que você vendia.
 
 **Dependência de canal:** no tráfego pago (Google Ads e Meta Ads), mudanças de algoritmo ou leilão inflam rapidamente o preço do CPC; em busca orgânica (SEO), uma atualização de ranqueamento do Google pode reduzir o tráfego de 30% a 60% da noite para o dia; e nas redes sociais, quando a plataforma prioriza formatos nativos próprios, o alcance orgânico das marcas despenca.
 
@@ -4217,7 +4217,7 @@ Ao longo deste capítulo, veremos como corrigir os dois erros que quase mataram 
 
 Em escala, a empresa pode ter alavancagem.
 
-Programas de partnership. Apple's App Store Small Business Program (quinze por cento para empresas menores que US$ 1 milhão). Shopify Plus partners.
+Explore programas de parceria, como o Apple's App Store Small Business Program (quinze por cento para empresas menores que US$ 1 milhão) e o Shopify Plus Partners.
 
 Acordos customizados. Grandes clientes negociam terms específicos.
 
@@ -4277,7 +4277,7 @@ Cem por cento de aquisição em um canal. A Meta muda algoritmo. A receita cai q
 
 Infraestrutura em uma cloud, sem plano B. A AWS sobe trinta por cento. As margens viram negativas.
 
-App em uma store, sem canal próprio. A Apple remove app. A empresa morre.
+Quando o negócio depende de um app em uma única store, sem canal próprio, e a Apple remove o aplicativo, a empresa morre.
 
 Ignorar mudanças nas regras da App Store ou da Google Play: o aplicativo é barrado na revisão e uma atualização decisiva fica impedida de ir ao ar.
 
@@ -4291,14 +4291,14 @@ Disintermediação ignorada. Os usuários saem off-platform, sem sinal de alarme
 
 Marketplace e gestão de risco de plataforma estão saudáveis quando, sendo marketplace, há liquidez medida e ação quando abaixo de threshold. Dependência de plataforma está listada e quantificada. Plano B foi testado para cada plataforma decisiva. Há diversificação ativa em canais e plataformas principais. Existe relação direta com usuário (email, comunidade) em construção, e o monitoring de mudanças em políticas de plataformas-chave está em pé. Os itens abaixo sustentam isso.
 
-- [ ] Se marketplace. Liquidez medida mensalmente.
+- [ ] Se o modelo for marketplace, a liquidez é medida mensalmente.
 - [ ] Lista formal de todas as dependências de plataforma.
 - [ ] Percentual de receita, ou operação, em cada plataforma decisiva mapeado.
 - [ ] Plano B ativo, e testado, para cada plataforma decisiva.
 - [ ] Canal de aquisição diversificado (não um canal maior que cinquenta por cento).
 - [ ] Relação direta com usuário (email e comunidade), em construção.
 - [ ] Monitoring de mudanças em guidelines, ou políticas, das plataformas-chave.
-- [ ] Se marketplace. Mitigações de disintermediação implementadas.
+- [ ] Se o modelo for marketplace, as mitigações de desintermediação estão implementadas.
 
 ---
 
@@ -4322,7 +4322,7 @@ A taxa de captura (*take rate*) corresponde ao percentual retido pela plataforma
 
 Decisão de take rate. Trade-off entre revenue da empresa, e atratividade para oferta (sellers). Take rate alto financia marketplace, mas reduz supply. Take rate baixo atrai supply, mas restringe revenue da empresa.
 
-Estrutura de take rate por tier. Grandes sellers pagam menos (volume-based tiering). Comum em marketplaces maduros.
+Adote uma estrutura de take rate por tier, na qual grandes sellers pagam menos (volume-based tiering), prática comum em marketplaces maduros.
 
 #### 3. Supply acquisition versus demand acquisition
 
@@ -4345,7 +4345,7 @@ Pagamento via plataforma. Nunca off-platform (gera disintermediação, mais frau
 
 **Escrow:** A empresa retém valor até conclusão da transação.
 
-Reviews e reputação. Mecanismo de filtragem orgânica.
+Sistemas de avaliações (*reviews*) e reputação operam como mecanismo de filtragem orgânica.
 
 Team anti-fraude. Humanos, mais ML, para detectar patterns.
 
@@ -4473,7 +4473,7 @@ Na estrutura comercial, a equipe de vendas é mais enxuta e consultiva do que nu
 
 Projetar um produto B2B2C exige desenhar para duas personas com dores diferentes: o gestor comprador na empresa B (que precisa de painel administrativo simples, importação rápida de cadastros, relatórios agregados de retorno sobre o investimento e conformidade com a LGPD) e o usuário final C na ponta (que não participou da reunião de venda e só vai usar o serviço se o acesso pelo celular levar menos de um minuto e resolver um problema imediato da rotina dele).
 
-O produto tem duas "superfícies". A interface B (admin, analytics, customization, settings) e a interface C (produto final, white-label, cobranded, ou integrado no produto do B). Ambas precisam ser boas. Negligenciar qualquer uma quebra o modelo.
+O produto tem duas "superfícies": a interface B (admin, analytics, customization, settings) e a interface C (produto final, white-label, cobranded, ou integrado no produto do B). Ambas precisam ser boas, pois negligenciar qualquer uma quebra o modelo.
 
 APIs e SDKs frequentemente são o "produto". B integra a API. Qualidade de documentação, developer experience, exemplos de código, SDK em múltiplas linguagens são diferencial competitivo.
 
@@ -4502,9 +4502,9 @@ A concentração por B é o primeiro. Se um B representa trinta por cento ou mai
 
 A desintermediação é o segundo. B aprende que pode construir infraestrutura internamente ou trocar de fornecedor. Se seu custo de switching é baixo, B vai. A defesa é integração profunda, SLA excelente, pricing competitivo, roadmap de features que B não consegue construir sozinho.
 
-C muda expectativas e B pressiona você. Esse é o terceiro. C reclama de experiência. B te cobra. Você precisa ajustar. Os contratos de SLA precisam ser claros sobre responsabilidades.
+Quando o consumidor C muda expectativas e o parceiro B pressiona você, configura-se o terceiro risco: C reclama da experiência, B te cobra e você precisa ajustar o produto rapidamente. Por isso, os contratos de SLA precisam ser claros sobre responsabilidades.
 
-O regulador muda regras e B te pressiona. O BCB muda exigência de KYC, todos os Bs que usam você precisam atualizar, os custos de implementação sobem. Você absorve ou repassa.
+O regulador muda regras e B te pressiona: quando o BCB muda exigência de KYC, todos os Bs que usam você precisam atualizar e os custos de implementação sobem, exigindo decidir se a sua operação absorve ou repassa esse custo.
 
 Disputa entre B e C envolve você. C reclama diretamente do seu produto (mesmo sendo serviço de B). Atendimento, responsabilidade e resolução em contratos precisam definir claramente quem responde por quê.
 
@@ -4603,7 +4603,7 @@ Para que essa arquitetura pare em pé, você precisa escapar da Armadilha da Fil
 > - [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#IGNIÇÃO: Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais|Volume 10 (Playbooks Setoriais e Glossário)]], que analisa casos globais e brasileiros de software de código aberto comercial.
 > - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10: OPERAÇÕES EM ESCALA|Capítulo 10 (Operações em Escala) (Vol. 7)]], operação quando a comunidade vira parte do produto.
 >
-> **Aplicabilidade**: empresas dev-tools ou infra. Crescente em SaaS moderno.
+> **Aplicabilidade**: voltado a empresas de dev-tools ou infra, com adoção crescente em SaaS moderno.
 
 ### Por que abrir parte do código acelera a adoção e reduz o CAC em mercados técnicos
 
@@ -4713,7 +4713,7 @@ Trata-se de uma estratégia de distribuição de baixo para cima (*bottom-up*) e
 
 ##### Protocolo prático de execução
 
-Produto: garantir que a API tem documentação de referência completa, exemplos em múltiplas linguagens, sandbox de testes, erros com mensagens informativas. Medir TTFSC semanalmente. Aquisição: presença em plataformas de desenvolvedores (GitHub, Stack Overflow, Dev.to, Hacker News), eventos técnicos (meetups, hackathons), conteúdo técnico (tutoriais, artigos de blog de engineering). Comunidade: programa de advocates (desenvolvedores externos que usam e promovem), fórum ou Discord, feedback loop direto entre comunidade e produto. Monetização: freemium ou pay-as-you-go para remover barreira de entrada, expansão automática com uso.
+Produto: garantir que a API tem documentação de referência completa, exemplos em múltiplas linguagens, sandbox de testes e erros com mensagens informativas, além de medir o TTFSC semanalmente. Aquisição: presença em plataformas de desenvolvedores (GitHub, Stack Overflow, Dev.to, Hacker News), eventos técnicos (meetups, hackathons), conteúdo técnico (tutoriais, artigos de blog de engineering). Comunidade: programa de advocates (desenvolvedores externos que usam e promovem), fórum ou Discord, feedback loop direto entre comunidade e produto. Monetização: freemium ou pay-as-you-go para remover barreira de entrada, expansão automática com uso.
 
 Aplicação no mercado brasileiro: Pagar.me (infraestrutura de pagamentos digitais fundada em São Paulo em 2013 e posteriormente integrada ao grupo Stone Co.). Num momento em que integrar o *checkout* de um banco ou adquirente tradicional no Brasil exigia semanas de leitura de manuais em PDF de 200 páginas e homologação burocrática, a Pagar.me ganhou tração entre desenvolvedores e agências de e-commerce oferecendo documentação clara em português, ambiente de testes (*sandbox*) liberado na hora e bibliotecas abertas no GitHub. Ao facilitar a vida de quem programava a loja virtual, os próprios desenvolvedores e integradores passaram a recomendar a solução aos lojistas.
 

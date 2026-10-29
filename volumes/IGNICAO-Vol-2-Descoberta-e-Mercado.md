@@ -180,7 +180,7 @@ Negócios bilionários costumam combinar profundidade e largura (como a busca do
 
 #### Corolário: cliente desesperado aceita produto imperfeito
 
-Em um mercado excelente, com clientes desesperados por solução, a primeira versão do produto não precisa ser incrível. Só precisa funcionar. Essa é a marca do produto bem-sucedido em fase inicial. Em um mercado morno, mesmo um produto excepcional tem dificuldade de ganhar tração.
+Em um mercado excelente, com clientes desesperados por solução, a primeira versão do produto não precisa ser incrível, pois basta que funcione para entregar valor. Essa é a marca do produto bem-sucedido em fase inicial. Em um mercado morno, mesmo um produto excepcional tem dificuldade de ganhar tração.
 
 O que isso significa na prática: se você está obcecado em polir o produto antes de lançar, há boa chance de que esteja mirando o mercado errado. Mercados quentes toleram (e recompensam) produtos capengas. Mercados frios exigem produtos polidos que ainda assim falham em engajar. A obsessão com perfeição técnica é frequentemente fuga de fundador evitando o veredito do mercado real.
 
@@ -241,7 +241,7 @@ Esse filtro é o que separa pesquisa útil de pesquisa "perdida no meio".
 
 #### Passo 2: lista de sessenta a cem pessoas para abordar (meta de 15 a 25 entrevistas)
 
-Como parte relevante dos contatos não responde ou fica fora do recorte, monte uma lista de sessenta a cem nomes para concluir de quinze a vinte e cinco entrevistas válidas. Fontes práticas de prospecção: busca filtrada no LinkedIn. Grupos setoriais de WhatsApp e Telegram. Associações comerciais e sindicatos patronais. Feiras e eventos presenciais. Indicações quentes ao final de cada conversa. Comunidades especializadas (fóruns, Discord, Reddit), e abordagem direta com convite objetivo para uma conversa de trinta a trinta e cinco minutos.
+Como parte relevante dos contatos não responde ou fica fora do recorte, monte uma lista de sessenta a cem nomes para concluir de quinze a vinte e cinco entrevistas válidas. As fontes práticas de prospecção incluem busca filtrada no LinkedIn, grupos setoriais de WhatsApp e Telegram, associações comerciais e sindicatos patronais, feiras e eventos presenciais, indicações quentes ao final de cada conversa, comunidades especializadas (fóruns, Discord, Reddit) e abordagem direta com convite objetivo para uma conversa de trinta a trinta e cinco minutos.
 
 #### Passo 3: escreva e teste o seu roteiro de entrevista
 
@@ -675,9 +675,9 @@ Startup validando SaaS para gestão de escolas pequenas:
 
 Tópicos:
 
-1. Rotina típica do diretor.
+1. Como funciona a rotina típica do diretor ao longo da semana.
 2. Uso atual de tecnologia (quais ferramentas).
-3. Processos problemáticos.
+3. Quais são os processos problemáticos que mais geram retrabalho.
 4. Orçamento de tecnologia e quem decide.
 5. Expectativas para os próximos 12 meses.
 
@@ -773,7 +773,7 @@ Três fases de codificação:
 
 2. Codificação axial (*axial coding*): conectar os agrupamentos iniciais, identificando subcategorias, condições de contexto, gatilhos e estratégias de ação adotadas pelo usuário.
 
-3. Selective coding: integrar ao redor de categoria core que explica fenômeno central. Teoria emerge.
+3. Selective coding: consiste em integrar os achados ao redor de uma categoria core que explica o fenômeno central, fazendo a teoria emergir.
 
 Constant comparative method: comparar cada novo dado com análise prévia, refinar categorias iterativamente.
 
@@ -850,7 +850,7 @@ Virginia Braun (Auckland) e Victoria Clarke (UWE Bristol) publicaram "Using Them
 
 Passo 1: Transcreva tudo (ou note detalhadamente).
 
-Passo 2: Leia sem analisar primeiro. Impressão holística.
+Passo 2: Leia o material inteiro sem analisar primeiro, buscando formar uma impressão holística.
 
 Passo 3: Codifique sistematicamente. Cada quote/episódio ganha código descritivo.
 
@@ -877,7 +877,7 @@ Temas finais:
 
 1. "Dinheiro é tabu emocional": freelancers evitam pensar em finanças, adiam até crise. Quotes: "Odeio fechar o mês", "Finge que vai dar certo", "Só olho quando não tem jeito".
 
-2. "Ferramentas fragmentadas": todos usam 3-6 ferramentas (planilha + banco + WhatsApp com contador + caderno + app eventual). Nenhum centralizado. Quotes: "Sempre esqueço onde anotei", "Cada ferramenta faz uma coisa".
+2. "Ferramentas fragmentadas": todos usam 3-6 ferramentas (planilha + banco + WhatsApp com contador + caderno + app eventual), sem nenhum sistema centralizado. Quotes: "Sempre esqueço onde anotei", "Cada ferramenta faz uma coisa".
 
 3. "Pressão do imediato": foco só em próxima semana, planejamento de mês+ raro. "Não tenho tempo nem cabeça para pensar 3 meses à frente".
 
@@ -1195,7 +1195,7 @@ Para cada problema que a pessoa citar espontaneamente:
 
 ###### 4. Vocabulário do cliente
 
-> *Anote as palavras e expressões exatas que a pessoa usou para descrever o problema, a rotina e as soluções atuais. Não parafraseie. Esse vocabulário vai direto para o marketing, para a landing page e para o roteiro de vendas depois: se você usa a linguagem do cliente, ele se reconhece. Se você usa a sua, ele ignora.*
+> *Anote as palavras e expressões exatas que a pessoa usou para descrever o problema, a rotina e as soluções atuais, sem parafrasear o relato. Esse vocabulário vai direto para o marketing, para a landing page e para o roteiro de vendas depois: se você usa a linguagem do cliente, ele se reconhece. Se você usa a sua, ele ignora.*
 
 | Como a pessoa chama | Contexto em que usou |
 |---|---|
@@ -1224,9 +1224,9 @@ Para cada problema que a pessoa citar espontaneamente:
 
 - [ ] **Nível 1**: Tem o problema, mas não sabe que tem.
 - [ ] **Nível 2**: Sabe que tem, mas tolera. Não vai pagar sozinho.
-- [ ] **Nível 3**: Está ativamente procurando uma solução no mercado, com prazo definido. Contato comercial quente.
+- [ ] **Nível 3**: Está ativamente procurando uma solução no mercado, com prazo definido, configurando um contato comercial quente.
 - [ ] **Nível 4**: Já improvisou gambiarra (planilha Frankenstein, processo manual, ferramenta adaptada). Forte evidência de que pagaria.
-- [ ] **Nível 5**: Tem orçamento comprometido ou facilmente acessível para comprar solução. Cliente ideal.
+- [ ] **Nível 5**: Tem orçamento comprometido ou facilmente acessível para comprar solução, representando o cliente ideal.
 
 > *O Nível 5 verifica-se sempre por evidência indireta de gasto passado ou orçamento alocado, nunca por pergunta hipotética sobre disposição futura a pagar (que induz a resposta e viola as regras da Parte A). Sinais válidos: relato espontâneo de valor já desembolsado, contratação de pessoal para contornar o problema, mensalidade paga em ferramenta substituta ou rubrica já aprovada no orçamento anual.*
 
@@ -1914,7 +1914,7 @@ Na etapa de síntese, evite reler anotações de cabeça pinçando apenas as fra
 
 ##### Affinity mapping: agrupamento por afinidade
 
-Processo físico ou digital (Miro, FigJam, Mural) para encontrar padrões em grandes volumes de dado qualitativo. Cinco passos.
+Trata-se de um processo físico ou digital (Miro, FigJam, Mural) estruturado em cinco passos para encontrar padrões em grandes volumes de dado qualitativo.
 
 Primeiro, extração de observações atômicas. Para cada entrevista, extraia quinze a quarenta "observações". Cada uma é um fato, citação, ou comportamento específico, escrito em post-it (um por post-it). Por exemplo, "João passa duas horas toda segunda compilando planilhas manualmente". Ou "Maria menciona três vezes que fica ansiosa com prazos de entrega".
 
@@ -1930,9 +1930,9 @@ O resultado são cinco a quinze clusters temáticos com número de ocorrências 
 
 ##### Coding e thematic analysis: codificação temática
 
-Método mais rigoroso, vindo da pesquisa qualitativa acadêmica. Cinco passos.
+Trata-se de um método mais rigoroso, vindo da pesquisa qualitativa acadêmica e organizado em cinco passos.
 
-Codificação aberta. Leia cada transcrição linha por linha e atribua "códigos" (tags curtas de uma a três palavras) a trechos relevantes. Por exemplo, "ansiedade_prazo", "retrabalho_manual", "ferramenta_improvisada". Permita códigos emergentes. Não pré-defina a lista.
+Na codificação aberta, leia cada transcrição linha por linha e atribua "códigos" (tags curtas de uma a três palavras) a trechos relevantes, como "ansiedade_prazo", "retrabalho_manual" ou "ferramenta_improvisada", permitindo que surjam códigos emergentes sem pré-definir a lista.
 
 Revisão e consolidação. Depois de cinco a sete entrevistas codificadas, revise a lista de códigos. Combine sinônimos, elimine duplicatas, refine definições.
 
@@ -1949,7 +1949,7 @@ Ferramentas pagas: Dovetail, Delve, Atlas.ti. Alternativas gratuitas: planilha c
 > [!tip] Capítulo 9 (Vol. 4): Dados, Analytics e Experimentação
 > A triangulação abaixo é a primeira vez que você produz dados estruturados sobre o cliente. O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 9: DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 9 (Dados, Analytics e Experimentação) (Vol. 4)]] aprofunda como estruturar surveys de validação, interpretar dados de survey com rigor estatístico mínimo, e montar o pipeline de experimentação que sustentará as decisões de produto nas fases posteriores.
 
-Entrevistas sozinhas produzem hipóteses ricas mas estatisticamente frágeis. Survey sozinho produz números sem contexto. Combinar os dois é o padrão-ouro. Três passos.
+Entrevistas sozinhas produzem hipóteses ricas mas estatisticamente frágeis. Survey sozinho produz números sem contexto. Combinar os dois em três passos é o padrão-ouro.
 
 Primeiro, use as sessões de pesquisa qualitativa (as 15 a 20 entrevistas de problema da Fase 4 somadas às 10 a 15 sessões de JTBD e 5 observações de campo desta Fase 5) para extrair os temas e trabalhos prioritários.
 
@@ -2352,7 +2352,7 @@ Passo 3: Observação longa. Mínimo 4-6 horas, idealmente dia completo. Alguns 
 
 Passo 4: Observe o invisível. Como decisões são tomadas, quem tem voz, o que não é dito, rotinas tão naturais que participante não descreveria.
 
-Passo 5: Conversas informais, não entrevistas estruturadas. Deixar diálogo emergir naturalmente.
+Passo 5: Priorize conversas informais em vez de entrevistas estruturadas, deixando o diálogo emergir naturalmente.
 
 Passo 6: Documente a observação de campo respeitando integralmente a LGPD (Lei 13.709/2018): colha termo de consentimento prévio para gravações de áudio ou imagem, jamais fotografe ou anote dados pessoais ou sensíveis de terceiros (como prontuários de pacientes em clínicas ou telas com CPF e dados bancários de clientes finais), anonimize os registros no caderno de campo e defina prazo de descarte dos arquivos brutos (ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9: LGPD, Compliance e Governança de Dados (Vol. 8)]]).
 
@@ -2800,9 +2800,9 @@ Aplicando a fórmula de oportunidade de Ulwick ($\text{Oportunidade} = \text{Imp
 
 - **Job 1 (Maior oportunidade, nota 9/10):** "Identificar na sexta-feira antes das 15h quais boletos pagos no banco correspondem a notas fiscais ativas ou canceladas" (Importância = 5/5, Satisfação atual = 1/5 → $\text{Oportunidade} = 5 + (5 - 1) = 9$). Foco imediato da cunha de entrada.
 
-- **Job 2 (Oportunidade intermediária, nota 8/10): "Fechar o balanço mensal de contas a receber da distribuidora sem divergência com a contabilidade externa"** (Importância = 5/5, Satisfação atual = 2/5 → $\text{Oportunidade} = 5 + (5 - 2) = 8$). Segundo módulo do produto.
+- **Job 2 (Oportunidade intermediária, nota 8/10): "Fechar o balanço mensal de contas a receber da distribuidora sem divergência com a contabilidade externa"** (Importância = 5/5, Satisfação atual = 2/5 → $\text{Oportunidade} = 5 + (5 - 2) = 8$), que orienta o segundo módulo do produto.
 
-- **Job 3 (Baixa prioridade, nota 4/10): "Visualizar gráficos anuais de faturamento por região em painel colorido"** (Importância = 3/5, Satisfação atual = 2/5 → $\text{Oportunidade} = 3 + (3 - 2) = 4$). Descartado do escopo inicial.
+- **Job 3 (Baixa prioridade, nota 4/10): "Visualizar gráficos anuais de faturamento por região em painel colorido"** (Importância = 3/5, Satisfação atual = 2/5 → $\text{Oportunidade} = 3 + (3 - 2) = 4$), item descartado do escopo inicial.
 
 - **Dimensão emocional:** sentir-se no controle do caixa antes de autorizar pagamentos na sexta-feira.
 - **Dimensão social:** demonstrar segurança e domínio dos números perante os sócios e a auditoria contábil.
@@ -3431,7 +3431,7 @@ Os concorrentes indiretos costumam cair em quatro categorias operacionais que pr
 > No Brasil, inércia de troca é amplificada por desconfiança em novos fornecedores, preferência por relação pessoal e sensibilidade a risco financeiro. O [[#CAPÍTULO 1: PSICOLOGIA DO CONSUMIDOR BRASILEIRO: COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1: Psicologia do Consumidor Brasileiro]] explica esses padrões e ajuda a formular o argumento de troca certo para cada perfil de cliente dentro da sua cunha.
 
 > [!important] A pergunta-chave de competição
-> Por que a alternativa atual é tolerada? Se a resposta é "porque funciona suficientemente bem", a sua urgência é fraca, e provavelmente você não tem cunha. Cunhas fortes substituem algo doloroso. Não algo levemente inconveniente. Se os entrevistados descrevem a planilha-mãe rindo ("a minha relação de amor e ódio com aquele Excel maldito"), você tem uma fresta. Se descrevem com indiferença ("funciona, acho"), você não tem.
+> Por que a alternativa atual é tolerada? Se a resposta é "porque funciona suficientemente bem", a sua urgência é fraca, e provavelmente você não tem cunha. Cunhas fortes substituem algo doloroso, e não algo levemente inconveniente. Se os entrevistados descrevem a planilha-mãe rindo ("a minha relação de amor e ódio com aquele Excel maldito"), você tem uma fresta. Se descrevem com indiferença ("funciona, acho"), você não tem.
 
 Para cada alternativa prioritária, preencha uma ficha padronizada com seis dimensões: (1) quem oferece e qual é o posicionamento, (2) preço praticado, (3) ICP atendido, (4) pontos fortes e vulnerabilidades percebidos (usando falas diretas colhidas nas Fases 4 e 5), (5) reação provável à sua entrada, e (6) a pergunta decisiva: por que essa alternativa é tolerada hoje pelo cliente?
 
@@ -3508,7 +3508,7 @@ Em seguida, complemente a matriz visual com uma tabela comparando a sua proposta
 
 #### Passo 9: sintetize o Dossiê de Mercado
 
-Documento de dez a vinte páginas contendo: definição precisa do mercado. Cálculos *bottom-up* de TAM, SAM e SOM. Catálogo de oito a doze alternativas categorizadas (diretas, indiretas e status quo). Fichas aprofundadas de três a cinco concorrentes principais. Matriz competitiva. Tendências tecnológicas e regulatórias. Barreiras de entrada. Canais de distribuição dominantes, e hipótese inicial de posicionamento.
+Elabore um documento de dez a vinte páginas contendo definição precisa do mercado, cálculos *bottom-up* de TAM, SAM e SOM, catálogo de oito a doze alternativas categorizadas (diretas, indiretas e status quo), fichas aprofundadas de três a cinco concorrentes principais, matriz competitiva, tendências tecnológicas e regulatórias, barreiras de entrada, canais de distribuição dominantes e hipótese inicial de posicionamento.
 
 ### Critérios de saída da Fase 6
 
@@ -3992,7 +3992,7 @@ Quatro quadrantes:
 
 ##### As regras do jogo
 
-Stars: líderes em mercados em crescimento. Consomem caixa (para defender liderança) mas geram retorno futuro. Estratégia: investir. Cash Cows: líderes em mercados maduros. Geram muito caixa, exigem pouco investimento. Estratégia: extrair caixa para financiar Stars e Question Marks. Question Marks: baixo market share em mercado crescendo. Precisam de investimento grande para virar Stars, ou devem ser abandonados. Decisão difícil. Dogs: baixa participação em mercado estagnado. Típica recomendação BCG: divest (vender, fechar, ou turnaround com custo mínimo).
+Stars: líderes em mercados em crescimento. Consomem caixa (para defender liderança) mas geram retorno futuro. Estratégia: investir. Cash Cows: líderes em mercados maduros. Geram muito caixa, exigem pouco investimento. Estratégia: extrair caixa para financiar Stars e Question Marks. Question Marks: têm baixo market share em mercado crescendo e exigem uma decisão difícil, pois precisam de investimento grande para virar Stars ou devem ser abandonados. Dogs: baixa participação em mercado estagnado. Típica recomendação BCG: divest (vender, fechar, ou turnaround com custo mínimo).
 
 ##### Passos práticos de implantação
 
@@ -4021,7 +4021,7 @@ Grupo brasileiro com 4 unidades de negócio (exemplo hipotético):
 - Unidade A, Streaming de conteúdo religioso: 40% market share no segmento, mercado cresce 20% a.a. → STAR, na qual vale investir.
 - Unidade B, Portal de notícias gospel: 55% market share, mercado cresce 2% a.a. → CASH COW. Ordenhar caixa para financiar Unidade A.
 - Unidade C, Loja virtual de livros: 5% market share, mercado cresce 15% a.a. → QUESTION MARK. Decidir: investir pesado para virar Star ou sair.
-- Unidade D, Revista impressa: 8% market share, mercado encolhe 10% a.a. → DOG. Turnaround ou desinvestir.
+- Unidade D, Revista impressa: 8% market share, mercado encolhe 10% a.a. → DOG, exigindo turnaround ou desinvestimento.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -4054,7 +4054,7 @@ Resultado em 9 células agrupadas em 3 zonas:
 
 Passo 1: Defina os fatores de atratividade da indústria. Atribua um peso a cada fator (tamanho 20%, crescimento 20%, margens 15% e assim por diante) até somar 100%.
 
-Passo 2: Defina os fatores de posição competitiva. Market share, participação em segmentos-chave, qualidade, marca, custo, rede. Também com pesos.
+Passo 2: Defina os fatores de posição competitiva (market share, participação em segmentos-chave, qualidade, marca, custo e rede), atribuindo pesos também a cada um deles.
 
 Passo 3: Pontue cada unidade. Escala 1-5 (ou 1-10) em cada fator. Multiplique por peso e some os pontos: Resultado vai para cada eixo.
 
@@ -4066,10 +4066,10 @@ Passo 5: Estratégia por zona.
 
 Conglomerado diversificado com 5 unidades:
 
-- U1, SaaS de gestão hospitalar: atratividade alta (setor cresce 18%/ano, margem 75%), posição alta (40% share em nicho) → Zona Verde. Investir agressivamente.
+- U1, SaaS de gestão hospitalar: atratividade alta (setor cresce 18%/ano, margem 75%), posição alta (40% share em nicho) → Zona Verde, na qual a diretriz é investir agressivamente.
 - U2, Distribuidora de medicamentos: atratividade média, posição alta → Zona Verde. Investir para crescer e consolidar liderança.
 - U3, Loja virtual de suplementos: atratividade média, posição baixa → Zona Vermelha. Colher caixa seletivamente ou sair.
-- U4, Editora impressa: atratividade baixa, posição média → Zona Vermelha. Ordenhar caixa.
+- U4, Editora impressa: atratividade baixa, posição média → Zona Vermelha, na qual cabe preservar margens e ordenhar o caixa.
 - U5, Rádio local: atratividade baixa, posição baixa → Zona Vermelha, da qual vale desinvestir.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
@@ -4099,9 +4099,9 @@ Matriz 2x2 que estrutura **quatro estratégias de crescimento** segundo dois eix
 | **Mercado novo** | **Desenvolvimento de mercado** (risco médio) | **Diversificação** (alto risco) |
 
 - Penetração de mercado: vender mais do produto atual a clientes atuais (e capturar clientes similares). Risco baixo, retorno limitado. Táticas: mais marketing, melhor pricing, expansion dentro da base.
-- Desenvolvimento de produto: novos produtos para a mesma base de clientes. Vantagem: conhece o cliente. Risco médio.
+- Desenvolvimento de produto: novos produtos para a mesma base de clientes, trazendo a vantagem de já conhecer o cliente com risco médio.
 - Desenvolvimento de mercado: levar o produto atual para novos segmentos de clientes, novas verticais ou novas regiões geográficas que exigem nova estrutura comercial. Risco médio, vantagem de partir de produto já validado.
-- Diversificação: produto novo, mercado novo. Risco máximo. Pode ser relacionada (sinergia com core) ou não relacionada (puro portfolio play).
+- Diversificação: envolve produto novo e mercado novo, apresentando risco máximo. Pode ser relacionada (sinergia com core) ou não relacionada (puro portfolio play).
 
 ##### Execução prática com a equipe
 
@@ -4111,7 +4111,7 @@ Passo 2: Para cada quadrante, gere opções concretas. Em penetração de mercad
 
 Passo 3: Quantifique potencial e risco. Market size, tempo até retorno, investimento necessário, probabilidade de sucesso.
 
-Passo 4: Distribua esforço. Regra prática: 70% penetração, 20% desenvolvimento (de produto ou mercado), 10% diversificação. Ajuste por estágio.
+Passo 4: Distribua o esforço segundo a regra prática (70% penetração, 20% desenvolvimento de produto ou mercado e 10% diversificação), ajustando a proporção por estágio.
 
 Passo 5: Sequenciar. Ansoff não diz "faça tudo junto", diz "escolha conscientemente". Fazer 3-4 movimentos simultâneos dilui foco.
 
@@ -4120,7 +4120,7 @@ Passo 5: Sequenciar. Ansoff não diz "faça tudo junto", diz "escolha consciente
 SaaS de gestão financeira para PMEs (retomando exemplo anterior):
 
 - Penetração: aumentar a adoção entre PMEs paulistas já mapeadas, combinando aquisição digital, programa de indicação e expansão de planos (*upsell*) na carteira atual.
-- Desenvolvimento de produto: lançar módulo de emissão fiscal para base existente. Cross-sell.
+- Desenvolvimento de produto: lançar módulo de emissão fiscal para a base existente via venda cruzada (*cross-sell*).
 - Desenvolvimento de mercado: expandir o produto atual para novas verticais do varejo alimentar e montar canais regionais em Minas Gerais e no Paraná.
 - Diversificação: crédito para PMEs baseado em dados transacionais do software (fintech vertical). Alto risco, alto retorno potencial.
 
@@ -4185,7 +4185,7 @@ Drivers consolidados: oportunidade de conquistar PMEs sub-servidas por bancos (a
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Lista exaustiva não priorizada: 40 itens sem classificação de impacto. Nada acionável. Genérico: "inflação pode impactar negócio" sem quantificar. Específico: "cada 1pp de Selic eleva custo de capital em R$ 350k/mês para nossa operação de empréstimos". Viés de disponibilidade: foca em manchetes recentes, ignora tendências estruturais. Estático: análise de dezembro não atualizada em junho. Desconexão com estratégia: PESTEL que não vira ação é relatório morto. Ignorar dimensões menos familiares: fundador técnico subdimensiona Político, fundador MBA subdimensiona Technological.
+Lista exaustiva não priorizada: compilar 40 itens sem classificação de impacto não gera nada acionável. Genérico: "inflação pode impactar negócio" sem quantificar. Específico: "cada 1pp de Selic eleva custo de capital em R$ 350k/mês para nossa operação de empréstimos". Viés de disponibilidade: foca em manchetes recentes, ignora tendências estruturais. Estático: análise de dezembro não atualizada em junho. Desconexão com estratégia: PESTEL que não vira ação é relatório morto. Ignorar dimensões menos familiares: fundador técnico subdimensiona Político, fundador MBA subdimensiona Technological.
 
 ---
 
@@ -4331,7 +4331,7 @@ Framework para analisar **defensibilidade estrutural**: o que faz empresa gerar 
 
 7. Process Power: conjunto de processos complexos que concorrentes não conseguem replicar rapidamente, por exemplo: Toyota Production System, Amazon supply chain.
 
-Cada poder tem **benefício** (efeito de vantagem) e barreira (o que impede concorrentes de copiar). Ambos necessários.
+Cada poder tem **benefício** (efeito de vantagem) e barreira (o que impede concorrentes de copiar), sendo ambos necessários para sustentar a posição.
 
 ##### Execução prática com a equipe
 
@@ -4364,7 +4364,7 @@ Nubank reúne 4-5 poderes (raro). Isso explica trajetória de fundação até IP
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Confundir poder com execução: "somos melhores operadores" não é poder. Poder é estrutura. Listar poderes sem testar barreira: "temos network effects", mas concorrente lança rede similar em 6 meses? Então não é poder de fato. Assumir que poder dura para sempre: poderes se erodem (especialmente cornered resource e branding). Renovação necessária. Buscar os 7 simultaneamente cedo: early-stage raramente tem mais de 1. Buscar 1 forte primeiro. Ignorar janelas de origination: tentar construir poder que só podia ser criado em contexto histórico específico. Process power confundido com "nossos processos são bons": processo comum não é poder. Processo que é complexo E que cria vantagem E que é difícil de replicar é poder.
+Confundir poder com execução: "somos melhores operadores" não é poder, pois poder é estrutura. Listar poderes sem testar barreira: "temos network effects", mas concorrente lança rede similar em 6 meses? Então não é poder de fato. Assumir que poder dura para sempre: poderes se erodem (especialmente cornered resource e branding), o que torna a renovação necessária. Buscar os 7 simultaneamente cedo: como uma startup early-stage raramente tem mais de 1, convém buscar 1 poder forte primeiro. Ignorar janelas de origination: tentar construir poder que só podia ser criado em contexto histórico específico. Process power confundido com "nossos processos são bons": processo comum não é poder. Processo que é complexo E que cria vantagem E que é difícil de replicar é poder.
 
 ---
 
@@ -4485,7 +4485,7 @@ Na jornada dos arquétipos deste livro, quando Lucas e Marina deixam de apresent
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Categoria sem problema real: nomear categoria que não responde a tensão no mercado, ninguém compra. Category design superficial: nome de categoria inventado sem investimento em educação. Não ser o king: definir categoria mas não liderar, concorrente entra e captura. Produto sem coerência com categoria: marketing diz "inbound", produto é só ferramenta de automação. Dissonância. Mainstream rejection: categoria muito nicho não atinge massa.
+Categoria sem problema real: nomear categoria que não responde a tensão no mercado, ninguém compra. Category design superficial: nome de categoria inventado sem investimento em educação. Não ser o king: definir categoria mas não liderar, concorrente entra e captura. Produto sem coerência com categoria: o marketing diz "inbound", mas o produto é só ferramenta de automação, gerando forte dissonância. Mainstream rejection: categoria muito nicho não atinge massa.
 
 ---
 
@@ -4675,7 +4675,7 @@ Preencha individualmente primeiro (20-30 min) e depois valide com pelo menos um 
 
 1. **ICP**: descreva quem é o cliente em 2-3 linhas. Inclua: setor, porte, localização, critério operacional (tem delivery próprio, tem gerente de frota, tem mais de X clientes, etc.). Não use adjetivos vagos ("médias empresas"): use critérios objetivos.
 2. **Dor específica**: escolha um fluxo de trabalho. Descreva o que está quebrado com verbos concretos ("gasta", "consolida manualmente", "perde"). Se você precisar de 3 frases, o ICP ainda é largo demais.
-3. **Resultado mensurável**: escolha 1-2 categorias. Coloque um número. Se não tem o número, pergunte a 5 potenciais clientes antes de preencher o bloco.
+3. **Resultado mensurável**: escolha de 1 a 2 categorias e coloque um número concreto. Se não tem o número, pergunte a 5 potenciais clientes antes de preencher o bloco.
 4. **Dono do orçamento**: não é necessariamente quem usa o produto. Em B2B, frequentemente é um nível acima. Nomeie o cargo e o contexto hierárquico.
 5. **Teste do Grupo de WhatsApp**: liste empresas e decisores reais com nome e sobrenome (via LinkedIn, associações setoriais, feiras ou indicações). A régua de aprovação exige mapear de 100 a 300 contatos nominais na cunha (onde 100 é o piso de especificidade e 300 o teto de largura inicial), contando com um núcleo imediato de 30 a 80 decisores que você já conhece ou acessa diretamente. Se não conseguir montar nem esse núcleo inicial, volte às entrevistas da Fase 5 antes de mexer no tamanho da cunha.
 6. **Alternativa atual e vantagem**: descreva o que o cliente faz *hoje* (Excel, processo manual, concorrente, "não faz nada"). Escreva a vantagem em uma frase com número. Sem número, não é comparação: é afirmação vaga.
@@ -5520,7 +5520,7 @@ O erro mais comum é delegar a entrevista de *win/loss* ao próprio vendedor que
 - Você estaria aberto a reconsiderar no futuro? Se sim, em que condições?
 
 > [!warning] O que não fazer em entrevista de loss
-> Não tente reabrir o deal na entrevista. Não se defenda. Não corrija percepções equivocadas do cliente no momento da entrevista. Ouça, registre, agradeça. A correção de percepção equivocada acontece em futuras comunicações de produto, não na entrevista de loss.
+> Não tente reabrir o deal na entrevista, não assuma postura defensiva e não corrija percepções equivocadas do cliente no momento da conversa: apenas ouça, registre e agradeça. A correção de percepção equivocada acontece em futuras comunicações de produto, não na entrevista de loss.
 
 #### 2.4.2: O que fazer com os dados
 
@@ -5650,7 +5650,7 @@ Ignorar um movimento competitivo parece fraqueza. Frequentemente é sabedoria.
 
 Razões legítimas para ignorar:
 
-O concorrente está indo para um segmento que não é o seu ICP. Deixe ele ir. Você não está competindo por aquele cliente.
+O concorrente está indo para um segmento que não é o seu ICP: deixe-o seguir esse caminho, pois você não está competindo por aquele cliente.
 
 O movimento é de marketing, não de produto. Anúncio de feature que não foi entregue, ou que foi entregue com qualidade inferior, não muda a realidade competitiva.
 
@@ -5669,7 +5669,7 @@ Exemplos de sinalização legítima:
 
 **Comunicar marcos auditáveis de produto, conformidade e clientes de referência:** Publicar conquistas operacionais verificáveis (como certificações de segurança concluídas, integrações homologadas com grandes sistemas do setor ou estudos de caso autorizados com métricas reais) demonstra maturidade operacional para compradores corporativos e eleva a barra técnica para novos entrantes.
 
-**Publicar roadmap público:** Sinalizar para clientes e concorrentes onde você está indo. Clientes valorizam a transparência. Concorrentes podem copiar, mas também podem desviar de onde você vai chegar: o que pode ser benéfico.
+**Publicar roadmap público:** Sinalizar para clientes e concorrentes para onde você está indo. Como os clientes valorizam a transparência na evolução do produto, os concorrentes podem tentar copiar ou optar por desviar de onde você vai chegar, o que pode ser benéfico.
 
 **Anunciar parceria ou integração com player estratégico:** Sinaliza para o mercado que você está construindo ecossistema, não apenas produto.
 
@@ -5895,7 +5895,7 @@ Uma empresa dependente de um único tomador de decisão é muito mais frágil do
 
 #### Padrão 5: Ignorar mudança estrutural de mercado
 
-Caso arquetípico: Kekanto e os guias independentes de avaliações locais (fundado em 2010, com retração gradual entre 2015 e 2018. Além da pressão competitiva externa, pesa também a hipótese da dificuldade de monetizar pequenos comércios locais via publicidade recorrente no Brasil). Uma startup bem-sucedida em categoria emergente é progressivamente espremida quando uma plataforma global incorpora a mesma entrega como recurso nativo gratuito (como o Google Maps ao integrar avaliações locais, fotos e horários diretamente na busca do celular). Como o usuário já abre o mapa nativo todos os dias, a plataforma isolada perde tráfego orgânico sem conseguir igualar a distribuição do gigante. Ser absorvido como função gratuita de uma plataforma maior (*featurização*) é um risco estrutural. Pergunte a cada trimestre: se um provedor global de nuvem ou de inteligência artificial (como ocorreu entre 2024 e 2026 com dezenas de aplicativos de resumo de PDF e redação simples diante das atualizações nativas de ChatGPT, Claude e Gemini) entregar o que fazemos dentro do pacote básico, ainda teremos um negócio defensável? Se a resposta for negativa, construa barreira proprietária (dados exclusivos do vertical, integração profunda no fluxo B2B ou conformidade regulatória local) ou avalie uma saída estratégica antecipada. Caso analisado no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19: POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 19: Post-Mortems Brasileiros: Catálogo de Casos em Profundidade (Vol. 9)]].
+Caso arquetípico: Kekanto e os guias independentes de avaliações locais (fundado em 2010, com retração gradual entre 2015 e 2018. Além da pressão competitiva externa, pesa também a hipótese da dificuldade de monetizar pequenos comércios locais via publicidade recorrente no Brasil). Uma startup bem-sucedida em categoria emergente é progressivamente espremida quando uma plataforma global incorpora a mesma entrega como recurso nativo gratuito (como o Google Maps ao integrar avaliações locais, fotos e horários diretamente na busca do celular). Como o usuário já abre o mapa nativo todos os dias, a plataforma isolada perde tráfego orgânico sem conseguir igualar a distribuição do gigante. Ser absorvido como função gratuita de uma plataforma maior (*featurização*) é um risco estrutural. Pergunte a cada trimestre: se um provedor global de nuvem ou de inteligência artificial (como ocorreu entre 2024 e 2026 com dezenas de aplicativos de resumo de PDF e redação simples diante das atualizações nativas de ChatGPT, Claude e Gemini) entregar o que fazemos dentro do pacote básico, ainda teremos um negócio defensável? Se a resposta for negativa, construa barreira proprietária (dados exclusivos do vertical, integração profunda no fluxo B2B ou conformidade regulatória local) ou avalie uma saída estratégica antecipada (caso analisado em detalhe no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19: POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 19: Post-Mortems Brasileiros: Catálogo de Casos em Profundidade (Vol. 9)]]).
 
 #### Padrão 6: Sobreextensão geográfica antes de consolidar doméstico
 
@@ -5935,9 +5935,9 @@ Além dos sete padrões clássicos de produto, mercado e governança, a reversã
 >
 > **Combine o estudo de fracassos com a análise de empresas duráveis.** Os casos de quebra mostram quais armadilhas evitar no caminho, enquanto os casos de sucesso demonstram como construir vantagens defensáveis: o repertório maduro exige as duas leituras.
 >
-> Comparar empresa de estágio A com padrão de estágio D distorce a análise. Alguns padrões só aparecem em escala (quatro e sete), outros em pré-PMF (dois e três). Aplicar ao seu estágio.
+> Comparar empresa de estágio A com padrão de estágio D distorce a análise. Alguns padrões só aparecem em escala (quatro e sete), outros em pré-PMF (dois e três), por isso cabe aplicar o diagnóstico ao seu estágio.
 >
-> Julgar ex-fundadores com olhar moralista é armadilha moral. Quem fracassou cometeu erros que parecem óbvios em retrospecto mas não eram no momento. Estudar com respeito.
+> Julgar ex-fundadores com olhar moralista é armadilha moral. Quem fracassou cometeu erros que parecem óbvios em retrospecto mas não eram no momento, cabendo estudar cada caso com respeito.
 
 > [!tip] Checklist
 > Use a tabela de diagnóstico acima como ritual trimestral de revisão com seus sócios, preenchendo ao lado de cada padrão de risco aplicável ao seu estágio uma ação concreta de mitigação com responsável e prazo.

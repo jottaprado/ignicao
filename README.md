@@ -91,7 +91,7 @@ Ninguém precisa ler 1,42 milhão de palavras em linha reta antes de agir. Escol
 | **2. Bootstrapper / Consultoria / *Service-to-Product*** | **Vol. 1** (`Cap. 4`) → **Vol. 3** (`Cap. 7: Bootstrapping & Productized Services`) → **Vol. 4** (`Cap. 1, 5, 6`) → **Vol. 5** (`Cap. 1–2, 5`) → **Vol. 10** (`Cap. 41: Serviços B2B`) → **Vol. 9** (`Cap. 21: Cash Cow`) | Gerar caixa no dia 1 vendendo serviço produtizado, financiar produto próprio sem diluição e construir máquina de dividendos |
 | **3. Fundador SaaS B2B / AI-Native (Rumo ao Scale-up)** | **Vol. 3** (`Cap. 3, 4`) → **Vol. 4** (`Fases 11–13` + `Cap. 1, 5, 6, 8, 10`) → **Vol. 5** (`Fase 14` + `Cap. 3, 9–11`) → **Vol. 6** (`Fases 15–16` + `Cap. 2, 3, 12`) → **Vol. 7** (`Fase 17` + `Cap. 1–6`) → **Vol. 10** (`Cap. 39, 40, 42`) | Atingir PMF, estruturar funil PLG/Inside Sales/Enterprise, precificar IA/SaaS, captar Seed/Series A e escalar NRR > 110% |
 | **4. Empreendedor da Economia Real, Varejo, Franquias, Clínicas ou Importação** | **Vol. 2** (`Cap. 1`) → **Vol. 5** (`Cap. 1–2, 5, 6, 7: Comex/Importação`) → **Vol. 6** (`Cap. 6: Franchising/COF`) → **Vol. 8** (`Cap. 5, 6, 7`) → **Vol. 10** (`Cap. 24, 26, 30, 34–38`) | Dominar capital de giro (CCC), importação Ásia-Brasil/TTDs, expansão multi-unidades/franquias ou redes de clínicas e blindagem trabalhista/CDC |
-| **5. Empreendedor do Agro, Pecuária, Commodities, Energia, Infra ou Indústria** | **Vol. 3** (`Cap. 2: Gates e TRL/CRL`) → **Vol. 5** (`Cap. 5, 12: Finep/BNDES`) → **Vol. 6** (`Cap. 4: Parcerias e Venda Corporativa`) → **Vol. 10** (`Cap. 1–6` + `Cluster II completo: Cap. 11–21`) | Navegar ciclos de commodities, Barter/CPR, armazenagem, crédito rural/fomento não-diluitivo, regulação (MAPA/ANEEL/ANP/IBAMA) e vendas complexas no campo/indústria |
+| **5. Empreendedor do Agro, Pecuária, Commodities, Energia, Infra ou Indústria** | **Vol. 3** (`Cap. 2: Gates e TRL/CRL`) → **Vol. 5** (`Cap. 5, 12: Finep/BNDES`) → **Vol. 6** (`Cap. 4: Parcerias e Venda Corporativa`) → **Vol. 10** (`Cap. 1–6` + `Cluster II completo: Cap. 11–21`) | Navegar ciclos de commodities, Barter/CPR, armazenagem, crédito rural/fomento não diluitivo, regulação (MAPA/ANEEL/ANP/IBAMA) e vendas complexas no campo/indústria |
 | **6. CTO, CPO ou COO Escalando Engenharia, Produto e Operações** | **Vol. 4** (`Cap. 9, 10`) → **Vol. 6** (`Fase 16` + `Cap. 9–15`) → **Vol. 7** (`Fase 17` + `Cap. 1–10`) → **Vol. 8** (`Cap. 3, 9, 10, 13: ISO 27001/SOC 2`) | Arquitetura para 10x de escala, gestão de dívida técnica, AI Ops, topologia de squads (Conway's Law), hiring técnico e segurança/LGPD |
 | **7. CEO em Crise, Turnaround, Disputa Societária ou Pivô** | **Vol. 1** (`Cap. 2, 6`) → **Vol. 4** (`Cap. 11: Pivot`) → **Vol. 5** (`Cap. 5: Caixa e Crise`) → **Vol. 8** (`Cap. 2, 8`) → **Vol. 9** (`Cap. 3, 9–11: Crise, Layoffs e RJ`) | Estancar sangria de caixa em 72h, renegociar passivos, conduzir layoffs ou reestruturação societária com dignidade e proteger o patrimônio pessoal |
 | **8. Fundador Maduro, Consolidador (M&A / Search Fund), Spin-off ou Pós-Exit (*Family Office*)** | **Vol. 8** (`Fase 18`) → **Vol. 9** (`Fases 19–20` + `Cap. 1, 2, 5–8, 12–18, 21`) | Governança de Board, consolidação via M&A/Roll-ups, Search Funds, Spin-offs corporativos, venda secundária (*Secondaries*), tributação de exit e estruturação de Holding/Offshore/Family Office |
@@ -254,7 +254,7 @@ Ninguém precisa ler 1,42 milhão de palavras em linha reta antes de agir. Escol
 | **Cap. 9** | Jornada e processo de captação (*Fundraising*): planejamento da rodada, narrativa de pitch e closing |
 | **Cap. 10** | Valuation: métodos, múltiplos e negociação |
 | **Cap. 11** | Instrumentos de captação: SAFE, nota conversível e mútuo conversível |
-| **Cap. 12** | Financiamento não-diluitivo: Finep, BNDES, EMBRAPII e grants |
+| **Cap. 12** | Financiamento não diluitivo: Finep, BNDES, EMBRAPII e grants |
 | **Cap. 13** | Venture debt e Revenue-Based Financing (RBF) |
 | **Cap. 14** | Captação alternativa e ativos digitais: Equity Crowdfunding (CVM 88), Tokenização, RWA e Drex |
 | **Cap. 15** | Investor relations pós-rodada: updates, board e pedidos de ajuda |
@@ -310,7 +310,7 @@ Ninguém precisa ler 1,42 milhão de palavras em linha reta antes de agir. Escol
 | **Cap. 1** | Marco Legal das Startups: LC 182/2021, COCP, ARE e dispensa de licitação |
 | **Cap. 2** | Responsabilidade do sócio e do administrador: quando o véu societário cai |
 | **Cap. 3** | Propriedade Intelectual e INPI: marcas, patentes, segredo industrial e IP assignment |
-| **Cap. 4** | Não-concorrência e não-solicitação no Brasil: validade, estrutura e M&A |
+| **Cap. 4** | Não concorrência e não solicitação no Brasil: validade, estrutura e M&A |
 | **Cap. 5** | Contratos empresariais e operacionais em profundidade: MSA, SLA, DPA, NDA, LOI, advisor e termos de uso |
 | **Cap. 6** | Direito do trabalho para startups: PJ, CLT, eSocial, rescisão |
 | **Cap. 7** | Direito do consumidor e CDC: PROCON, Reclame Aqui, ação coletiva, dark patterns |

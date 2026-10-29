@@ -84,7 +84,7 @@ Ao longo dos **Volumes 1 a 10**, além das histórias reais de grandes empresas 
 
 ## Roteiros de Leitura por Perfil (Fast-Tracks)
 
-Com **11 volumes, 21 fases (da Fase 0 à 20), 185 capítulos e 42 playbooks setoriais (1,41 milhão de palavras)**, o IGNIÇÃO foi projetado tanto para leitura sequencial quanto para consulta sob demanda. Se você precisa destravar decisões nos próximos 30 dias, siga a trilha correspondente ao seu perfil atual (e acompanhe o arquétipo correspondente da coleção):
+Com **11 volumes, 21 fases (da Fase 0 à 20), 185 capítulos e 42 playbooks setoriais (1,42 milhão de palavras)**, o IGNIÇÃO foi projetado tanto para leitura sequencial quanto para consulta sob demanda. Se você precisa destravar decisões nos próximos 30 dias, siga a trilha correspondente ao seu perfil atual (e acompanhe o arquétipo correspondente da coleção):
 
 | Perfil / Arquétipo | O que ler primeiro (Ordem de Leitura) |
 | :--- | :--- |
@@ -301,7 +301,7 @@ Execute estas oito tarefas em sequência.
    > [!note] Capítulo 8 (Vol. 6): Gestão de Tempo do Fundador
    > Independente do modelo escolhido (full, part ou side), a alocação de tempo será o recurso mais escasso e mais mal gerenciado nos primeiros meses. O [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8: FOUNDER MODE, DELEGAÇÃO, GESTÃO DE TEMPO E CADÊNCIA OPERACIONAL DO CEO|Capítulo 8 (Founder Mode, Delegação, Gestão de Tempo e Cadência Operacional do CEO) (Vol. 6)]] cobre time-blocking, rituais semanais e como proteger tempo profundo contra demandas operacionais: especialmente relevante para quem empreende em paralelo ao emprego.
 
-8. Escrita do Dossiê Pessoal. Consolide os passos acima em um documento simples e releia ao final de cada fase seguinte. Atualize sempre que algo descoberto no caminho invalidar uma premissa.
+8. Na escrita do Dossiê Pessoal, consolide os passos acima em um documento simples e releia-o ao final de cada fase seguinte. Atualize sempre que algo descoberto no caminho invalidar uma premissa.
 
 ### O fundador como pessoa: três ensaios de Paul Graham para calibrar expectativa
 
@@ -476,7 +476,7 @@ O quarto perfil é o especialista em design. Responsável pela experiência do u
 
 O quinto perfil é o especialista em dados. Responsável por infraestrutura de dados, métricas, analytics, e (quando aplicável) modelos de machine learning. Em negócios onde a decisão de produto exige leitura fina de comportamento (mercados de consumo, marketplaces, produtos AI-first), ausência de alguém forte em dados significa operar no escuro. Essa figura geralmente emerge depois da Série A. Mas em negócios data-heavy deve estar no time fundador.
 
-O padrão de três (Técnico, Comercial e Domínio) serve estágios pré-Série A. O padrão de cinco (adicionando Design e Dados) serve scale-up ou desde o começo em domínios com alta complexidade de UX (consumer) ou alta dependência de decisão baseada em dados (AI-first, marketplaces, fintech). Em estágios iniciais, comprimir nos três principais resolve. O risco de over-founding (time fundador de cinco a seis pessoas sem clareza sobre contribuição individual) é maior que o risco de under-founding em estágio pré-PMF (Product-Market Fit: encaixe entre produto e mercado). Expanda os pilares conforme a operação exige. Não antes.
+O padrão de três (Técnico, Comercial e Domínio) serve estágios pré-Série A. O padrão de cinco (adicionando Design e Dados) serve scale-up ou desde o começo em domínios com alta complexidade de UX (consumer) ou alta dependência de decisão baseada em dados (AI-first, marketplaces, fintech). Em estágios iniciais, comprimir nos três principais resolve. O risco de over-founding (time fundador de cinco a seis pessoas sem clareza sobre contribuição individual) é maior que o risco de under-founding em estágio pré-PMF (Product-Market Fit: encaixe entre produto e mercado). Expanda os pilares apenas conforme a operação exige, e nunca antes disso.
 
 **Matriz de autoavaliação, use antes de escolher sócios.**
 
@@ -504,16 +504,16 @@ A terceira opção é o retiro de alinhamento: dois a três dias juntos dedicado
 
 **Red flags. Sinais de que não é a pessoa certa para fundar com você.**
 
-1. Falta de transparência financeira. Evita falar sobre dívidas, histórico de crédito, situação patrimonial.
-2. Histórico de relacionamentos rompidos, profissionais ou pessoais, sem autocrítica.
-3. Incapacidade de admitir erro. Sempre foi culpa de outros nas histórias que conta.
-4. Urgência excessiva para fundar. "Vamos fazer isso esta semana" não dá tempo para vocês se conhecerem em contexto profissional.
-5. Ambição desalinhada: um sócio quer construir uma operação de hipercrescimento para vender em sete anos, enquanto o outro busca uma empresa enxuta de ritmo sustentável e distribuição anual de lucros.
-6. Tratamento diferenciado: observe como a pessoa trata o garçom e como trata o CEO, ou como tratava você antes do compromisso e como passa a tratar depois.
-7. Situação familiar aguda não endereçada. Conflito conjugal grave, problema com filhos ou saúde mental não tratada na família próxima.
-8. Sinais de alerta financeiros específicos. Dívida oculta, litígio em curso, falência recente sem plano ou histórico de má gestão do próprio dinheiro.
-9. Incapacidade de receber feedback. Reage defensivamente em situações normais de crítica construtiva.
-10. Visão incompatível de trabalho. Um quer oitenta horas por semana, outro quarenta, sem conversa explícita.
+1. **Falta de transparência financeira:** evita falar sobre dívidas, histórico de crédito e situação patrimonial.
+2. **Histórico de relacionamentos rompidos:** acumula rupturas profissionais ou pessoais sem demonstrar autocrítica.
+3. **Incapacidade de admitir erro:** sempre atribui a culpa a terceiros nas histórias que conta.
+4. **Urgência excessiva para fundar:** a pressa do "vamos fazer isso esta semana" não dá tempo para vocês se conhecerem em contexto profissional.
+5. **Ambição desalinhada:** um sócio quer construir uma operação de hipercrescimento para vender em sete anos, enquanto o outro busca uma empresa enxuta de ritmo sustentável e distribuição anual de lucros.
+6. **Tratamento diferenciado:** observe como a pessoa trata o garçom e como trata o CEO, ou como tratava você antes do compromisso e como passa a tratar depois.
+7. **Situação familiar aguda não endereçada:** enfrenta conflito conjugal grave, problema com filhos ou questão de saúde mental não tratada na família próxima sem transparência com o sócio.
+8. **Sinais de alerta financeiros específicos:** oculta dívidas, responde a litígio relevante em curso, vem de falência recente sem plano de reestruturação ou apresenta histórico de má gestão do próprio dinheiro.
+9. **Incapacidade de receber feedback:** reage defensivamente em situações normais de crítica construtiva.
+10. **Visão incompatível de rotina de trabalho:** um espera oitenta horas por semana e o outro quarenta, sem conversa explícita.
 
 > [!warning] Regra dos sinais de alerta societários
 > Se aparecer um sinal de alerta grave, não funde a empresa. Nenhuma ideia compensa entrar em sociedade com alguém que esconde dívidas ou rejeita crítica. Custa muito menos esperar doze meses pelo sócio certo do que desfazer um litígio societário no terceiro ano.
@@ -711,7 +711,7 @@ Aplicação na largada dos fundadores deste volume (Lucas e Marina mapeando na F
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Círculo 1 wishful thinking: "queremos ser melhores em X" sem evidência. Círculo 2 superficial: "receita" é medida, não é driver. Identifica o específico. Círculo 3 fabricado: se paixão é fingida, cultura não sustenta. Interseção ampla demais: "ser melhores em tecnologia para empresas", muito amplo. Estreitar até doer. Abandonar hedgehog na primeira dificuldade: Collins enfatiza que grandes empresas mantêm por décadas.
+Círculo 1 wishful thinking: "queremos ser melhores em X" sem evidência. Círculo 2 superficial: "receita" é medida, não é driver, por isso identifique o fator específico. Círculo 3 fabricado: se a paixão é fingida, a cultura não sustenta. Interseção ampla demais: "ser melhores em tecnologia para empresas" é muito amplo, sendo necessário estreitar o foco até doer. Abandonar hedgehog na primeira dificuldade: Collins enfatiza que grandes empresas o mantêm por décadas.
 
 ---
 
@@ -806,7 +806,7 @@ Framework que classifica problemas em 5 domínios baseado em relação entre cau
 
 1. Clear (Simples): causa-efeito óbvia. Best practice aplica. Ação: sense → categorize → respond.
 2. Complicado (*Complicated*): a relação entre causa e efeito existe, mas exige análise técnica. Boas práticas funcionam (há mais de uma resposta correta). Ação: perceber → analisar → responder, apoiando-se em especialistas.
-3. Complex: causa-efeito só é visível em retrospecto, sistema adaptativo. Probe → sense → respond. Experimentar e aprender.
+3. Complex: a relação de causa e efeito só é visível em retrospecto dentro de um sistema adaptativo (probe → sense → respond), exigindo experimentar e aprender continuamente.
 4. Chaotic: sem causa-efeito identificável, crise. Act → sense → respond. Agir para estabilizar primeiro, entender depois.
 5. Confusion (Disorder): não sabe em qual domínio está. Sair desse estado é prioridade.
 
@@ -833,7 +833,7 @@ Cada modo exige liderança, time e processo diferentes.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Tratar tudo como Complicated: "vamos contratar consultoria" para problema Complex. Experimentação, não análise, é a resposta. Tratar Complex como Clear: implementar "best practice" de outra empresa em contexto novo. Frequente em empresas que escalam via playbooks rígidos. Paralisia em Chaotic: analisando enquanto empresa queima. Ação primeiro.
+Tratar tudo como Complicated: "vamos contratar consultoria" para problema Complex. Experimentação, não análise, é a resposta. Tratar Complex como Clear: implementar "best practice" de outra empresa em contexto novo, erro frequente em empresas que escalam via playbooks rígidos. Paralisia em Chaotic: ficar analisando enquanto a empresa queima, quando a prioridade deve ser a ação imediata.
 
 ---
 
@@ -884,7 +884,7 @@ Processo simples:
 1. Após plano estar fechado (mas antes de execução), reunir time.
 2. Exercício: "imagine que estamos 1 ano no futuro. O projeto fracassou totalmente. Por que aconteceu?"
 3. Cada membro escreve individualmente (5-10 min) razões plausíveis.
-4. Compartilhar e discutir.
+4. Em seguida, os participantes compartilham e discutem em grupo as razões listadas.
 5. Identificar riscos mitigáveis, ajustar plano.
 
 ##### Protocolo prático de execução
@@ -942,12 +942,12 @@ Tela visual de uma página com nove blocos organizados em torno do time como uni
 
 - **People & Roles**: quem são as pessoas, qual papel cada uma exerce no time (não o cargo formal, o papel funcional real).
 - **Common Goals**: quais são os objetivos compartilhados do time para o próximo período. Distingue de objetivos individuais.
-- **Personal Goals**: o que cada membro quer pessoalmente ganhar com esse trabalho (desenvolvimento, visibilidade, dinheiro, aprendizado). Frequentemente não dito.
+- **Personal Goals**: o que cada membro quer pessoalmente ganhar com esse trabalho (desenvolvimento, visibilidade, dinheiro, aprendizado), aspecto que frequentemente não é dito.
 - **Purpose**: por que esse time existe? Qual é o propósito que vai além das metas operacionais?
 - **Values**: quais são os valores que o time quer viver, não os valores corporativos genéricos, mas os que esse time específico prioriza no trabalho conjunto.
 - **Strengths & Assets**: o que o time tem de melhor, habilidades, experiências, redes, recursos.
 - **Weaknesses & Risks**: onde o time é fraco ou onde existe risco de conflito.
-- **Needs & Expectations**: o que cada membro precisa dos outros para trabalhar bem. Acordos explícitos.
+- **Needs & Expectations**: o que cada membro precisa dos outros para trabalhar bem, traduzido em acordos explícitos.
 - **Rules & Activities**: como o time trabalha, rituais, cadências, normas de comunicação, processos de decisão.
 
 ```mermaid
@@ -990,7 +990,7 @@ Sessão presencial ou por videoconferência (Miro, FigJam ou folha A3), conduzid
 
 1. **People & Roles** (10 min): cada pessoa escreve seu nome e o papel funcional real (não o cargo): "sou quem toma decisão técnica final" / "sou quem mantém relação com os clientes âncora".
 2. **Personal Goals** (15 min): individualmente primeiro, depois compartilha. O que cada pessoa quer ganhar pessoalmente com esse trabalho nos próximos 12 meses? Dinheiro? Aprendizado? Visibilidade? Espaço para criar? Sem julgamento.
-3. **Common Goals** (15 min): o que o time quer alcançar *junto*? 3-5 objetivos específicos para o próximo semestre. Discutir até consenso real.
+3. **Common Goals** (15 min): o que o time quer alcançar *junto*? Defina de 3 a 5 objetivos específicos para o próximo semestre e conduza o debate até atingir um consenso real.
 4. **Purpose** (10 min): por que esse time existe além das metas? Qual seria a perda para o mundo se esse time parasse de existir?
 5. **Values** (10 min): quais 3-5 valores o time quer praticar no trabalho conjunto? Votar, depois discutir os que geraram divergência.
 6. **Strengths & Assets / Weaknesses & Risks** (15 min), o que o time tem de excelente e onde é vulnerável. Honestidade é o requisito, equipe que só lista forças não faz o exercício.
@@ -1304,13 +1304,13 @@ A organização abaixo é por utilidade operacional para fundador em construçã
 **Sobre clareza de raciocínio e debate entre sócios.** *Keep Your Identity Small* (2009), citado acima, aplica-se diretamente à revisão fria de premissas estratégicas sem apego de ego. *How to Disagree* (2008), em paulgraham.com/disagree.html: propõe uma pirâmide de refutação que separa ataque pessoal de contra-argumento central, preservando a saúde dos debates societários.
 
 > [!tip] Por onde começar nos ensaios de Paul Graham
-> Se está começando agora, leia antes de tudo *How to Get Startup Ideas*, *Do Things That Don't Scale* e *Startups in 13 Sentences*. Nessa ordem. São os três que mais mudam a forma de trabalhar.
+> Se está começando agora, leia antes de tudo *How to Get Startup Ideas*, *Do Things That Don't Scale* e *Startups in 13 Sentences*, exatamente nessa ordem. São os três que mais mudam a forma de trabalhar.
 
 #### Startups em 13 frases: one-pager canônico (Paul Graham, 2009)
 
 Em fevereiro de 2009, Paul Graham publicou *Startups in 13 Sentences* (paulgraham.com/13sentences.html), sintetizando em treze princípios o que diria a um fundador se tivesse apenas alguns minutos, a partir do lema de Paul Buchheit adotado pela Y Combinator: "é melhor fazer poucas pessoas genuinamente satisfeitas do que muitas pessoas apenas meio satisfeitas".
 
-Reproduzo as treze em formato consolidado aqui, com comentário operacional. Serve como one-pager final para releitura periódica. Eu imprimo e guardo próximo. Não porque as esqueço. Porque esquecer uma e só lembrar dela seis meses depois, num momento ruim, é o tipo de erro que dá para prevenir simplesmente relendo a lista mensalmente.
+Reproduzo as treze em formato consolidado aqui, com comentário operacional. Serve como one-pager final para releitura periódica. Eu imprimo e guardo próximo, não porque as esqueça, mas porque esquecer uma e só lembrar dela seis meses depois, num momento ruim, é o tipo de erro que dá para prevenir simplesmente relendo a lista mensalmente.
 
 Graham mesmo indica: se tivesse que escolher uma das treze, seria a quarta (entender seus usuários), com o que concordo integralmente.
 
@@ -1623,7 +1623,7 @@ Ideia-gigante-de-plataforma. "Vou criar o novo Mercado Livre, o novo Nubank, a p
 
 "Uber for X" genérico. Veja a discussão no método 4. O modelo Uber funciona por razões específicas. Aplicar a mecânica sem entender o porquê produz startup fraca.
 
-Educar o mercado do zero. "Minha ideia é disruptiva, vou ensinar o cliente a querer isso." Possível em tese. Raro na prática. Educar mercado é caríssimo. Você queima capital enquanto os primeiros poucos clientes entendem. A maioria das startups morre antes. Ideias que pegam grande onda comportamental já em curso, e não criam a onda do zero, têm probabilidade muito maior.
+Educar o mercado do zero ("Minha ideia é disruptiva, vou ensinar o cliente a querer isso") é possível em tese, mas raro na prática. Educar mercado é caríssimo: você queima capital enquanto os primeiros poucos clientes entendem, e a maioria das startups morre antes. Ideias que pegam grande onda comportamental já em curso, e não criam a onda do zero, têm probabilidade muito maior.
 
 Hobby pessoal confundido com demanda de mercado. Você ama café especial, quer abrir a melhor torrefação do Brasil. Mas quantos consumidores recorrentes na sua região pagam três vezes o preço do café de supermercado por um pacote de 250 gramas todo mês? Hobby vira negócio com dificuldade. E só quando a paixão encontra um segmento com disposição a pagar. Não assuma que porque você ama, outros vão amar a ponto de pagar premium.
 
@@ -1838,7 +1838,7 @@ Passo 3: Teste balanceamento. Muito H1 = futuro comprometido. Muito H3 = caixa h
 
 Passo 4: Separe métricas por horizonte. H1 mede performance (receita, margem). H2 mede crescimento e tração (adoção, engagement). H3 mede aprendizado (hipóteses testadas, opções viáveis).
 
-Passo 5: Governance distinta por horizonte. H1 em comitê operacional. H3 frequentemente em entidade separada (skunkworks, corporate venture) para proteger de lógica de core.
+Passo 5: Estabeleça uma governança distinta por horizonte, mantendo o H1 em comitê operacional e o H3 frequentemente em entidade separada (skunkworks, corporate venture) para protegê-lo da lógica do core.
 
 Passo 6: Revise anualmente. Horizontes evoluem: H3 pode virar H2. H2 pode virar novo H1.
 
@@ -1898,7 +1898,7 @@ Passo 2: Desça a cadeia de valor. Que componentes são necessários para entreg
 
 Passo 3: Classifique cada componente no eixo de evolução. É genesis (ainda novo), custom-built (único para nós), product (comprável), ou commodity (utility)?
 
-Passo 4: Analise movimentos. Componentes evoluem da esquerda para direita ao longo do tempo. O que é custom-built hoje será commodity em 5 anos. Planejar essa evolução.
+Passo 4: Analise movimentos. Componentes evoluem da esquerda para direita ao longo do tempo: o que é custom-built hoje será commodity em 5 anos, cabendo a você planejar essa evolução.
 
 Passo 5: Identifique onde investir custom vs. commodity. Regra: investir pesado em componentes custom quando criam diferenciação, comoditizar tudo mais. Amazon faz isso no extremo (AWS é monetização da comoditização de componentes internos).
 
@@ -1912,7 +1912,7 @@ Topo (usuário): artista que quer vender produtos customizados.
 
 Descendo a cadeia:
 
-- Loja online customizada (custom-built → product): Shopify resolve isso bem. Commoditizar via Shopify.
+- Loja online customizada (custom-built → product): como a Shopify resolve isso bem, a decisão certa é commoditizar via Shopify.
 - Integração com produção sob demanda (custom-built): nossa diferenciação, na qual vale investir.
 - Marketplace de produção (fornecedores) (genesis-to-custom): único aspecto novo, próprio.
 - Pagamento (commodity): usar Stripe/Pagar.me, não construir.
@@ -2156,7 +2156,7 @@ flowchart LR
 
 O primeiro passo é reservar um bloco protegido na agenda: separe quatro horas contínuas ou, de preferência, duas sessões de duas horas em dias seguidos, com notificações desligadas, longe do celular e diante de uma página em branco.
 
-O segundo é despejo de consciência. Escreva tudo o que você acha que sabe sobre a ideia, sem estrutura. Problema, cliente, solução, mercado, concorrentes, por que você acha que é diferente. Trinta a sessenta minutos. Não edite. Só escreva.
+O segundo é despejo de consciência: escreva tudo o que você acha que sabe sobre a ideia, sem estrutura (problema, cliente, solução, mercado, concorrentes e por que você acha que é diferente), dedicando de trinta a sessenta minutos para apenas escrever sem editar.
 
 O terceiro é a segunda passagem, estruturando em sete blocos:
 
@@ -2236,7 +2236,7 @@ Antes de ver o documento completo da PadariaPro, observe como a página única l
 
 **Caso completo preenchido: PadariaPro (nome de trabalho provisório).**
 
-Problema (caso canônico PadariaPro): redes de padarias artesanais com duas a cinco lojas perdem entre 12% e 18% de margem bruta com ruptura de insumos decisivos (farinhas especiais, manteiga, fermentos) ou descarte de perecíveis, além de consumirem quatro a oito horas semanais do sócio-administrador (comprador econômico) e do gerente de produção (*champion* interno) em pedidos manuais. Planilhas não escalam entre lojas e ERPs genéricos de alimentação não conversam com o catálogo dos fornecedores do setor.
+Problema (caso canônico PadariaPro): redes de padarias artesanais com duas a cinco lojas perdem entre 12% e 18% de margem bruta com ruptura de insumos críticos (farinhas especiais, manteiga, fermentos) ou descarte de perecíveis, além de consumirem quatro a oito horas semanais do sócio-administrador (comprador econômico) e do gerente de produção (*champion* interno) em pedidos manuais. Planilhas não escalam entre lojas e ERPs genéricos de alimentação não conversam com o catálogo dos fornecedores do setor.
 
 Para quem: Donos-operadores de padarias artesanais com duas a cinco lojas em São Paulo capital, faturamento de R$ 80 mil a R$ 400 mil por mês por loja, até 45 anos, habituados a resolver compras e pagamentos pelo celular. Vinte estabelecimentos com esse perfil já foram mapeados em Pinheiros, Vila Madalena e Moema.
 
@@ -2356,7 +2356,7 @@ Passo 3: Teste coerência interna. Aspiração → onde jogar → como vencer �
 
 Passo 4: Envolva o time executivo. Estratégia é dos tomadores de decisão, não do consultor. Playing to Win funciona bem em workshops estruturados com liderança.
 
-Passo 5: Documente em uma página. Strategy on a page. Se não cabe, está excessivamente complexo ou não há escolha clara.
+Passo 5: Documente a estratégia em uma única página (*strategy on a page*). Se não cabe, está excessivamente complexo ou não há escolha clara.
 
 Passo 6: Cadência de revisão. Revisar em profundidade a cada 18-24 meses (mais frequente em early-stage), ajustes táticos trimestralmente.
 
@@ -2544,7 +2544,7 @@ Startup SaaS brasileira em fase de escolher posicionamento competitivo:
 
 Análise das opções:
 
-- Operational Excellence: preço baixo via automação. Mas mercado brasileiro tem Conta Azul e Omie já baratos. Difícil competir em preço.
+- Operational Excellence: busca preço baixo via automação, mas como o mercado brasileiro já tem Conta Azul e Omie baratos, torna-se difícil competir em preço.
 - Product Leadership: produto mais avançado (AI-first, integrations mais profundas). Requer investimento alto em P&D, tempo até ROI.
 - Customer Intimacy: relacionamento profundo com PMEs, implementação consultiva. Exige time de CS forte, mas diferencia de concorrentes self-serve.
 
@@ -3137,7 +3137,7 @@ Dimensão 1: Os quatro galhos de viabilidade da Árvore da Teoria (MECE):
 
 Dimensão 2: Decomposição MECE do Galho 1 (onde ocorrem os 12% a 18% de perda de margem na padaria):
 
-- **(a) Ruptura de insumo decisivo na produção matinal** (falta de farinha especial ou fermento que trava a fornada), (b) Descarte por vencimento ou excesso de compra (perecíveis estragados no estoque) e (c) Sobrecusto de compra emergencial avulsa (pedido de última hora sem poder de barganha).
+- **(a) Ruptura de insumo crítico na produção matinal** (falta de farinha especial ou fermento que trava a fornada), (b) Descarte por vencimento ou excesso de compra (perecíveis estragados no estoque) e (c) Sobrecusto de compra emergencial avulsa (pedido de última hora sem poder de barganha).
 
 Essa separação MECE mostrou que atacar apenas o descarte de perecíveis não pagaria a assinatura se o verdadeiro sangramento de caixa estivesse nas compras emergenciais de farinha.
 
@@ -3284,7 +3284,7 @@ Passo 1: Formule problema específico e mensurável.
 
 Passo 2: Pergunte "por quê?" focando em processos/sistemas, não em pessoas. "Por que João fez errado" leva a culpa, "Por que o sistema permitiu isso" leva a melhoria.
 
-Passo 3: Cada "por quê" deve ser respondido com evidência. Não especulação.
+Passo 3: Cada "por quê" deve ser respondido com evidência concreta, e não com especulação.
 
 Passo 4: Pare quando: (a) causa é acionável e (b) mais "por quês" geram respostas externas à sua capacidade de controle.
 
@@ -3348,7 +3348,7 @@ Passo 1: listar itens com contribuição mensurável (causas de defeito com freq
 
 ##### Na trincheira real: como isso funciona na prática
 
-Aplicação na Fase 3 por Henrique para podar a Árvore da Teoria (Passo 6: Parcimônia): uma usina de etanol possui mais de 120 motores e bombas espalhados pela planta, mas o levantamento histórico mostrou que mais de 80% do custo financeiro de paradas não programadas concentrava-se em apenas 3 equipamentos decisivos (caldeira, moenda principal e centrífuga). Em vez de desenhar uma teoria que exigisse monitorar a fábrica inteira, Henrique concentrou a proposta de valor e os dominós mortais nesses três gargalos.
+Aplicação na Fase 3 por Henrique para podar a Árvore da Teoria (Passo 6: Parcimônia): uma usina de etanol possui mais de 120 motores e bombas espalhados pela planta, mas o levantamento histórico mostrou que mais de 80% do custo financeiro de paradas não programadas concentrava-se em apenas 3 equipamentos críticos (caldeira, moenda principal e centrífuga). Em vez de desenhar uma teoria que exigisse monitorar a fábrica inteira, Henrique concentrou a proposta de valor e os dominós mortais nesses três gargalos.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -3723,7 +3723,7 @@ Adiar a organização patrimonial com a desculpa de "resolver depois da venda da
 **2. Salário do fundador (escada de pró-labore por estágio).** Das Fases 0 a 3 (ideação e preparação, neste Volume 1), a retirada na empresa é zero e o fundador vive da reserva pessoal (ou da renda do trabalho paralelo). Das Fases 4 a 12 (validação do problema, solução e modelo comercial, nos Volumes 2 a 4, estágio pré-PMF), quem opera com recursos próprios (*bootstrapped*) mantém retirada zero ou um piso simbólico de R$ 3 mil a R$ 5 mil mensais conforme o fôlego do caixa, já quem captou investimento pré-seed ou *Seed* pratica um pró-labore enxuto de sobrevivência, tipicamente entre R$ 8 mil e R$ 15 mil mensais em capitais como São Paulo. Na Fase 13 (ajuste ao mercado / PMF, no Volume 4), a remuneração sobe para uma faixa digna porém ainda abaixo de mercado, entre R$ 15 mil e R$ 25 mil mensais para o CEO. Nas Fases 15 e 16 (escala comercial e expansão pós-PMF, no Volume 6), o pró-labore avança para 50% a 70% do valor de mercado de um executivo equivalente (em uma operação com R$ 30 milhões de receita anual recorrente, algo entre R$ 40 mil e R$ 70 mil mensais), aproximando-se de 80% a 100% do mercado apenas da Série B em diante. Como o Brasil carece de tabelas públicas padronizadas para fundadores iniciais, use esses degraus como baliza prática e apoie-se, a partir da Série A, em levantamentos salariais de fundos de VC latino-americanos e consultorias como Mercer e Korn Ferry.
 
 > [!important] Equity vale mais que salário em trajetória saudável
-> Fundador que insiste em salário alto cedo demais sinaliza desconfiança no próprio negócio e consome caixa valioso. A exceção é o fundador com vários dependentes ou situação financeira pessoal específica, que pode negociar com investidor um salário um pouco maior em troca de vesting mais agressivo ou clawback. Transparência desde o início.
+> Fundador que insiste em salário alto cedo demais sinaliza desconfiança no próprio negócio e consome caixa valioso. A exceção é o fundador com vários dependentes ou situação financeira pessoal específica, que pode negociar com investidor um salário um pouco maior em troca de vesting mais agressivo ou clawback, mantendo transparência desde o início.
 
 Sobre tributação: o fundador que se remunera via empresa combina pró-labore (sobre o qual incide INSS e IRPF progressivo) e dividendos (pela Lei 15.270/2025, em vigor desde janeiro de 2026, isentos até R$ 50 mil por mês por empresa pagadora. Acima disso, há retenção de 10% na fonte sobre o total e, para renda anual acima de R$ 600 mil, imposto mínimo de até 10% na declaração anual, com regra de transição para lucros apurados até 2025). No Lucro Presumido, é comum combinar pró-labore de um salário mínimo com distribuição de lucros isenta. Já no Simples Nacional, atenção ao Fator R: para diversas atividades de tecnologia e serviços intelectuais, se a soma de folha e pró-labore atingir pelo menos 28% da receita bruta em 12 meses, a tributação cai do Anexo V (alíquotas iniciais a partir de 15,5%) para o Anexo III (a partir de 6%), razão pela qual aumentar o pró-labore pode reduzir o imposto total (simule sempre com seu contador). Valide com contador. Depende do regime, do capital social integralizado e da distribuição formal em ata. Erros viram autuação.
 
@@ -3740,7 +3740,7 @@ Para financiamento imobiliário com renda irregular, bancos específicos têm li
 **5. Impacto familiar e gestão de expectativa.** A conversa estruturada com o cônjuge ou companheiro(a) precisa acontecer antes da largada e durar de 60 a 90 minutos com números abertos na mesa: por quantos anos a renda poderá ficar abaixo do patamar corporativo (planejar de três a cinco anos é realista)? Qual é o piso mensal enxuto da casa (como a redução de R$ 16 mil para R$ 11 mil que salvou o caixa doméstico de Lucas)? Qual parcela da reserva familiar é intocável? Que nível de sobrecarga financeira e mental recairá sobre o parceiro e como isso será compensado? Quais são os gatilhos objetivos de tempo ou de reserva mínima que determinarão o encerramento da tentativa e a volta ao mercado executivo? Repita esse alinhamento todo ano, porque o contexto doméstico muda: filhos nascem, os pais envelhecem, a carreira do cônjuge evolui e imprevistos de saúde acontecem.
 
 > [!warning] Sinais de alerta no convívio familiar (roteiro consolidado de proteção doméstica)
-> Cônjuge evita perguntar sobre a empresa. Conversas regulares sobre "até quando isso?". Cônjuge assumiu carga financeira desproporcional sem combinar antes. Tensão ao tocar em assuntos financeiros. Cônjuge começa a sentir que "empresa vem antes da família" mesmo quando não é verdade. Intervenção, terapia de casal (ver [[#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador)]]). Melhor investimento preventivo. Casar de novo depois do divórcio custa cinco a dez vezes mais que terapia preventiva.
+> Cônjuge evita perguntar sobre a empresa, surgem conversas regulares sobre "até quando isso?", o parceiro assume carga financeira desproporcional sem combinar antes, instala-se tensão ao tocar em assuntos financeiros e o cônjuge começa a sentir que "a empresa vem antes da família" mesmo quando não é verdade. Nesses casos, a intervenção recomendada é a terapia de casal (ver [[#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador)]]), que constitui o melhor investimento preventivo: casar de novo depois do divórcio custa cinco a dez vezes mais que terapia preventiva.
 
 Com os filhos, pratique uma comunicação verdadeira e adequada à faixa etária. As crianças percebem a tensão em casa mesmo quando ninguém fala sobre o assunto. Explique com serenidade que o trabalho atual exige esforço extra e preserve rituais inegociáveis na agenda (jantar juntos, colocar para dormir e proteger parte do fim de semana). Ao tratar de gastos, substitua frases alarmistas como "estamos sem dinheiro" por escolhas concretas como "neste semestre faremos uma viagem mais curta para priorizar nosso projeto". Com os pais e sogros, alinhe expectativas sem entrar na defensiva: para gerações acostumadas à estabilidade da carreira tradicional ou do concurso público, empreender do zero costuma soar incompreensível. Seja transparente desde cedo sobre limites de apoio financeiro de parte a parte para evitar promessas vazias e ressentimentos futuros.
 
@@ -4001,7 +4001,7 @@ Até aqui tratamos da saúde mental e da dinâmica entre cofundadores como disci
 
 **O que isso significa psicologicamente**: a habilidade de processar "não" sem tomar pessoalmente vai ser testada dezenas de vezes na trajetória. Primeiro "não" é o primeiro passo de construção dessa capacidade.
 
-**Conversa com alguém**: cofundador, mentor, terapeuta. Não processar sozinho.
+**Conversa com alguém**: apoie-se em cofundador, mentor ou terapeuta para não processar tudo sozinho.
 
 #### Momento 2: A primeira demissão
 
@@ -4011,7 +4011,7 @@ Até aqui tratamos da saúde mental e da dinâmica entre cofundadores como disci
 
 - Ansiedade antecipatória por dias antes.
 - Durante: desconforto físico, palavras que falham, racionalização excessiva.
-- Depois: alívio misturado com culpa. Ruminação por semanas.
+- Depois: surge um alívio misturado com culpa, seguido de ruminação por semanas.
 - Frequentemente o primeiro teste de liderança real.
 
 **Orientação prática**:
@@ -4098,7 +4098,7 @@ Até aqui tratamos da saúde mental e da dinâmica entre cofundadores como disci
 - **Isolamento é o inimigo**. Buscar cofundador, mentor, terapeuta, parceiro(a).
 - **Separar emoção da análise**. Ambas são válidas, nenhuma sozinha é suficiente para decisão.
 - **Saúde física não opcional**: sono, exercício, alimentação mantêm capacidade cognitiva em momentos difíceis.
-- **Linha de emergência**: CVV 188 se em qualquer momento ideação suicida ou crise aguda. Sem hesitação.
+- **Linha de emergência**: ligue para o CVV (188) sem hesitação se surgir, em qualquer momento, ideação suicida ou crise aguda.
 
 ### Como atravessar o luto de encerrar uma empresa sem destruir sua saúde nem sua reputação
 
@@ -4274,7 +4274,7 @@ Outros fundadores não voltaram ao empreendedorismo depois de fechamento. Padrõ
 - **Comprimir o processo emocional**: "eu resolvo depois" vira desmoronamento descontrolado.
 - **Empreender de novo compulsivamente**: criar nova empresa para não lidar com dor da anterior. Repete ciclo.
 - **Culpar única variável**: "foi o investidor/o mercado/o cofundador". Reduz aprendizado.
-- **Autoculpa total**: "foi tudo culpa minha". Igualmente não útil. Causas são sempre multifatoriais.
+- **Autoculpa total**: achar que "foi tudo culpa minha" é igualmente pouco útil, pois as causas são sempre multifatoriais.
 - **Isolamento social prolongado**: perda de rede de suporte acelera espiral.
 - **Automedicação com álcool/substâncias**: anestesia curto prazo, piora médio e longo.
 - **Adiar indefinidamente busca de ajuda**: "semana que vem eu procuro terapeuta" repetido por meses.
@@ -4587,7 +4587,7 @@ Cinco características indicam que o capital de risco institucional é adequado 
 
 **Exemplos brasileiros que exigiram VC.**
 
-Nubank (Cristina Junqueira, David Vélez, Edward Wible). Consumer fintech nacional em país de duzentos milhões de pessoas. Janela pós-abertura regulatória.
+Nubank (Cristina Junqueira, David Vélez, Edward Wible): consolidou-se como consumer fintech nacional em um país de duzentos milhões de pessoas, aproveitando a janela pós-abertura regulatória.
 
 **iFood:** plataforma de entrega com fortes efeitos de rede locais, que exigiu capital intensivo para vencer a disputa direta contra Uber Eats e Rappi.
 
@@ -4734,7 +4734,7 @@ Embora o capital de risco brasileiro ainda se concentre no eixo São Paulo-Rio d
 
 **Curitiba.** Polo consolidado de SaaS B2B e varejo no Sul do país: berço da Contabilizei (plataforma de contabilidade e gestão financeira para PMEs), do Olist (fundado em 2015, ecossistema de comércio eletrônico para PMEs que expandiu seu portfólio via aquisições como Tiny ERP e Vnda) e do Grupo Boticário, uma das maiores redes de franquias e beleza da América Latina.
 
-**Porto Alegre e Rio Grande do Sul.** Berço da XP Investimentos (fundada ali em 2001 antes de expandir para o eixo Rio-São Paulo) e de um polo ativo de software, finanças e saúde articulado em torno do Tecnopuc e do Instituto Caldeira, além da força industrial da Serra Gaúcha (Marcopolo e Randon em Caxias do Sul). Goiânia e Centro-Oeste. Em Goiás e no Mato Grosso, a proximidade direta com o coração do agronegócio, da agroindústria e dos corredores logísticos nacionais (ambiente em que Bia construiu sua carreira antes de se associar a Rafael) oferece acesso imediato a produtores, cooperativas e frotistas com alto poder de compra e baixa penetração das startups da capital.
+**Porto Alegre, Rio Grande do Sul, Goiânia e Centro-Oeste.** O Sul é berço da XP Investimentos (fundada ali em 2001 antes de expandir para o eixo Rio-São Paulo) e de um polo ativo de software, finanças e saúde articulado em torno do Tecnopuc e do Instituto Caldeira, além da força industrial da Serra Gaúcha (Marcopolo e Randon em Caxias do Sul). Já em Goiânia e no Centro-Oeste, em especial em Goiás e no Mato Grosso, a proximidade direta com o coração do agronegócio, da agroindústria e dos corredores logísticos nacionais (ambiente em que Bia construiu sua carreira antes de se associar a Rafael) oferece acesso imediato a produtores, cooperativas e frotistas com alto poder de compra e baixa penetração das startups da capital.
 
 > [!important] O fundador fora do eixo SP-RJ
 > Quem empreende fora do eixo SP-RJ enfrenta desafios reais: menor oferta de capital de risco local (exigindo viagens a São Paulo ou captação remota) e menor disponibilidade de executivos com experiência prévia de escala. Em contrapartida, para modelos como SaaS B2B, indústria e serviços especializados, operar fora da Faria Lima reduz o custo fixo, aumenta a retenção da equipe técnica e coloca o fundador dentro das cadeias produtivas regionais (como o agronegócio em Goiás, onde Bia domina a operação, ou as usinas do Sul e de Minas atendidas por Henrique), abrindo portas que os concorrentes da capital não alcançam.
@@ -4858,7 +4858,7 @@ Exemplos: contratar CFO, entrar em novo mercado, aceitar term sheet, demitir cof
 
 Merecem processo rigoroso. Tempo de preparação, múltiplas perspectivas, registro do raciocínio, checagem de vieses.
 
-**Decisão Tipo 2.** Reversível com custo razoável. Menor impacto estrutural.
+**Decisão Tipo 2.** É reversível com custo razoável e gera menor impacto estrutural.
 
 Exemplos: testar novo canal de aquisição, mudar nome de feature, ajustar preço em 10%, contratar analista, trocar ferramenta interna, definir horário de reunião.
 
@@ -4868,7 +4868,7 @@ Decidir rápido e corrigir em rota sai muito mais barato do que paralisar a empr
 
 Tratar Tipo 2 como Tipo 1: paralisia. Reuniões longas, aprovações múltiplas, análises custosas para decisões que custam menos que o processo de decidir.
 
-Tratar Tipo 1 como Tipo 2: impulsividade. Aceitar term sheet após uma conversa. Contratar C-level sem referências. Entrar em mercado novo por entusiasmo sem due diligence.
+Tratar Tipo 1 como Tipo 2 reflete impulsividade: exemplos incluem aceitar term sheet após uma conversa, contratar C-level sem referências ou entrar em mercado novo por entusiasmo sem due diligence.
 
 | Dimensão | Tipo 1 | Tipo 2 |
 |---|---|---|
@@ -4893,7 +4893,7 @@ Antídoto: reformular explicitamente. Separar a decisão futura do histórico de
 
 **Excesso de confiança (*overconfidence*).** Fundadores superestimam sistematicamente a probabilidade de acerto das próprias apostas. A pesquisa de Dan Lovallo e Daniel Kahneman mostra que esse otimismo exagerado é estrutural e afeta mesmo executivos experientes que conhecem o viés na teoria.
 
-Antídoto: calibração externa. Buscar base rates. Em vez de "qual é a probabilidade de esse produto ter sucesso?", perguntar "qual é a taxa de sucesso de produtos nessa categoria, com esse nível de tração, nesse mercado?" Esse é o outside view.
+Antídoto: praticar a calibração externa e buscar as taxas de referência (*base rates*). Em vez de "qual é a probabilidade de esse produto ter sucesso?", pergunte "qual é a taxa de sucesso de produtos nessa categoria, com esse nível de tração, nesse mercado?". Esse é o outside view.
 
 **Viés da disponibilidade (*availability bias*).** Julgar a probabilidade de um evento pela facilidade com que exemplos vívidos vêm à memória: o fundador que conhece pessoalmente dois colegas que enriqueceram com determinada estratégia passa a achar que ela funciona quase sempre.
 
@@ -4951,7 +4951,7 @@ Uma pessoa bem calibrada tem 70% de acerto quando diz "70% de confiança". A mai
 
 Como calibrar seu julgamento na prática: registre a probabilidade estimada de sucesso antes de cada decisão importante, revise o desfecho de seis a doze meses depois e calcule o **escore de Brier (*Brier score*)**: para cada previsão, eleve ao quadrado a diferença entre a probabilidade atribuída e o resultado real (1 se ocorreu, 0 se não ocorreu) e tire a média das decisões. Quanto mais próximo de zero, mais calibrado você está (se você previu 70% de chance e o evento aconteceu, o erro quadrático é $(0{,}7 - 1)^2 = 0{,}09$. Se não aconteceu, é $(0{,}7 - 0)^2 = 0{,}49$).
 
-Ferramenta prática: antes de toda decisão importante, registrar em texto: "Qual é minha estimativa de probabilidade de sucesso desse caminho? Por que?" Rever a previsão depois que o resultado for conhecido. Sem revisão, não há aprendizado.
+Ferramenta prática: antes de toda decisão importante, registrar em texto: "Qual é minha estimativa de probabilidade de sucesso desse caminho? Por quê?" Rever a previsão depois que o resultado for conhecido. Sem revisão, não há aprendizado.
 
 > [!tip] Calibração em grupo
 > Calibração coletiva funciona melhor do que individual em estimativas de mercado. Perguntar às pessoas da equipe: "Qual sua estimativa de probabilidade de que esse cliente converta em 30 dias?" Agregar as estimativas. A média de estimativas independentes costuma ser mais precisa do que qualquer estimativa individual.
@@ -4991,7 +4991,7 @@ Como evitar: ao delegar, definir explicitamente o que é inegociável (constrain
 
 Consenso: todos concordam. Lento, desgastante, impossível em grupo grande. Reservar para decisões culturais fundamentais.
 
-Consentimento: ninguém tem objeção suficientemente forte para bloquear. Mais rápido. Adequado para decisões de equipe onde execução depende de buy-in.
+Consentimento: ocorre quando ninguém tem objeção suficientemente forte para bloquear, sendo um processo mais rápido e adequado para decisões de equipe onde a execução depende de buy-in.
 
 Autoridade: uma pessoa decide, de forma rápida e direta: Adequado para decisões operacionais, urgências, e qualquer situação onde velocidade importa mais que buy-in amplo.
 
@@ -5727,7 +5727,7 @@ Como entrar em contato se precisar
 
 **Comunicado interno em crise:**
 
-Diferente do externo: pode e deve ter mais contexto interno sobre o que aconteceu e por que. O que o time precisa saber: o que está acontecendo, o que cada área precisa fazer, quem está coordenando, quando haverá próxima atualização. O que evitar: pânico sem informação de ação, e otimismo falso que será desmentido nas próximas horas.
+Diferente do externo: pode e deve ter mais contexto interno sobre o que aconteceu e por quê. O que o time precisa saber: o que está acontecendo, o que cada área precisa fazer, quem está coordenando, quando haverá próxima atualização. O que evitar: pânico sem informação de ação, e otimismo falso que será desmentido nas próximas horas.
 
 ### O post-mortem sem caça às bruxas
 
@@ -5919,7 +5919,7 @@ A audiência de conferência está olhando para o celular até você provar que 
 
 **Como não ser mais uma palestra que ninguém lembra:**
 
-O problema padrão de palestra em conferência de startup: "nossa empresa fez X, aprendemos Y, aqui estão três dicas." Isso é história de empresa disfarçada de conteúdo. A audiência sente. O que diferencia: o insight que vem da experiência, mas transcende ela. "Aqui está o que aprendi que é verdade não só para nós, mas para qualquer empresa que.": a generalização com base em evidência específica é o que as pessoas levam para casa.
+O problema padrão de palestra em conferência de startup: "nossa empresa fez X, aprendemos Y, aqui estão três dicas." Isso é história de empresa disfarçada de conteúdo, e a audiência sente isso imediatamente. O que diferencia: o insight que vem da experiência, mas transcende ela. "Aqui está o que aprendi que é verdade não só para nós, mas para qualquer empresa que atua nesse contexto": a generalização com base em evidência específica é o que as pessoas levam para casa.
 
 ### A engenharia da atenção: arco SCQA, títulos-tese nos slides e domínio de voz e palco
 
@@ -6248,7 +6248,7 @@ Pré-testar perguntas. "Essas perguntas sofrem de viés? Levam o entrevistado pa
 
 **Pesquisa preliminar de concorrentes:** peça uma matriz competitiva inicial e use-a como roteiro para investigação manual nos sites, demonstrações, páginas do LinkedIn e comunicados oficiais de cada empresa.
 
-Análise de regulação. "Quais as principais regulações aplicáveis a [setor] no Brasil em 2026? Quais órgãos? Quais riscos de descumprimento?". Trate como bússola preliminar. Valide com advogado.
+Análise de regulação: pergunte "Quais as principais regulações aplicáveis a [setor] no Brasil em 2026? Quais órgãos? Quais riscos de descumprimento?", trate o retorno como bússola preliminar e valide tudo com um advogado.
 
 **Estressar o Canvas da Cunha:** peça uma crítica cética: `"Aponte as fragilidades desta cunha de entrada, mostre onde o escopo ainda está largo demais e sugira três recortes de nicho mais estreitos e urgentes dentro dela"`.
 
